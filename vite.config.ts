@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.ts'),
       name: 'MyLib',
-      fileName: (format) => `index.${format}.js`,
+      fileName: (format) => `index.${format}.ts`,
     },
     rollupOptions: {
       external: ['vue'],
