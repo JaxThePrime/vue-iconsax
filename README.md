@@ -78,7 +78,7 @@
 <p dir="auto">Global registration</p>
 <pre><span class="pl-k">import</span> <span class="pl-v">{ Wallet } </span> <span class="pl-k">from</span> <span class="pl-s">'vue-iconsax'</span>
 <span class="pl-k">const</span> <span class="pl-s1">app</span> <span class="pl-c1">=</span> <span class="pl-en">createApp</span><span class="pl-kos">(</span><span class="pl-s">App</span><span class="pl-kos">)</span>
-<span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-en">component</span> <span class="pl-c1">=</span><span class="pl-kos">(</span><span class="pl-s">'Wallet', Wallet</span><span class="pl-kos">)</span></pre>
+<span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-en">component</span> <span class="pl-c1">=</span><span class="pl-kos">(</span><span class="pl-s">'Wallet', Wallet</span><span class="pl-kos">)</span>
 <span class="pl-s1">app</span><span class="pl-kos">.</span><span class="pl-en">mount</span> <span class="pl-c1">=</span><span class="pl-kos">(</span><span class="pl-s">'#app'</span><span class="pl-kos">)</span></pre>
 <p dir="auto">Local registration </p>
 <pre>
