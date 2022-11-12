@@ -30,11 +30,11 @@ the features of this package include the following:
 
 * Install Yarn package
 ```bash
-yarn add iconsax-react
+yarn add vue-iconsax
 ```
 * Install NPM package
 ```bash
-npm install iconsax-react
+npm install vue-iconsax
 ```
   
 ## Usage
