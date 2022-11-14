@@ -8,7 +8,7 @@
     A total of 6000 icons in 6 different designs | Perfectly balanced | Based on a 24px grid. 
     <br>
     <br>
-    <a href="google.com"><strong> Explore the site </strong></a>
+    <a href="https://vue-iconsax.netlify.app/"><strong> Explore the site </strong></a>
     ·
     <a href="google.com">Report Bug</a>
     ·
