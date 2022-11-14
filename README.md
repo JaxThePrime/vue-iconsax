@@ -5,14 +5,10 @@
 <div align="center">
   <h1 align="center"></a>iconsax for Vue</h1>
   <p align="center">
-    A total of 6000 icons in 6 different designs | Perfectly balanced | Based on a 24px grid. 
+    A total of 6000 icons in 6 different designs | <strong>Only supported for vue3</strong>.
     <br>
     <br>
     <a href="https://vue-iconsax.netlify.app/"><strong> Explore the site </strong></a>
-    ·
-    <a href="google.com">Report Bug</a>
-    ·
-    <a href="google.com">Request Feature</a>
   </p>
 </div>
 
@@ -69,8 +65,8 @@ export default {
 
 | Prop      | Type                                                | Default        | Note                   |
 | --------- | --------------------------------------------------- | -------------- | ---------------------- |
-| `color`   | `string`                                            | `currentColor` | css color              |
-| `size`    | `number` `string`                                   | 24px           | size={24} or size="24" |
+| `color`   | `string`                                            | `#292D32` | css color              |
+| `size`    | `number` `string`                                   | 24px           | size="24" or :size="24" |
 | `type` | `Linear` `Outline` `TwoTone` `Bulk` `Broken` `Bold` | `Linear`       | icons styles           |
 
 ## Contact
