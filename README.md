@@ -46,6 +46,8 @@ app.component('vsxIcon', vsxIcon)
 // To use with static icon names
 app.component('Wallet', Wallet)
 app.mount('#app')
+```
+```jsx
 
 // App.vue
 <template>
