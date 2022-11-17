@@ -38,9 +38,9 @@ npm install vue-iconsax
 Global registration:
 
 ```jsx
-import { Wallet }  from 'vue-iconsax'
+import { vsxIcon }  from 'vue-iconsax'
 const app = createApp(App)
-app.component('Wallet', Wallet)
+app.component('vsxIcon', vsxIcon)
 app.mount('#app')
 ```
 
@@ -48,14 +48,15 @@ Local registration:
 
 ```jsx
 <template>
-  <Wallet color="blue" size="50" type="linear" />
+  // Use PascalCase for fileName prop
+  <vsx-icon fileName="Wallet" color="blue" size="50" type="linear" />
 </template>
 
 <script>
-import { Wallet } from "vue-iconsax";
+import { vsxIcon } from "vue-iconsax";
 export default {
   components: {
-    Wallet,
+    vsxIcon,
   },
 };
 </script>
@@ -68,6 +69,7 @@ export default {
 | `color`   | `string`                                            | `#292D32` | css color              |
 | `size`    | `number` `string`                                   | 24px           | size="24" or :size="24" |
 | `type` | `Linear` `Outline` `TwoTone` `Bulk` `Broken` `Bold` | `Linear`       | icons styles           |
+| `iconName` | string|   | icon component           |
 
 ## Contact
 

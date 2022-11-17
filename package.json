@@ -4,7 +4,7 @@
   "author": "Emad Moghimi <emmoghimi@gmail.com>",
   "license": "MIT",
   "private": false,
-  "version": "0.0.12",
+  "version": "0.0.18",
   "type": "module",
   "files": [
     "dist"
@@ -20,8 +20,8 @@
   "module": "dist/vsx.es.js",
   "exports": {
     ".": {
-      "import": "dist/vsx.es.js",
-      "require": "dist/vsx.umd.js"
+      "import": "./dist/vsx.es.js",
+      "require": "./dist/vsx.umd.js"
     }
   },
   "scripts": {
