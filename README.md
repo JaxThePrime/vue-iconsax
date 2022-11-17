@@ -95,7 +95,7 @@ export default {
 | `color`   | `string`                                            | `#292D32` | css color              |
 | `size`    | `number` `string`                                   | 24px           | size="24" or :size="24" |
 | `type` | `Linear` `Outline` `TwoTone` `Bulk` `Broken` `Bold` | `Linear`       | icons styles           |
-| `iconName` | string|   | icon component           | iconName is only required with vsx-icon tag (Dynamic icon imports)
+| `iconName` | string|              | iconName is only required with vsx-icon tag (Dynamic icon imports)
 
 ## Contact
 
