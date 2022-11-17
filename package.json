@@ -20,8 +20,8 @@
   "module": "dist/vsx.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vsx.es.js",
-      "require": "./dist/vsx.umd.js"
+      "import": "dist/vsx.es.js",
+      "require": "dist/vsx.umd.js"
     }
   },
   "scripts": {
