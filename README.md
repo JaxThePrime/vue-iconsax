@@ -5,10 +5,10 @@
 <div align="center">
   <h1 align="center"></a>iconsax for Vue</h1>
   <p align="center">
-    A total of 6000 icons in 6 different designs | <strong>Only supported for vue3</strong>.
+    A total of 6000 icons in 6 different designs | <strong>Only supported for vue3</strong>
     <br>
     <br>
-    <a href="https://vue-iconsax.netlify.app/"><strong> Explore the site </strong></a>
+    <a href="https://vue-iconsax.netlify.app/"><strong> Browse icons</strong></a>
   </p>
 </div>
 
@@ -41,14 +41,13 @@ Global registration:
 // main.js
 import { vsxIcon, Wallet }  from 'vue-iconsax'
 const app = createApp(App)
-// To use with dynamic icon names - Use PascalCase for fileName prop
+// Dynamic usage of icons - Use PascalCase for fileName prop
 app.component('vsxIcon', vsxIcon)
-// To use with static icon names
+// Static usage of icons
 app.component('Wallet', Wallet)
 app.mount('#app')
 ```
 ```jsx
-
 // App.vue
 <template>
   // Dynamic imports - Use PascalCase for fileName prop
