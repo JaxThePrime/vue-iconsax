@@ -1,12 +1,12 @@
 <template>
   <div>
-    <vsx-icon color="blue" iconName="WalletCheck" type="bold" />
+    <vsxIcon iconName="Wallet" color="blue" type="bold" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import vsxIcon from "./components/vsx-icon.vue";
+import { vsxIcon } from "./components/";
 export default defineComponent({
   components: {
     vsxIcon,

@@ -38,26 +38,50 @@ npm install vue-iconsax
 Global registration:
 
 ```jsx
-import { vsxIcon }  from 'vue-iconsax'
+// main.js
+import { vsxIcon, Wallet }  from 'vue-iconsax'
 const app = createApp(App)
+// To use with dynamic icon names - Use PascalCase for fileName prop
 app.component('vsxIcon', vsxIcon)
+// To use with static icon names
+app.component('Wallet', Wallet)
 app.mount('#app')
+
+// App.vue
+<template>
+  // Dynamic imports - Use PascalCase for fileName prop
+  <vsx-icon :fileName="iconName" color="blue" size="50" type="linear" />
+
+  // Static imports
+  <Wallet color="blue" size="50" type="linear" />
+</template>
+
+<script>
+export default {
+  props:['iconName']
+};
+</script>
 ```
 
 Local registration:
 
 ```jsx
 <template>
-  // Use PascalCase for fileName prop
-  <vsx-icon fileName="Wallet" color="blue" size="50" type="linear" />
+  // Dynamic imports - Use PascalCase for fileName prop
+  <vsx-icon :fileName="iconName" color="blue" size="50" type="linear" />
+
+  // Static imports
+  <Wallet color="blue" size="50" type="linear" />
 </template>
 
 <script>
-import { vsxIcon } from "vue-iconsax";
+import { vsxIcon, Wallet } from "vue-iconsax";
 export default {
   components: {
     vsxIcon,
+    Wallet
   },
+  props:['iconName']
 };
 </script>
 ```
@@ -69,7 +93,7 @@ export default {
 | `color`   | `string`                                            | `#292D32` | css color              |
 | `size`    | `number` `string`                                   | 24px           | size="24" or :size="24" |
 | `type` | `Linear` `Outline` `TwoTone` `Bulk` `Broken` `Bold` | `Linear`       | icons styles           |
-| `iconName` | string|   | icon component           |
+| `iconName` | string|   | icon component           | iconName is only required with vsx-icon tag (Dynamic icon imports)
 
 ## Contact
 
