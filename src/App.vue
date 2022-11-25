@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vsx-icon iconName="Aave" color="blue" type="linear" />
+    <wallet iconName="Aave" type="bold" />
   </div>
 </template>
 

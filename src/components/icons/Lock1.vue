@@ -109,7 +109,7 @@ export default defineComponent({
         },
         color: {
             type: String,
-            default: "#292D32",
+            default: "currentColor",
         },
     },
 })
