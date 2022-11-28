@@ -14,9 +14,9 @@
     <path
       d="M16 6.3V6c0-2.21-1.79-4-4-4S8 3.79 8 6v5M9.04 14.19c.73.81 1.79 1.31 2.96 1.31 2.21 0 4-1.79 4-4V11M18.719 15.018c.6-1.09.93-2.34.93-3.67v-1.7M6.781 16.95a7.648 7.648 0 0 0 5.22 2.05c1.18 0 2.31-.27 3.31-.75M4.352 9.648v1.7c0 1.06.21 2.06.6 2.98M20.07 2.84 3.93 18.99M11 3v3M12 19v3"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -40,16 +40,16 @@
     <path
       d="M17.82 6.53A6.008 6.008 0 0 0 12 2C8.69 2 6 4.69 6 8v5c0 1.46.52 2.8 1.39 3.84M18 9.98V13a6.005 6.005 0 0 1-8.08 5.63"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M5.86 19.58A9 9 0 0 0 21 13v-2M21.5 2.99l-19 19M11.55 5.5V2.26M8.5 3.5v4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -72,32 +72,32 @@
     <path
       d="M17.82 6.53A6.008 6.008 0 0 0 12 2C8.69 2 6 4.69 6 8v5c0 1.46.52 2.8 1.39 3.84"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       opacity=".4"
       d="M18.002 9.98V13a6.005 6.005 0 0 1-8.08 5.63"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       opacity=".4"
       d="M5.86 19.58A9 9 0 0 0 21 13v-2"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="m21.5 2.988-19 19M11.55 5.502v-3.24M8.5 3.5v4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -112,7 +112,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

@@ -10,10 +10,10 @@
     <path
       d="M22 17.5h-7M5 17.5H2M22 6.5h-3M9 6.5H2M7 14.5h6c1.1 0 2 .5 2 2v2c0 1.5-.9 2-2 2H7c-1.1 0-2-.5-2-2v-2c0-1.5.9-2 2-2ZM17 3.5c1.1 0 2 .5 2 2v2c0 1.5-.9 2-2 2h-6c-1.1 0-2-.5-2-2v-2c0-1.5.9-2 2-2h2.03"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -33,10 +33,10 @@
     <path
       d="M22 17.5h-7M5 17.5H2M22 6.5h-3M9 6.5H2M7 14.5h6c1.1 0 2 .5 2 2v2c0 1.5-.9 2-2 2H7c-1.1 0-2-.5-2-2v-2c0-1.5.9-2 2-2ZM11 3.5h6c1.1 0 2 .5 2 2v2c0 1.5-.9 2-2 2h-6c-1.1 0-2-.5-2-2v-2c0-1.5.9-2 2-2Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -56,18 +56,18 @@
       opacity=".4"
       d="M22 17.5h-7M5 17.5H2M22 6.5h-3M9 6.5H2"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M7 14.5h6c1.1 0 2 .5 2 2v2c0 1.5-.9 2-2 2H7c-1.1 0-2-.5-2-2v-2c0-1.5.9-2 2-2ZM11 3.5h6c1.1 0 2 .5 2 2v2c0 1.5-.9 2-2 2h-6c-1.1 0-2-.5-2-2v-2c0-1.5.9-2 2-2Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -82,7 +82,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

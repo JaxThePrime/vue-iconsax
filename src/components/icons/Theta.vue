@@ -14,17 +14,17 @@
     <path
       d="M15.15 18h-6.3C7.83 18 7 17.17 7 16.15v-8.3C7 6.83 7.83 6 8.85 6h6.3C16.17 6 17 6.83 17 7.85v8.3c0 1.02-.83 1.85-1.85 1.85ZM12 8.5v2M10 10.5h4M12 15.5v-2M10 13.5h4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M2 12.83V15c0 5 2 7 7 7h6c5 0 7-2 7-7V9c0-5-2-7-7-7H9C4 2 2 4 2 9"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -44,17 +44,17 @@
     <path
       d="M15.1 18H8.9c-1 0-1.9-.8-1.9-1.9V7.9C7 6.8 7.8 6 8.9 6h6.3c1 0 1.9.8 1.9 1.9v8.3c-.1 1-.9 1.8-2 1.8ZM12 8.5v2M10 10.5h4M12 15.5v-2M10 13.5h4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M15 22H9c-5 0-7-2-7-7V9c0-5 2-7 7-7h6c5 0 7 2 7 7v6c0 5-2 7-7 7Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -85,19 +85,19 @@
     <g
       opacity=".4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     >
       <path d="M15.15 18h-6.3C7.83 18 7 17.17 7 16.15v-8.3C7 6.83 7.83 6 8.85 6h6.3C16.17 6 17 6.83 17 7.85v8.3c0 1.02-.83 1.85-1.85 1.85ZM12 8.5v2M10 10.5h4M12 15.5v-2M10 13.5h4"></path>
     </g>
     <path
       d="M15 22H9c-5 0-7-2-7-7V9c0-5 2-7 7-7h6c5 0 7 2 7 7v6c0 5-2 7-7 7Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -112,7 +112,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

@@ -10,8 +10,8 @@
     <path
       d="M22 10c0-2-1-3-3-3H5c-2 0-3 1-3 3v4c0 2 1 3 3 3h14c2 0 3-1 3-3M18 7v5M6 7v4M10.05 7 10 12M14 7v3"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -30,8 +30,8 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-width="1.5"
       d="M5 17h14c2 0 3-1 3-3v-4c0-2-1-3-3-3H5c-2 0-3 1-3 3v4c0 2 1 3 3 3zM18 7v5M6 7v4M10.05 7L10 12M14 7v3"
     ></path>
   </svg>
@@ -51,15 +51,15 @@
     <path
       d="M5 17h14c2 0 3-1 3-3v-4c0-2-1-3-3-3H5c-2 0-3 1-3 3v4c0 2 1 3 3 3Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
     <path
       opacity=".4"
       d="M18 7v5M6 7v4M10.05 7 10 12M14 7v3"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
   </svg>
 
@@ -74,7 +74,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

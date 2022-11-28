@@ -9,10 +9,10 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M12.9 7.94l2.62 2.62c.77.77.77 2.03 0 2.8L9 19.87M9 4.04l1.04 1.04"
     ></path>
   </svg>
@@ -29,10 +29,10 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M8.91 19.92l6.52-6.52c.77-.77.77-2.03 0-2.8L8.91 4.08"
     ></path>
   </svg>
@@ -47,10 +47,10 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M8.91 19.92l6.52-6.52c.77-.77.77-2.03 0-2.8L8.91 4.08"
     ></path>
   </svg>
@@ -66,7 +66,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

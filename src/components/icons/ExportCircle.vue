@@ -9,17 +9,17 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10"
     ></path>
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
       d="M16.56 7.44L21.2 2.8M13 11l1-1M22 6.83V2h-4.83"
     ></path>
   </svg>
@@ -39,17 +39,17 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10"
     ></path>
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
       d="M13 11l8.2-8.2M22 6.83V2h-4.83"
     ></path>
   </svg>
@@ -72,18 +72,18 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10"
     ></path>
     <g opacity=".4">
       <path
         :stroke="color"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
         d="M13 11l8.2-8.2M22 6.83V2h-4.83"
       ></path>
     </g>
@@ -100,7 +100,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

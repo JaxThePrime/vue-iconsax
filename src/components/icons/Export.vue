@@ -13,10 +13,10 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M17.52 18.01C16.16 19.25 14.29 20 12 20c-5 0-8-3.58-8-8M20 12c0 1.05-.17 2.05-.49 2.97M9.44 6.47L12 3.91l2.56 2.56M12 9.15V3.98M12 14.15v-1.96"
     ></path>
   </svg>
@@ -36,10 +36,10 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M9.32 6.5l2.56-2.56 2.56 2.56M11.88 14.18V4.01M4 12c0 4.42 3 8 8 8s8-3.58 8-8"
     ></path>
   </svg>
@@ -63,19 +63,19 @@
     <g opacity=".4">
       <path
         :stroke="color"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeMiterlimit="10"
-        strokeWidth="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-width="1.5"
         d="M9.32 6.5l2.56-2.56 2.56 2.56M11.88 14.18V4.01"
       ></path>
     </g>
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit="10"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="10"
+      stroke-width="1.5"
       d="M4 12c0 4.42 3 8 8 8s8-3.58 8-8"
     ></path>
   </svg>
@@ -91,7 +91,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

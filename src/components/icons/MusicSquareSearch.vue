@@ -14,23 +14,23 @@
     <path
       d="M2 8.65C2 3.9 3.9 2 8.65 2h5.7C19.1 2 21 3.9 21 8.65v3.7M12.35 20.999h-3.7c-4.75 0-6.65-1.9-6.65-6.65v-1.38M6.72 14.42a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M13.48 12V6.34c0-1.21-.76-1.37-1.52-1.16l-2.89.79c-.52.14-.89.56-.89 1.16v5.84"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M12.028 13.45a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9ZM8.168 8.829l5.31-1.45M17.938 21.279a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4ZM21.738 21.879l-1-1"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -54,30 +54,30 @@
     <path
       d="M12.35 21h-3.7C3.9 21 2 19.1 2 14.35v-5.7C2 3.9 3.9 2 8.65 2h5.7C19.1 2 21 3.9 21 8.65v3.7"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M6.72 14.42a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M13.48 12V6.34c0-1.21-.76-1.37-1.52-1.16l-2.89.79c-.52.14-.89.56-.89 1.16v5.84"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M12.03 13.45a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9ZM8.17 8.83l5.31-1.45M17.94 21.28a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4ZM21.74 21.88l-1-1"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -108,11 +108,11 @@
     <path
       d="M12.35 21h-3.7C3.9 21 2 19.1 2 14.35v-5.7C2 3.9 3.9 2 8.65 2h5.7C19.1 2 21 3.9 21 8.65v3.7"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
-    <g opacity=".4" :stroke="color" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <g opacity=".4" :stroke="color" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M6.72 14.42a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9Z"></path>
       <path d="M13.48 12V6.34c0-1.21-.76-1.37-1.52-1.16l-2.89.79c-.52.14-.89.56-.89 1.16v5.84"></path>
       <path d="M12.028 13.45a1.45 1.45 0 1 0 0-2.9 1.45 1.45 0 0 0 0 2.9ZM8.168 8.829l5.31-1.45"></path>
@@ -120,9 +120,9 @@
     <path
       d="M17.938 21.279a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4ZM21.738 21.879l-1-1"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -137,7 +137,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

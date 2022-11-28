@@ -18,24 +18,24 @@
     <path
       d="M16.95 16.95a7.007 7.007 0 0 0 0-9.9M7.05 7.05a7.007 7.007 0 0 0 0 9.9"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M9.67 13.628c0 .9.7 1.63 1.56 1.63h1.76c.75 0 1.36-.64 1.36-1.42 0-.85-.37-1.16-.93-1.35l-2.81-.98c-.55-.19-.93-.5-.93-1.35 0-.79.61-1.42 1.36-1.42h1.76c.86 0 1.56.73 1.56 1.63M12 7.8v8.4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M4 6c-1.25 1.67-2 3.75-2 6 0 5.52 4.48 10 10 10s10-4.48 10-10S17.52 2 12 2c-1.43 0-2.8.3-4.03.85"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -55,25 +55,25 @@
     <path
       d="M16.9 16.9c2.7-2.7 2.7-7.2 0-9.9M7.1 7.1c-2.7 2.7-2.7 7.2 0 9.9"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M9.7 13.6c0 .9.7 1.6 1.6 1.6H13c.7 0 1.4-.6 1.4-1.4 0-.9-.4-1.2-.9-1.4l-2.8-1c-.7-.1-1-.4-1-1.2 0-.8.6-1.4 1.4-1.4h1.8c.9 0 1.6.7 1.6 1.6M12 7.8v8.4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -97,21 +97,21 @@
       opacity=".4"
       d="M16.95 16.95a7.007 7.007 0 0 0 0-9.9M7.05 7.05a7.007 7.007 0 0 0 0 9.9"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
-    <g opacity=".4" :stroke="color" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <g opacity=".4" :stroke="color" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M9.67 13.632c0 .9.7 1.63 1.56 1.63h1.76c.75 0 1.36-.64 1.36-1.42 0-.85-.37-1.16-.93-1.35l-2.81-.98c-.55-.19-.93-.5-.93-1.35 0-.79.61-1.42 1.36-1.42h1.76c.86 0 1.56.73 1.56 1.63M12 7.8v8.4"></path>
     </g>
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -126,7 +126,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

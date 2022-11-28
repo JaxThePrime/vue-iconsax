@@ -1006,7 +1006,7 @@ export default defineComponent({
     },
     size: {
       type: [String, Number],
-      default: 32,
+      default: 24,
     },
     color: {
       type: String,

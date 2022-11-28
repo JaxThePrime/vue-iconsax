@@ -14,16 +14,16 @@
     <path
       d="M8.392 7.621h-1.52c-1.86 0-2.28.93-2.51 2.08l-.85 4.05h12l-.85-4.05c-.24-1.14-.65-2.08-2.51-2.08"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="m16.89 19.192.11 1.17c.08.88-.62 1.64-1.52 1.64h-1.41c-.81 0-.92-.35-1.07-.77l-.15-.45c-.21-.61-.35-1.03-1.43-1.03H7.58c-1.08 0-1.24.47-1.43 1.03l-.15.45c-.14.43-.25.77-1.07.77H3.52c-.9 0-1.61-.76-1.52-1.64l.42-4.57c.11-1.13.32-2.05 2.29-2.05h9.57c1.97 0 2.18.92 2.29 2.05M3.5 11.5h-.75M16.25 11.5h-.75M5 16.75h2.25M11.75 16.75H14M18.711 8.74c.28-.65.18-1.53-.34-2.3-.51-.77-1.29-1.2-2-1.19M18.38 2.54c-.57-.28-1.16-.47-1.74-.54M21.821 9.73c.42-1.51.12-3.36-.95-4.96"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -51,16 +51,16 @@
     <path
       d="M12.14 7.62H6.87c-1.86 0-2.28.93-2.51 2.08l-.85 4.05h12l-.85-4.05c-.25-1.15-.66-2.08-2.52-2.08Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M16.99 20.36c.08.88-.62 1.64-1.52 1.64h-1.41c-.81 0-.92-.35-1.07-.77l-.15-.45c-.21-.61-.35-1.03-1.43-1.03H7.57c-1.08 0-1.24.47-1.43 1.03l-.15.45c-.14.43-.25.77-1.07.77H3.51c-.9 0-1.61-.76-1.52-1.64l.42-4.57c.11-1.13.32-2.05 2.29-2.05h9.57c1.97 0 2.18.92 2.29 2.05l.43 4.57ZM3.5 11.5h-.75M16.25 11.5h-.75M5 16.75h2.25M11.75 16.75H14M18.71 8.74c.28-.65.18-1.53-.34-2.3-.51-.77-1.29-1.2-2-1.19M21.82 9.73c.42-1.51.12-3.36-.95-4.96C19.8 3.17 18.2 2.19 16.64 2"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -87,24 +87,24 @@
     <path
       d="M12.138 7.621h-5.27c-1.86 0-2.28.93-2.51 2.08l-.85 4.05h12l-.85-4.05c-.25-1.15-.66-2.08-2.52-2.08Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M16.988 20.362c.08.88-.62 1.64-1.52 1.64h-1.41c-.81 0-.92-.35-1.07-.77l-.15-.45c-.21-.61-.35-1.03-1.43-1.03h-3.84c-1.08 0-1.24.47-1.43 1.03l-.15.45c-.14.43-.25.77-1.07.77h-1.41c-.9 0-1.61-.76-1.52-1.64l.42-4.57c.11-1.13.32-2.05 2.29-2.05h9.57c1.97 0 2.18.92 2.29 2.05l.43 4.57ZM3.5 11.5h-.75M16.25 11.5h-.75"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       opacity=".4"
       d="M5 16.75h2.25M11.75 16.75H14M18.711 8.74c.28-.65.18-1.53-.34-2.3-.51-.77-1.29-1.2-2-1.19M21.82 9.73c.42-1.51.12-3.36-.95-4.96C19.8 3.17 18.2 2.19 16.64 2"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -119,7 +119,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

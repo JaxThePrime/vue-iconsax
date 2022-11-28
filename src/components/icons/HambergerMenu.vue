@@ -10,8 +10,8 @@
     <path
       d="M3 7h18M9.49 12H21M3 12h2.99M3 17h18"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -28,7 +28,7 @@
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'linear'">
 
-    <path d="M3 7h18M3 12h18M3 17h18" :stroke="color" strokeWidth="1.5" strokeLinecap="round"></path>
+    <path d="M3 7h18M3 12h18M3 17h18" :stroke="color" stroke-width="1.5" stroke-linecap="round"></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
 
@@ -39,9 +39,9 @@
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'twotone'">
 
-    <path d="M3 7h18" :stroke="color" strokeWidth="1.5" strokeLinecap="round"></path>
-    <path opacity=".34" d="M3 12h18" :stroke="color" strokeWidth="1.5" strokeLinecap="round"></path>
-    <path d="M3 17h18" :stroke="color" strokeWidth="1.5" strokeLinecap="round"></path>
+    <path d="M3 7h18" :stroke="color" stroke-width="1.5" stroke-linecap="round"></path>
+    <path opacity=".34" d="M3 12h18" :stroke="color" stroke-width="1.5" stroke-linecap="round"></path>
+    <path d="M3 17h18" :stroke="color" stroke-width="1.5" stroke-linecap="round"></path>
   </svg>
 
 </template>
@@ -55,7 +55,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

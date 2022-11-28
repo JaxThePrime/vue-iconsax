@@ -10,18 +10,18 @@
     <path
       d="M3.5 12.872v2.98c0 .71.38 1.36.99 1.72l6.5 3.82c.63.37 1.4.37 2.03 0l6.5-3.82c.61-.36.99-1.02.99-1.72v-7.71c0-.71-.38-1.36-.99-1.72l-6.5-3.82c-.63-.37-1.4-.37-2.03 0l-6.5 3.82c-.61.36-.99 1.02-.99 1.72"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="m17 9-5-3-5 3 10 6-5 3-5-3M11.5 10l-2 2M14.5 12l-2 2"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -41,18 +41,18 @@
     <path
       d="M11 2.6 4.5 6.4c-.6.4-1 1-1 1.7v7.7c0 .7.4 1.4 1 1.7l6.5 3.8c.6.4 1.4.4 2 0l6.5-3.8c.6-.4 1-1 1-1.7V8.1c0-.7-.4-1.4-1-1.7L13 2.6c-.6-.4-1.4-.4-2 0Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="m17 9-5-3-5 3 10 6-5 3-5-3M11.5 10l-2 2M14.5 12l-2 2"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -75,18 +75,18 @@
     <path
       d="m10.99 2.602-6.5 3.82c-.61.36-.99 1.02-.99 1.72v7.71c0 .71.38 1.36.99 1.72l6.5 3.82c.63.37 1.4.37 2.03 0l6.5-3.82c.61-.36.99-1.02.99-1.72v-7.71c0-.71-.38-1.36-.99-1.72l-6.5-3.82c-.63-.37-1.41-.37-2.03 0Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <g
       opacity=".4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     >
       <path d="m17 9-5-3-5 3 10 6-5 3-5-3M11.5 10l-2 2M14.5 12l-2 2"></path>
     </g>
@@ -103,7 +103,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

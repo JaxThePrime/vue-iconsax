@@ -10,10 +10,10 @@
     <path
       d="M16.36 4.99A8.188 8.188 0 0 0 12 3.75c-4.56 0-8.25 3.69-8.25 8.25 0 .76.1 1.49.29 2.19M7.62 18.99c1.27.8 2.77 1.26 4.38 1.26 4.56 0 8.25-3.69 8.25-8.25 0-.82-.12-1.62-.34-2.36M13.93 9.44 22 5M2 16l8.05-4.43M22 8.5l-20 11"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -33,10 +33,10 @@
     <path
       d="M16.4 5c-1.3-.8-2.8-1.2-4.4-1.2-4.6 0-8.2 3.7-8.2 8.2 0 .8.1 1.5.3 2.2M7.6 19c1.3.8 2.8 1.3 4.4 1.3 4.6 0 8.2-3.7 8.2-8.2 0-.8-.1-1.6-.3-2.4M2 16 22 5M22 8.5l-20 11"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -55,18 +55,18 @@
     <path
       d="M16.36 4.99A8.188 8.188 0 0 0 12 3.75c-4.56 0-8.25 3.69-8.25 8.25 0 .76.1 1.49.29 2.19M2 16 22 5"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <g
       opacity=".4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     >
       <path d="M7.621 18.99c1.27.8 2.77 1.26 4.38 1.26 4.56 0 8.25-3.69 8.25-8.25 0-.82-.12-1.62-.34-2.36M22 8.5l-20 11"></path>
     </g>
@@ -83,7 +83,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

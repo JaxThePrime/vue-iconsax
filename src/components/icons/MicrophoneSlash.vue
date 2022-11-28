@@ -14,16 +14,16 @@
     <path
       d="M6 12v1c0 1.46.52 2.8 1.39 3.84M17.82 6.53A6.008 6.008 0 0 0 12 2C8.69 2 6 4.69 6 8M18.002 9.98V13a6.005 6.005 0 0 1-8.08 5.63"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M5.86 19.58A9 9 0 0 0 21 13v-2M21.5 2.988l-19 19M11.55 5.502v-3.24M8.5 3.5v4"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -52,16 +52,16 @@
     <path
       d="M16 6.3V6c0-2.21-1.79-4-4-4S8 3.79 8 6v5M9.04 14.19c.73.81 1.79 1.31 2.96 1.31 2.21 0 4-1.79 4-4V11"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M6.78 16.95a7.656 7.656 0 0 0 12.87-5.6v-1.7M4.35 9.65v1.7c0 1.06.21 2.06.6 2.98M20.07 2.84 3.93 18.99M11 3v3M12 19v3"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -84,11 +84,11 @@
     <path
       d="M16 6.3V6c0-2.21-1.79-4-4-4S8 3.79 8 6v5M4.352 9.648v1.7c0 1.06.21 2.06.6 2.98M20.07 2.84 3.93 18.99M11 3v3"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
-    <g opacity=".4" :stroke="color" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <g opacity=".4" :stroke="color" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M9.04 14.19c.73.81 1.79 1.31 2.96 1.31 2.21 0 4-1.79 4-4V11"></path>
       <path d="M6.781 16.948a7.656 7.656 0 0 0 12.87-5.6v-1.7M12 19v3"></path>
     </g>
@@ -105,7 +105,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

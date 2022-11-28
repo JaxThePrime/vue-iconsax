@@ -14,16 +14,16 @@
     <path
       d="m6.17 6.98.41-2.47A2.997 2.997 0 0 1 9.54 2H14c2.76 0 5 2.24 5 5 0 .18-.01.35-.03.52a5.922 5.922 0 0 1-1.73 3.72A5.944 5.944 0 0 1 13 13H9.87c-.5 0-.92.37-.99.86l-.76 5.28c-.06.39-.34.71-.71.81-.09.04-.18.05-.28.05H5.18a.998.998 0 0 1-.99-1.16l1.24-7.46"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       d="M21 11c0 1.38-.56 2.63-1.46 3.54-.91.9-2.16 1.46-3.54 1.46h-2.15a1 1 0 0 0-.99.84l-.72 4.32a1 1 0 0 1-.99.84H8.22c-.63 0-1.1-.58-.98-1.2l.17-.85c.37-.1.65-.42.71-.81l.76-5.28c.07-.49.49-.86.99-.86H13c1.66 0 3.16-.67 4.24-1.76.97-.96 1.61-2.27 1.73-3.72C20.18 8.21 21 9.51 21 11Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -43,14 +43,14 @@
     <path
       d="M19 7v.5c-.1 1.5-.8 2.8-1.7 3.7-1.1 1.1-2.6 1.8-4.3 1.8H9.9c-.5 0-.9.4-1 .9l-.8 5.3c-.1.4-.3.7-.7.8H5.2c-.6 0-1.1-.5-1-1.2L6.6 4.5C6.8 3.1 8.1 2 9.5 2H14c2.8 0 5 2.2 5 5Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
     ></path>
     <path
       d="M21 11c0 1.4-.6 2.6-1.5 3.5-.9.9-2.1 1.5-3.5 1.5h-2.1c-.5 0-.9.3-1 .8l-.7 4.3c-.1.5-.5.8-1 .8h-3c-.6 0-1.1-.6-1-1.2l.2-.7c.4-.1.7-.4.7-.8l.8-5.3c.1-.5.5-.9 1-.9H13c1.7 0 3.2-.7 4.2-1.8 1-1 1.6-2.3 1.7-3.7 1.3.7 2.1 2 2.1 3.5Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -69,15 +69,15 @@
     <path
       d="M19 7c0 .18-.01.35-.03.52a5.922 5.922 0 0 1-1.73 3.72A5.944 5.944 0 0 1 13 13H9.87c-.5 0-.92.37-.99.86l-.76 5.28c-.06.39-.34.71-.71.81-.09.04-.18.05-.28.05H5.18a.998.998 0 0 1-.99-1.16L6.58 4.51A2.997 2.997 0 0 1 9.54 2H14c2.76 0 5 2.24 5 5Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
     ></path>
     <path
       opacity=".4"
       d="M21 11c0 1.38-.56 2.63-1.46 3.54-.91.9-2.16 1.46-3.54 1.46h-2.15a1 1 0 0 0-.99.84l-.72 4.32a1 1 0 0 1-.99.84H8.22c-.63 0-1.1-.58-.98-1.2l.17-.85c.37-.1.65-.42.71-.81l.76-5.28c.07-.49.49-.86.99-.86H13c1.66 0 3.16-.67 4.24-1.76.97-.96 1.61-2.27 1.73-3.72C20.18 8.21 21 9.51 21 11Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
     ></path>
   </svg>
 
@@ -92,7 +92,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

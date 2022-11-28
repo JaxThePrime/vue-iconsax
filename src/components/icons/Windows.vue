@@ -12,18 +12,18 @@
     <path
       d="M22 6.03V2L12 4v7h10"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
     <path
       clipRule="evenodd"
       d="m22 22-10-2v-7h10v9ZM10 4.3 2 6v5h8V4.3ZM10 19.7 2 18v-5h8v6.7Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -55,10 +55,10 @@
       clipRule="evenodd"
       d="M22 2 12 4v7h10V2ZM22 22l-10-2v-7h10v9ZM10 4.3 2 6v5h8V4.3ZM10 19.7 2 18v-5h8v6.7Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -75,26 +75,26 @@
       clipRule="evenodd"
       d="M22 2 12 4v7h10V2Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linejoin="round"
     ></path>
     <path
       clipRule="evenodd"
       d="m22 22-10-2v-7h10v9ZM10 4.3 2 6v5h8V4.3Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linejoin="round"
     ></path>
     <path
       opacity=".4"
       clipRule="evenodd"
       d="M10 19.7 2 18v-5h8v6.7Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeMiterlimit="10"
-      strokeLinejoin="round"
+      stroke-width="1.5"
+      stroke-miterlimit="10"
+      stroke-linejoin="round"
     ></path>
   </svg>
 
@@ -109,7 +109,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,

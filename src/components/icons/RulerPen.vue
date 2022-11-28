@@ -10,8 +10,8 @@
     <path
       d="M14.47 2c-2 0-3 1-3 3v14c0 2 1 3 3 3h4c2 0 3-1 3-3V5c0-2-1-3-3-3M11.47 6h5M11.47 18h4M11.47 13.95l5 .05M11.47 10h3M2.53 9.02V4.95C2.53 3.33 3.86 2 5.49 2c1.62 0 2.95 1.33 2.95 2.95v12.96c0 .45-.19 1.13-.42 1.52l-.82 1.36c-.94 1.57-2.49 1.57-3.43 0l-.82-1.36c-.23-.39-.42-1.07-.42-1.52v-3.96M8.44 7H2.53"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'bulk'">
@@ -36,8 +36,8 @@
 
     <path
       :stroke="color"
-      strokeLinecap="round"
-      strokeWidth="1.5"
+      stroke-linecap="round"
+      stroke-width="1.5"
       d="M21.47 19V5c0-2-1-3-3-3h-4c-2 0-3 1-3 3v14c0 2 1 3 3 3h4c2 0 3-1 3-3zM11.47 6h5M11.47 18h4M11.47 13.95l5 .05M11.47 10h3M5.49 2C3.86 2 2.53 3.33 2.53 4.95v12.96c0 .45.19 1.13.42 1.52l.82 1.36c.94 1.57 2.49 1.57 3.43 0l.82-1.36c.23-.39.42-1.07.42-1.52V4.95C8.44 3.33 7.11 2 5.49 2zM8.44 7H2.53"
     ></path>
   </svg>
@@ -61,28 +61,28 @@
     <path
       d="M21.47 19V5c0-2-1-3-3-3h-4c-2 0-3 1-3 3v14c0 2 1 3 3 3h4c2 0 3-1 3-3Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
     <path
       opacity=".4"
       d="M11.47 6h5M11.47 18h4M11.47 13.95l5 .05M11.47 10h3"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
     <path
       d="M5.49 2C3.86 2 2.53 3.33 2.53 4.95v12.96c0 .45.19 1.13.42 1.52l.82 1.36c.94 1.57 2.49 1.57 3.43 0l.82-1.36c.23-.39.42-1.07.42-1.52V4.95C8.44 3.33 7.11 2 5.49 2Z"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
     <path
       opacity=".4"
       d="M8.44 7H2.53"
       :stroke="color"
-      strokeWidth="1.5"
-      strokeLinecap="round"
+      stroke-width="1.5"
+      stroke-linecap="round"
     ></path>
   </svg>
 
@@ -97,7 +97,7 @@ export default defineComponent({
         },
         size: {
             type: [ String, Number ],
-            default: 32,
+            default: 24,
         },
         color: {
             type: String,
