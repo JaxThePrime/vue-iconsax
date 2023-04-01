@@ -22,7 +22,6 @@ const props = defineProps({
   },
 });
 const icon = computed(() => {
-  console.log(props.iconName);
   return defineAsyncComponent(
     () => import(/*@vite-ignore */ `./icons/${props.iconName}.vue`)
   );
