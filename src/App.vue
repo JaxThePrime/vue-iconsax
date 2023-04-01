@@ -1,6 +1,6 @@
 <template>
   <div>
-    <wallet iconName="Aave" type="bold" />
+    <vsxIcon iconName="MessageText1" type="bold" />
   </div>
 </template>
 
