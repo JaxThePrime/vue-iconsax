@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vsxIcon iconName="MessageText1" type="bold" />
+    <vsxIcon iconName="Calendar" type="bold" />
   </div>
 </template>
 
