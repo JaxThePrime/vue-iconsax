@@ -1,17 +1,11 @@
 <template>
   <div>
-    <vsxIcon iconName="Calendar" type="bold" />
+    <vsxIcon iconName="Calendar" type="bulk" color="red" />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import { vsxIcon } from "./components/";
-import { Wallet } from "./components/";
-export default defineComponent({
-  components: {
-    vsxIcon,
-    Wallet,
-  },
-});
+<script setup lang="ts">
+import { vsxIcon } from "./components";
 </script>
+
+<style lang="scss" scoped></style>

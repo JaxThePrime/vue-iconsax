@@ -1,994 +1,2485 @@
-export { default as vsxIcon } from './vsx-icon.vue';
-export { default as ArchiveAdd } from './icons/ArchiveAdd.vue';
-export { default as ArchiveMinus } from './icons/ArchiveMinus.vue';
-export { default as ArchiveTick } from './icons/ArchiveTick.vue';
-export { default as Archive } from './icons/Archive.vue';
-export { default as ArchiveSlash } from './icons/ArchiveSlash.vue';
-export { default as BookSquare } from './icons/BookSquare.vue';
-export { default as BookSaved } from './icons/BookSaved.vue';
-export { default as ReceiptSquare } from './icons/ReceiptSquare.vue';
-export { default as Save2 } from './icons/Save2.vue';
-export { default as SaveAdd } from './icons/SaveAdd.vue';
-export { default as ArrangeHorizontalSquare } from './icons/ArrangeHorizontalSquare.vue';
-export { default as SaveMinus } from './icons/SaveMinus.vue';
-export { default as ArrangeHorizontal } from './icons/ArrangeHorizontal.vue';
-export { default as ArrangeVerticalCircle } from './icons/ArrangeVerticalCircle.vue';
-export { default as ArrangeHorizontalCircle } from './icons/ArrangeHorizontalCircle.vue';
-export { default as SaveRemove } from './icons/SaveRemove.vue';
-export { default as ArrangeVerticalSquare } from './icons/ArrangeVerticalSquare.vue';
-export { default as ArrangeVertical } from './icons/ArrangeVertical.vue';
-export { default as ArrowCircleDown2 } from './icons/ArrowCircleDown2.vue';
-export { default as ArrowCircleDown } from './icons/ArrowCircleDown.vue';
-export { default as ArrowCircleLeft2 } from './icons/ArrowCircleLeft2.vue';
-export { default as ArrowCircleLeft } from './icons/ArrowCircleLeft.vue';
-export { default as ArrowCircleRight2 } from './icons/ArrowCircleRight2.vue';
-export { default as ArrowCircleRight } from './icons/ArrowCircleRight.vue';
-export { default as ArrowCircleUp2 } from './icons/ArrowCircleUp2.vue';
-export { default as ArrowCircleUp } from './icons/ArrowCircleUp.vue';
-export { default as ArrowDown2 } from './icons/ArrowDown2.vue';
-export { default as ArrowDown3 } from './icons/ArrowDown3.vue';
-export { default as ArrowDown } from './icons/ArrowDown.vue';
-export { default as ArrowForwardSquare } from './icons/ArrowForwardSquare.vue';
-export { default as ArrowForward } from './icons/ArrowForward.vue';
-export { default as ArrowLeft2 } from './icons/ArrowLeft2.vue';
-export { default as ArrowLeft3 } from './icons/ArrowLeft3.vue';
-export { default as ArrowLeft } from './icons/ArrowLeft.vue';
-export { default as ArrowRight2 } from './icons/ArrowRight2.vue';
-export { default as ArrowRight3 } from './icons/ArrowRight3.vue';
-export { default as ArrowRight } from './icons/ArrowRight.vue';
-export { default as ArrowRotateLeft } from './icons/ArrowRotateLeft.vue';
-export { default as ArrowRotateRight } from './icons/ArrowRotateRight.vue';
-export { default as ArrowSquareDown } from './icons/ArrowSquareDown.vue';
-export { default as ArrowSquareLeft } from './icons/ArrowSquareLeft.vue';
-export { default as ArrowSquareRight } from './icons/ArrowSquareRight.vue';
-export { default as ArrowSquareUp } from './icons/ArrowSquareUp.vue';
-export { default as ArrowSwapHorizontal } from './icons/ArrowSwapHorizontal.vue';
-export { default as ArrowSwapVertical } from './icons/ArrowSwapVertical.vue';
-export { default as ArrowUp2 } from './icons/ArrowUp2.vue';
-export { default as ArrowUp3 } from './icons/ArrowUp3.vue';
-export { default as ArrowUp } from './icons/ArrowUp.vue';
-export { default as BackSquare } from './icons/BackSquare.vue';
-export { default as Back } from './icons/Back.vue';
-export { default as Convert } from './icons/Convert.vue';
-export { default as ExportCircle } from './icons/ExportCircle.vue';
-export { default as ExportCurve } from './icons/ExportCurve.vue';
-export { default as ExportSquare } from './icons/ExportSquare.vue';
-export { default as Export } from './icons/Export.vue';
-export { default as ImportCircle } from './icons/ImportCircle.vue';
-export { default as ImportCurve } from './icons/ImportCurve.vue';
-export { default as ImportSquare } from './icons/ImportSquare.vue';
-export { default as Import } from './icons/Import.vue';
-export { default as LoginCurve } from './icons/LoginCurve.vue';
-export { default as Login } from './icons/Login.vue';
-export { default as LogoutCurve } from './icons/LogoutCurve.vue';
-export { default as Logout } from './icons/Logout.vue';
-export { default as ReceiveSquare2 } from './icons/ReceiveSquare2.vue';
-export { default as ReceiveSquare } from './icons/ReceiveSquare.vue';
-export { default as Receive } from './icons/Receive.vue';
-export { default as Refresh2 } from './icons/Refresh2.vue';
-export { default as RefreshCircle } from './icons/RefreshCircle.vue';
-export { default as RefreshLeftSquare } from './icons/RefreshLeftSquare.vue';
-export { default as RefreshRightSquare } from './icons/RefreshRightSquare.vue';
-export { default as RefreshSquare } from './icons/RefreshSquare.vue';
-export { default as Refresh } from './icons/Refresh.vue';
-export { default as RepeatCircle } from './icons/RepeatCircle.vue';
-export { default as Repeat } from './icons/Repeat.vue';
-export { default as TransmitSqaure2 } from './icons/TransmitSqaure2.vue';
-export { default as TransmitSquare } from './icons/TransmitSquare.vue';
-export { default as Transmit } from './icons/Transmit.vue';
-export { default as Aquarius } from './icons/Aquarius.vue';
-export { default as Gemini2 } from './icons/Gemini2.vue';
-export { default as Man } from './icons/Man.vue';
-export { default as Sagittarius } from './icons/Sagittarius.vue';
-export { default as Woman } from './icons/Woman.vue';
-export { default as Bank } from './icons/Bank.vue';
-export { default as Gemini } from './icons/Gemini.vue';
-export { default as Building3 } from './icons/Building3.vue';
-export { default as Building4 } from './icons/Building4.vue';
-export { default as Building } from './icons/Building.vue';
-export { default as Buildings2 } from './icons/Buildings2.vue';
-export { default as Buildings } from './icons/Buildings.vue';
-export { default as Buliding } from './icons/Buliding.vue';
-export { default as Courthouse } from './icons/Courthouse.vue';
-export { default as House2 } from './icons/House2.vue';
-export { default as Hospital } from './icons/Hospital.vue';
-export { default as House } from './icons/House.vue';
-export { default as Activity } from './icons/Activity.vue';
-export { default as Chart1 } from './icons/Chart1.vue';
-export { default as Chart2 } from './icons/Chart2.vue';
-export { default as Chart21 } from './icons/Chart21.vue';
-export { default as ChartFail } from './icons/ChartFail.vue';
-export { default as ChartSuccess } from './icons/ChartSuccess.vue';
-export { default as Chart } from './icons/Chart.vue';
-export { default as Diagram } from './icons/Diagram.vue';
-export { default as FavoriteChart } from './icons/FavoriteChart.vue';
-export { default as Graph } from './icons/Graph.vue';
-export { default as HashtagSquare } from './icons/HashtagSquare.vue';
-export { default as Health } from './icons/Health.vue';
-export { default as HomeHashtag } from './icons/HomeHashtag.vue';
-export { default as HomeTrendDown } from './icons/HomeTrendDown.vue';
-export { default as HomeTrendUp } from './icons/HomeTrendUp.vue';
-export { default as Personalcard } from './icons/Personalcard.vue';
-export { default as PresentionChart } from './icons/PresentionChart.vue';
-export { default as StatusUp } from './icons/StatusUp.vue';
-export { default as TrendDown } from './icons/TrendDown.vue';
-export { default as TrendUp } from './icons/TrendUp.vue';
-export { default as CallAdd } from './icons/CallAdd.vue';
-export { default as CallCalling } from './icons/CallCalling.vue';
-export { default as CallIncoming } from './icons/CallIncoming.vue';
-export { default as CallMinus } from './icons/CallMinus.vue';
-export { default as CallOutgoing } from './icons/CallOutgoing.vue';
-export { default as CallReceived } from './icons/CallReceived.vue';
-export { default as CallRemove } from './icons/CallRemove.vue';
-export { default as CallSlash } from './icons/CallSlash.vue';
-export { default as Call } from './icons/Call.vue';
-export { default as AirplaneSquare } from './icons/AirplaneSquare.vue';
-export { default as Airplane } from './icons/Airplane.vue';
-export { default as Bus } from './icons/Bus.vue';
-export { default as Car } from './icons/Car.vue';
-export { default as Driving } from './icons/Driving.vue';
-export { default as GasStation } from './icons/GasStation.vue';
-export { default as Ship } from './icons/Ship.vue';
-export { default as SmartCar } from './icons/SmartCar.vue';
-export { default as Airdrop } from './icons/Airdrop.vue';
-export { default as Airpod } from './icons/Airpod.vue';
-export { default as Airpods } from './icons/Airpods.vue';
-export { default as Bluetooth2 } from './icons/Bluetooth2.vue';
-export { default as BluetoothCircle } from './icons/BluetoothCircle.vue';
-export { default as BluetoothRectangle } from './icons/BluetoothRectangle.vue';
-export { default as Bluetooth } from './icons/Bluetooth.vue';
-export { default as CloudAdd } from './icons/CloudAdd.vue';
-export { default as CloudChange } from './icons/CloudChange.vue';
-export { default as CloudConnection } from './icons/CloudConnection.vue';
-export { default as CloudRemove } from './icons/CloudRemove.vue';
-export { default as CpuCharge } from './icons/CpuCharge.vue';
-export { default as CpuSetting } from './icons/CpuSetting.vue';
-export { default as Cpu } from './icons/Cpu.vue';
-export { default as Devices } from './icons/Devices.vue';
-export { default as Driver2 } from './icons/Driver2.vue';
-export { default as DriverRefresh } from './icons/DriverRefresh.vue';
-export { default as Driver } from './icons/Driver.vue';
-export { default as Electricity } from './icons/Electricity.vue';
-export { default as ExternalDrive } from './icons/ExternalDrive.vue';
-export { default as FolderConnection } from './icons/FolderConnection.vue';
-export { default as Game } from './icons/Game.vue';
-export { default as Gameboy } from './icons/Gameboy.vue';
-export { default as Headphone } from './icons/Headphone.vue';
-export { default as Headphones } from './icons/Headphones.vue';
-export { default as KeyboardOpen } from './icons/KeyboardOpen.vue';
-export { default as Keyboard } from './icons/Keyboard.vue';
-export { default as Microscope } from './icons/Microscope.vue';
-export { default as MirroringScreen } from './icons/MirroringScreen.vue';
-export { default as Mobile } from './icons/Mobile.vue';
-export { default as MonitorMobbile } from './icons/MonitorMobbile.vue';
-export { default as MonitorRecorder } from './icons/MonitorRecorder.vue';
-export { default as Monitor } from './icons/Monitor.vue';
-export { default as Mouse } from './icons/Mouse.vue';
-export { default as MusicPlay } from './icons/MusicPlay.vue';
-export { default as PrinterSlash } from './icons/PrinterSlash.vue';
-export { default as Printer } from './icons/Printer.vue';
-export { default as Ram2 } from './icons/Ram2.vue';
-export { default as Ram } from './icons/Ram.vue';
-export { default as Simcard1 } from './icons/Simcard1.vue';
-export { default as Simcard2 } from './icons/Simcard2.vue';
-export { default as Simcard } from './icons/Simcard.vue';
-export { default as Speaker } from './icons/Speaker.vue';
-export { default as TableLamp } from './icons/TableLamp.vue';
-export { default as WatchStatus } from './icons/WatchStatus.vue';
-export { default as Watch } from './icons/Watch.vue';
-export { default as WeightMeter } from './icons/WeightMeter.vue';
-export { default as WristClock } from './icons/WristClock.vue';
-export { default as ArchiveBook } from './icons/ArchiveBook.vue';
-export { default as Bill } from './icons/Bill.vue';
-export { default as ClipboardClose } from './icons/ClipboardClose.vue';
-export { default as ClipboardExport } from './icons/ClipboardExport.vue';
-export { default as ClipboardImport } from './icons/ClipboardImport.vue';
-export { default as ClipboardText } from './icons/ClipboardText.vue';
-export { default as ClipboardTick } from './icons/ClipboardTick.vue';
-export { default as Copyright } from './icons/Copyright.vue';
-export { default as CreativeCommons } from './icons/CreativeCommons.vue';
-export { default as DocumentCloud } from './icons/DocumentCloud.vue';
-export { default as DocumentCopy } from './icons/DocumentCopy.vue';
-export { default as DocumentDownload } from './icons/DocumentDownload.vue';
-export { default as DocumentFavorite } from './icons/DocumentFavorite.vue';
-export { default as DocumentFilter } from './icons/DocumentFilter.vue';
-export { default as DocumentForward } from './icons/DocumentForward.vue';
-export { default as DocumentLike } from './icons/DocumentLike.vue';
-export { default as DocumentPrevious } from './icons/DocumentPrevious.vue';
-export { default as DocumentSketch } from './icons/DocumentSketch.vue';
-export { default as DocumentText1 } from './icons/DocumentText1.vue';
-export { default as DocumentText } from './icons/DocumentText.vue';
-export { default as DocumentUpload } from './icons/DocumentUpload.vue';
-export { default as Document } from './icons/Document.vue';
-export { default as Edit2 } from './icons/Edit2.vue';
-export { default as Edit } from './icons/Edit.vue';
-export { default as MenuBoard } from './icons/MenuBoard.vue';
-export { default as Note1 } from './icons/Note1.vue';
-export { default as NoteAdd } from './icons/NoteAdd.vue';
-export { default as NoteFavorite } from './icons/NoteFavorite.vue';
-export { default as NoteRemove } from './icons/NoteRemove.vue';
-export { default as NoteText } from './icons/NoteText.vue';
-export { default as Note } from './icons/Note.vue';
-export { default as Stickynote } from './icons/Stickynote.vue';
-export { default as TaskSquare } from './icons/TaskSquare.vue';
-export { default as Task } from './icons/Task.vue';
-export { default as Aave } from './icons/Aave.vue';
-export { default as Android } from './icons/Android.vue';
-export { default as Ankr } from './icons/Ankr.vue';
-export { default as Apple } from './icons/Apple.vue';
-export { default as Augur } from './icons/Augur.vue';
-export { default as Autonio } from './icons/Autonio.vue';
-export { default as Avalanche } from './icons/Avalanche.vue';
-export { default as Be } from './icons/Be.vue';
-export { default as BinanceCoin } from './icons/BinanceCoin.vue';
-export { default as BinanceUsd } from './icons/BinanceUsd.vue';
-export { default as Bitcoin } from './icons/Bitcoin.vue';
-export { default as Blogger } from './icons/Blogger.vue';
-export { default as Bootstrap } from './icons/Bootstrap.vue';
-export { default as Cardano } from './icons/Cardano.vue';
-export { default as Celo } from './icons/Celo.vue';
-export { default as Celsius } from './icons/Celsius.vue';
-export { default as Chainlink } from './icons/Chainlink.vue';
-export { default as Civic } from './icons/Civic.vue';
-export { default as Dai } from './icons/Dai.vue';
-export { default as Dash } from './icons/Dash.vue';
-export { default as Decred } from './icons/Decred.vue';
-export { default as Dent } from './icons/Dent.vue';
-export { default as Dribbble } from './icons/Dribbble.vue';
-export { default as Dropbox } from './icons/Dropbox.vue';
-export { default as Educare } from './icons/Educare.vue';
-export { default as Emercoin } from './icons/Emercoin.vue';
-export { default as EnjinCoin } from './icons/EnjinCoin.vue';
-export { default as Eos } from './icons/Eos.vue';
-export { default as EthereumClassic } from './icons/EthereumClassic.vue';
-export { default as Ethereum } from './icons/Ethereum.vue';
-export { default as Facebook } from './icons/Facebook.vue';
-export { default as Figma1 } from './icons/Figma1.vue';
-export { default as Figma } from './icons/Figma.vue';
-export { default as Framer } from './icons/Framer.vue';
-export { default as FtxToken } from './icons/FtxToken.vue';
-export { default as GoogleDrive } from './icons/GoogleDrive.vue';
-export { default as GooglePlay } from './icons/GooglePlay.vue';
-export { default as Google } from './icons/Google.vue';
-export { default as Harmony } from './icons/Harmony.vue';
-export { default as HederaHashgraph } from './icons/HederaHashgraph.vue';
-export { default as Hex } from './icons/Hex.vue';
-export { default as Html3 } from './icons/Html3.vue';
-export { default as Html5 } from './icons/Html5.vue';
-export { default as HuobiToken } from './icons/HuobiToken.vue';
-export { default as Icon } from './icons/Icon.vue';
-export { default as Illustrator } from './icons/Illustrator.vue';
-export { default as Iost } from './icons/Iost.vue';
-export { default as JavaScript } from './icons/JavaScript.vue';
-export { default as Js } from './icons/Js.vue';
-export { default as KyberNetwork } from './icons/KyberNetwork.vue';
-export { default as Litecoin } from './icons/Litecoin.vue';
-export { default as Maker } from './icons/Maker.vue';
-export { default as Messenger } from './icons/Messenger.vue';
-export { default as Monero } from './icons/Monero.vue';
-export { default as Nebulas } from './icons/Nebulas.vue';
-export { default as Nem } from './icons/Nem.vue';
-export { default as Nexo } from './icons/Nexo.vue';
-export { default as OceanProtocol } from './icons/OceanProtocol.vue';
-export { default as Okb } from './icons/Okb.vue';
-export { default as Okru } from './icons/Okru.vue';
-export { default as Ontology } from './icons/Ontology.vue';
-export { default as Paypal } from './icons/Paypal.vue';
-export { default as Photoshop } from './icons/Photoshop.vue';
-export { default as Polkadot } from './icons/Polkadot.vue';
-export { default as Polygon } from './icons/Polygon.vue';
-export { default as Polyswarm } from './icons/Polyswarm.vue';
-export { default as Python } from './icons/Python.vue';
-export { default as Quant } from './icons/Quant.vue';
-export { default as Shutterstock } from './icons/Shutterstock.vue';
-export { default as Siacoin } from './icons/Siacoin.vue';
-export { default as Slack } from './icons/Slack.vue';
-export { default as Snapchat } from './icons/Snapchat.vue';
-export { default as Solana } from './icons/Solana.vue';
-export { default as Spotify } from './icons/Spotify.vue';
-export { default as Stacks } from './icons/Stacks.vue';
-export { default as Stellar } from './icons/Stellar.vue';
-export { default as Tenx } from './icons/Tenx.vue';
-export { default as Tether } from './icons/Tether.vue';
-export { default as TheGraph } from './icons/TheGraph.vue';
-export { default as Theta } from './icons/Theta.vue';
-export { default as Thorchain } from './icons/Thorchain.vue';
-export { default as Trello } from './icons/Trello.vue';
-export { default as TriangleLogo } from './icons/TriangleLogo.vue';
-export { default as Trontron } from './icons/Trontron.vue';
-export { default as Twitch } from './icons/Twitch.vue';
-export { default as Ui8 } from './icons/Ui8.vue';
-export { default as UsdCoin } from './icons/UsdCoin.vue';
-export { default as Velas } from './icons/Velas.vue';
-export { default as Vibe } from './icons/Vibe.vue';
-export { default as Wanchain1 } from './icons/Wanchain1.vue';
-export { default as Wanchain } from './icons/Wanchain.vue';
-export { default as Whatsapp } from './icons/Whatsapp.vue';
-export { default as Windows } from './icons/Windows.vue';
-export { default as Wing } from './icons/Wing.vue';
-export { default as Xd } from './icons/Xd.vue';
-export { default as Xiaomi } from './icons/Xiaomi.vue';
-export { default as Xrp } from './icons/Xrp.vue';
-export { default as Youtube } from './icons/Youtube.vue';
-export { default as Zel } from './icons/Zel.vue';
-export { default as Zoom } from './icons/Zoom.vue';
-export { default as BitcoinCard } from './icons/BitcoinCard.vue';
-export { default as BitcoinConvert } from './icons/BitcoinConvert.vue';
-export { default as BitcoinRefresh } from './icons/BitcoinRefresh.vue';
-export { default as BuyCrypto } from './icons/BuyCrypto.vue';
-export { default as CardCoin } from './icons/CardCoin.vue';
-export { default as Trade } from './icons/Trade.vue';
-export { default as I3DCubeScan } from './icons/I3DCubeScan.vue';
-export { default as I3DRotate } from './icons/I3DRotate.vue';
-export { default as I3DSquare } from './icons/I3DSquare.vue';
-export { default as Box1 } from './icons/Box1.vue';
-export { default as BoxAdd } from './icons/BoxAdd.vue';
-export { default as BoxRemove } from './icons/BoxRemove.vue';
-export { default as BoxSearch } from './icons/BoxSearch.vue';
-export { default as BoxTick } from './icons/BoxTick.vue';
-export { default as BoxTime } from './icons/BoxTime.vue';
-export { default as Box } from './icons/Box.vue';
-export { default as Convert3DCube } from './icons/Convert3DCube.vue';
-export { default as TruckFast } from './icons/TruckFast.vue';
-export { default as TruckRemove } from './icons/TruckRemove.vue';
-export { default as TruckTick } from './icons/TruckTick.vue';
-export { default as TruckTime } from './icons/TruckTime.vue';
-export { default as Truck } from './icons/Truck.vue';
-export { default as Additem } from './icons/Additem.vue';
-export { default as BackwardItem } from './icons/BackwardItem.vue';
-export { default as Bezier } from './icons/Bezier.vue';
-export { default as Blend2 } from './icons/Blend2.vue';
-export { default as Blend } from './icons/Blend.vue';
-export { default as Blur } from './icons/Blur.vue';
-export { default as Brush2 } from './icons/Brush2.vue';
-export { default as Brush3 } from './icons/Brush3.vue';
-export { default as BrushBig } from './icons/BrushBig.vue';
-export { default as BrushSquare } from './icons/BrushSquare.vue';
-export { default as BucketCircle } from './icons/BucketCircle.vue';
-export { default as Brush } from './icons/Brush.vue';
-export { default as BucketSquare } from './icons/BucketSquare.vue';
-export { default as Bucket } from './icons/Bucket.vue';
-export { default as ChemicalGlass } from './icons/ChemicalGlass.vue';
-export { default as ColorSwatch } from './icons/ColorSwatch.vue';
-export { default as Colorfilter } from './icons/Colorfilter.vue';
-export { default as ColorsSquare } from './icons/ColorsSquare.vue';
-export { default as Component } from './icons/Component.vue';
-export { default as CopySuccess } from './icons/CopySuccess.vue';
-export { default as Copy } from './icons/Copy.vue';
-export { default as Designtools } from './icons/Designtools.vue';
-export { default as Eraser } from './icons/Eraser.vue';
-export { default as ForwardItem } from './icons/ForwardItem.vue';
-export { default as Layer } from './icons/Layer.vue';
-export { default as Lifebuoy } from './icons/Lifebuoy.vue';
-export { default as Magicpen } from './icons/Magicpen.vue';
-export { default as MainComponent } from './icons/MainComponent.vue';
-export { default as MaskLeft } from './icons/MaskLeft.vue';
-export { default as MaskRight } from './icons/MaskRight.vue';
-export { default as Mask } from './icons/Mask.vue';
-export { default as OmegaCircle } from './icons/OmegaCircle.vue';
-export { default as OmegaSquare } from './icons/OmegaSquare.vue';
-export { default as Paintbucket } from './icons/Paintbucket.vue';
-export { default as PathTool2 } from './icons/PathTool2.vue';
-export { default as PathToolSquare } from './icons/PathToolSquare.vue';
-export { default as PathTool } from './icons/PathTool.vue';
-export { default as PenAdd } from './icons/PenAdd.vue';
-export { default as PenClose } from './icons/PenClose.vue';
-export { default as PenRemove } from './icons/PenRemove.vue';
-export { default as PenTool2 } from './icons/PenTool2.vue';
-export { default as PenTool } from './icons/PenTool.vue';
-export { default as RecoveryConvert } from './icons/RecoveryConvert.vue';
-export { default as RulerPen } from './icons/RulerPen.vue';
-export { default as Ruler } from './icons/Ruler.vue';
-export { default as Scissor } from './icons/Scissor.vue';
-export { default as Shapes1 } from './icons/Shapes1.vue';
-export { default as Shapes } from './icons/Shapes.vue';
-export { default as Size } from './icons/Size.vue';
-export { default as DeviceMessage } from './icons/DeviceMessage.vue';
-export { default as DirectInbox } from './icons/DirectInbox.vue';
-export { default as DirectNormal } from './icons/DirectNormal.vue';
-export { default as DirectNotification } from './icons/DirectNotification.vue';
-export { default as DirectSend } from './icons/DirectSend.vue';
-export { default as Direct } from './icons/Direct.vue';
-export { default as DirectboxDefault } from './icons/DirectboxDefault.vue';
-export { default as DirectboxNotif } from './icons/DirectboxNotif.vue';
-export { default as DirectboxReceive } from './icons/DirectboxReceive.vue';
-export { default as DirectboxSend } from './icons/DirectboxSend.vue';
-export { default as Message2 } from './icons/Message2.vue';
-export { default as MessageAdd1 } from './icons/MessageAdd1.vue';
-export { default as MessageAdd } from './icons/MessageAdd.vue';
-export { default as MessageCircle } from './icons/MessageCircle.vue';
-export { default as MessageEdit } from './icons/MessageEdit.vue';
-export { default as MessageFavorite } from './icons/MessageFavorite.vue';
-export { default as MessageMinus } from './icons/MessageMinus.vue';
-export { default as MessageNotif } from './icons/MessageNotif.vue';
-export { default as MessageRemove } from './icons/MessageRemove.vue';
-export { default as MessageSearch } from './icons/MessageSearch.vue';
-export { default as MessageSquare } from './icons/MessageSquare.vue';
-export { default as MessageText1 } from './icons/MessageText1.vue';
-export { default as MessageText } from './icons/MessageText.vue';
-export { default as MessageTick } from './icons/MessageTick.vue';
-export { default as MessageTime } from './icons/MessageTime.vue';
-export { default as Message } from './icons/Message.vue';
-export { default as Messages1 } from './icons/Messages1.vue';
-export { default as Messages2 } from './icons/Messages2.vue';
-export { default as Messages3 } from './icons/Messages3.vue';
-export { default as Messages } from './icons/Messages.vue';
-export { default as SmsEdit } from './icons/SmsEdit.vue';
-export { default as SmsNotification } from './icons/SmsNotification.vue';
-export { default as SmsSearch } from './icons/SmsSearch.vue';
-export { default as SmsStar } from './icons/SmsStar.vue';
-export { default as SmsTracking } from './icons/SmsTracking.vue';
-export { default as Sms } from './icons/Sms.vue';
-export { default as I3Dcube } from './icons/I3Dcube.vue';
-export { default as AddCircle } from './icons/AddCircle.vue';
-export { default as AddSquare } from './icons/AddSquare.vue';
-export { default as Add } from './icons/Add.vue';
-export { default as ArchiveBox } from './icons/ArchiveBox.vue';
-export { default as Autobrightness } from './icons/Autobrightness.vue';
-export { default as BatteryCharging } from './icons/BatteryCharging.vue';
-export { default as BatteryDisable } from './icons/BatteryDisable.vue';
-export { default as BatteryEmpty1 } from './icons/BatteryEmpty1.vue';
-export { default as BatteryEmpty } from './icons/BatteryEmpty.vue';
-export { default as BatteryFull } from './icons/BatteryFull.vue';
-export { default as Box2 } from './icons/Box2.vue';
-export { default as Broom } from './icons/Broom.vue';
-export { default as Bubble } from './icons/Bubble.vue';
-export { default as Cake } from './icons/Cake.vue';
-export { default as Cd } from './icons/Cd.vue';
-export { default as ChartCircle } from './icons/ChartCircle.vue';
-export { default as Chrome } from './icons/Chrome.vue';
-export { default as CloseCircle } from './icons/CloseCircle.vue';
-export { default as CloseSquare } from './icons/CloseSquare.vue';
-export { default as Coffee } from './icons/Coffee.vue';
-export { default as Computing } from './icons/Computing.vue';
-export { default as Crown1 } from './icons/Crown1.vue';
-export { default as Crown } from './icons/Crown.vue';
-export { default as Cup } from './icons/Cup.vue';
-export { default as Danger } from './icons/Danger.vue';
-export { default as Diamonds } from './icons/Diamonds.vue';
-export { default as Discover } from './icons/Discover.vue';
-export { default as EmojiHappy } from './icons/EmojiHappy.vue';
-export { default as EmojiNormal } from './icons/EmojiNormal.vue';
-export { default as EmojiSad } from './icons/EmojiSad.vue';
-export { default as FilterAdd } from './icons/FilterAdd.vue';
-export { default as FilterEdit } from './icons/FilterEdit.vue';
-export { default as FilterRemove } from './icons/FilterRemove.vue';
-export { default as FilterSearch } from './icons/FilterSearch.vue';
-export { default as FilterSquare } from './icons/FilterSquare.vue';
-export { default as FilterTick } from './icons/FilterTick.vue';
-export { default as Filter } from './icons/Filter.vue';
-export { default as Flag2 } from './icons/Flag2.vue';
-export { default as Flag } from './icons/Flag.vue';
-export { default as FlashCircle } from './icons/FlashCircle.vue';
-export { default as FlashSlash } from './icons/FlashSlash.vue';
-export { default as Flash } from './icons/Flash.vue';
-export { default as Forbidden2 } from './icons/Forbidden2.vue';
-export { default as Forbidden } from './icons/Forbidden.vue';
-export { default as Ghost } from './icons/Ghost.vue';
-export { default as Glass } from './icons/Glass.vue';
-export { default as Grammerly } from './icons/Grammerly.vue';
-export { default as HambergerMenu } from './icons/HambergerMenu.vue';
-export { default as Happyemoji } from './icons/Happyemoji.vue';
-export { default as Home2 } from './icons/Home2.vue';
-export { default as Home3 } from './icons/Home3.vue';
-export { default as HomeWifi } from './icons/HomeWifi.vue';
-export { default as Home } from './icons/Home.vue';
-export { default as Information } from './icons/Information.vue';
-export { default as InfoCircle } from './icons/InfoCircle.vue';
-export { default as Instagram } from './icons/Instagram.vue';
-export { default as Judge } from './icons/Judge.vue';
-export { default as Lamp } from './icons/Lamp.vue';
-export { default as Level } from './icons/Level.vue';
-export { default as Milk } from './icons/Milk.vue';
-export { default as MinusCirlce } from './icons/MinusCirlce.vue';
-export { default as MinusSquare } from './icons/MinusSquare.vue';
-export { default as Minus } from './icons/Minus.vue';
-export { default as Mirror } from './icons/Mirror.vue';
-export { default as MoreCircle } from './icons/MoreCircle.vue';
-export { default as MoreSquare } from './icons/MoreSquare.vue';
-export { default as MouseCircle } from './icons/MouseCircle.vue';
-export { default as MouseSquare } from './icons/MouseSquare.vue';
-export { default as Pet } from './icons/Pet.vue';
-export { default as Pointer } from './icons/Pointer.vue';
-export { default as Rank } from './icons/Rank.vue';
-export { default as Reserve } from './icons/Reserve.vue';
-export { default as SafeHome } from './icons/SafeHome.vue';
-export { default as Send2 } from './icons/Send2.vue';
-export { default as Send } from './icons/Send.vue';
-export { default as Share } from './icons/Share.vue';
-export { default as Signpost } from './icons/Signpost.vue';
-export { default as Slash } from './icons/Slash.vue';
-export { default as Slider } from './icons/Slider.vue';
-export { default as SmartHome } from './icons/SmartHome.vue';
-export { default as Sort } from './icons/Sort.vue';
-export { default as Sound } from './icons/Sound.vue';
-export { default as Speedometer } from './icons/Speedometer.vue';
-export { default as Status } from './icons/Status.vue';
-export { default as Sticker } from './icons/Sticker.vue';
-export { default as Story } from './icons/Story.vue';
-export { default as TagCross } from './icons/TagCross.vue';
-export { default as TagRight } from './icons/TagRight.vue';
-export { default as TickCircle } from './icons/TickCircle.vue';
-export { default as TickSquare } from './icons/TickSquare.vue';
-export { default as Trash } from './icons/Trash.vue';
-export { default as Tree } from './icons/Tree.vue';
-export { default as Triangle } from './icons/Triangle.vue';
-export { default as TrushSquare } from './icons/TrushSquare.vue';
-export { default as Verify } from './icons/Verify.vue';
-export { default as Warning2 } from './icons/Warning2.vue';
-export { default as Weight } from './icons/Weight.vue';
-export { default as WifiSquare } from './icons/WifiSquare.vue';
-export { default as Wifi } from './icons/Wifi.vue';
-export { default as Folder2 } from './icons/Folder2.vue';
-export { default as FolderAdd } from './icons/FolderAdd.vue';
-export { default as FolderCloud } from './icons/FolderCloud.vue';
-export { default as FolderCross } from './icons/FolderCross.vue';
-export { default as FolderFavorite } from './icons/FolderFavorite.vue';
-export { default as FolderMinus } from './icons/FolderMinus.vue';
-export { default as FolderOpen } from './icons/FolderOpen.vue';
-export { default as Folder } from './icons/Folder.vue';
-export { default as I3Square } from './icons/I3Square.vue';
-export { default as AlignBottom } from './icons/AlignBottom.vue';
-export { default as AlignHorizontally } from './icons/AlignHorizontally.vue';
-export { default as AlignLeft } from './icons/AlignLeft.vue';
-export { default as AlignRight } from './icons/AlignRight.vue';
-export { default as AlignTop } from './icons/AlignTop.vue';
-export { default as AlignVertically } from './icons/AlignVertically.vue';
-export { default as Convertshape2 } from './icons/Convertshape2.vue';
-export { default as Convertshape } from './icons/Convertshape.vue';
-export { default as Crop } from './icons/Crop.vue';
-export { default as Element2 } from './icons/Element2.vue';
-export { default as Element3 } from './icons/Element3.vue';
-export { default as Element4 } from './icons/Element4.vue';
-export { default as ElementEqual } from './icons/ElementEqual.vue';
-export { default as ElementPlus } from './icons/ElementPlus.vue';
-export { default as Element } from './icons/Element.vue';
-export { default as Fatrows } from './icons/Fatrows.vue';
-export { default as FormatCircle } from './icons/FormatCircle.vue';
-export { default as FormatSquare } from './icons/FormatSquare.vue';
-export { default as Grid1 } from './icons/Grid1.vue';
-export { default as Grid2 } from './icons/Grid2.vue';
-export { default as Grid3 } from './icons/Grid3.vue';
-export { default as Grid4 } from './icons/Grid4.vue';
-export { default as Grid5 } from './icons/Grid5.vue';
-export { default as Grid6 } from './icons/Grid6.vue';
-export { default as Grid7 } from './icons/Grid7.vue';
-export { default as Grid8 } from './icons/Grid8.vue';
-export { default as Grid9 } from './icons/Grid9.vue';
-export { default as GridEdit } from './icons/GridEdit.vue';
-export { default as GridEraser } from './icons/GridEraser.vue';
-export { default as GridLock } from './icons/GridLock.vue';
-export { default as Kanban } from './icons/Kanban.vue';
-export { default as Maximize1 } from './icons/Maximize1.vue';
-export { default as Maximize2 } from './icons/Maximize2.vue';
-export { default as Maximize3 } from './icons/Maximize3.vue';
-export { default as Maximize4 } from './icons/Maximize4.vue';
-export { default as Maximize } from './icons/Maximize.vue';
-export { default as RotateLeft } from './icons/RotateLeft.vue';
-export { default as RotateRight } from './icons/RotateRight.vue';
-export { default as RowHorizontal } from './icons/RowHorizontal.vue';
-export { default as RowVertical } from './icons/RowVertical.vue';
-export { default as SliderHorizontal1 } from './icons/SliderHorizontal1.vue';
-export { default as SliderHorizontal } from './icons/SliderHorizontal.vue';
-export { default as SliderVertical1 } from './icons/SliderVertical1.vue';
-export { default as SliderVertical } from './icons/SliderVertical.vue';
-export { default as ArrowSquare } from './icons/ArrowSquare.vue';
-export { default as Arrow } from './icons/Arrow.vue';
-export { default as DirectDown } from './icons/DirectDown.vue';
-export { default as DirectLeft } from './icons/DirectLeft.vue';
-export { default as DirectRight } from './icons/DirectRight.vue';
-export { default as DirectUp } from './icons/DirectUp.vue';
-export { default as GlobalEdit } from './icons/GlobalEdit.vue';
-export { default as GlobalRefresh } from './icons/GlobalRefresh.vue';
-export { default as GlobalSearch } from './icons/GlobalSearch.vue';
-export { default as Global } from './icons/Global.vue';
-export { default as GpsSlash } from './icons/GpsSlash.vue';
-export { default as Gps } from './icons/Gps.vue';
-export { default as LocationAdd } from './icons/LocationAdd.vue';
-export { default as LocationCross } from './icons/LocationCross.vue';
-export { default as LocationDiscover } from './icons/LocationDiscover.vue';
-export { default as LocationMinus } from './icons/LocationMinus.vue';
-export { default as LocationSlash } from './icons/LocationSlash.vue';
-export { default as LocationTick } from './icons/LocationTick.vue';
-export { default as Location } from './icons/Location.vue';
-export { default as Map1 } from './icons/Map1.vue';
-export { default as Map } from './icons/Map.vue';
-export { default as PictureFrame } from './icons/PictureFrame.vue';
-export { default as Radar2 } from './icons/Radar2.vue';
-export { default as Radar } from './icons/Radar.vue';
-export { default as RouteSquare } from './icons/RouteSquare.vue';
-export { default as Routing2 } from './icons/Routing2.vue';
-export { default as Routing } from './icons/Routing.vue';
-export { default as CardAdd } from './icons/CardAdd.vue';
-export { default as CardEdit } from './icons/CardEdit.vue';
-export { default as CardPos } from './icons/CardPos.vue';
-export { default as CardReceive } from './icons/CardReceive.vue';
-export { default as CardRemove1 } from './icons/CardRemove1.vue';
-export { default as CardRemove } from './icons/CardRemove.vue';
-export { default as CardSend } from './icons/CardSend.vue';
-export { default as CardSlash } from './icons/CardSlash.vue';
-export { default as CardTick1 } from './icons/CardTick1.vue';
-export { default as CardTick } from './icons/CardTick.vue';
-export { default as Card } from './icons/Card.vue';
-export { default as Cards } from './icons/Cards.vue';
-export { default as ChartSquare } from './icons/ChartSquare.vue';
-export { default as Coin1 } from './icons/Coin1.vue';
-export { default as Coin } from './icons/Coin.vue';
-export { default as ConvertCard } from './icons/ConvertCard.vue';
-export { default as DiscountCircle } from './icons/DiscountCircle.vue';
-export { default as DiscountShape } from './icons/DiscountShape.vue';
-export { default as DollarCircle } from './icons/DollarCircle.vue';
-export { default as DollarSquare } from './icons/DollarSquare.vue';
-export { default as EmptyWalletAdd } from './icons/EmptyWalletAdd.vue';
-export { default as EmptyWalletChange } from './icons/EmptyWalletChange.vue';
-export { default as EmptyWalletRemove } from './icons/EmptyWalletRemove.vue';
-export { default as EmptyWalletTick } from './icons/EmptyWalletTick.vue';
-export { default as EmptyWalletTime } from './icons/EmptyWalletTime.vue';
-export { default as EmptyWallet } from './icons/EmptyWallet.vue';
-export { default as Math } from './icons/Math.vue';
-export { default as Money2 } from './icons/Money2.vue';
-export { default as Money3 } from './icons/Money3.vue';
-export { default as Money4 } from './icons/Money4.vue';
-export { default as MoneyAdd } from './icons/MoneyAdd.vue';
-export { default as MoneyArchive } from './icons/MoneyArchive.vue';
-export { default as MoneyChange } from './icons/MoneyChange.vue';
-export { default as MoneyForbidden } from './icons/MoneyForbidden.vue';
-export { default as MoneyRecive } from './icons/MoneyRecive.vue';
-export { default as MoneyRemove } from './icons/MoneyRemove.vue';
-export { default as MoneySend } from './icons/MoneySend.vue';
-export { default as MoneyTick } from './icons/MoneyTick.vue';
-export { default as MoneyTime } from './icons/MoneyTime.vue';
-export { default as Money } from './icons/Money.vue';
-export { default as Moneys } from './icons/Moneys.vue';
-export { default as PercentageCircle } from './icons/PercentageCircle.vue';
-export { default as PercentageSquare } from './icons/PercentageSquare.vue';
-export { default as Receipt1 } from './icons/Receipt1.vue';
-export { default as Receipt21 } from './icons/Receipt21.vue';
-export { default as Receipt2 } from './icons/Receipt2.vue';
-export { default as ReceiptAdd } from './icons/ReceiptAdd.vue';
-export { default as ReceiptDiscount } from './icons/ReceiptDiscount.vue';
-export { default as ReceiptDisscount } from './icons/ReceiptDisscount.vue';
-export { default as ReceiptEdit } from './icons/ReceiptEdit.vue';
-export { default as ReceiptItem } from './icons/ReceiptItem.vue';
-export { default as ReceiptMinus } from './icons/ReceiptMinus.vue';
-export { default as ReceiptSearch } from './icons/ReceiptSearch.vue';
-export { default as ReceiptText } from './icons/ReceiptText.vue';
-export { default as Receipt } from './icons/Receipt.vue';
-export { default as SecurityCard } from './icons/SecurityCard.vue';
-export { default as Strongbox2 } from './icons/Strongbox2.vue';
-export { default as Strongbox } from './icons/Strongbox.vue';
-export { default as TableDocument } from './icons/TableDocument.vue';
-export { default as Tag2 } from './icons/Tag2.vue';
-export { default as Tag } from './icons/Tag.vue';
-export { default as Ticket2 } from './icons/Ticket2.vue';
-export { default as TicketDiscount } from './icons/TicketDiscount.vue';
-export { default as TicketExpired } from './icons/TicketExpired.vue';
-export { default as TicketStar } from './icons/TicketStar.vue';
-export { default as Ticket } from './icons/Ticket.vue';
-export { default as TransactionMinus } from './icons/TransactionMinus.vue';
-export { default as Wallet1 } from './icons/Wallet1.vue';
-export { default as Wallet2 } from './icons/Wallet2.vue';
-export { default as Wallet3 } from './icons/Wallet3.vue';
-export { default as WalletAdd1 } from './icons/WalletAdd1.vue';
-export { default as WalletAdd } from './icons/WalletAdd.vue';
-export { default as WalletCheck } from './icons/WalletCheck.vue';
-export { default as WalletMinus } from './icons/WalletMinus.vue';
-export { default as WalletMoney } from './icons/WalletMoney.vue';
-export { default as WalletRemove } from './icons/WalletRemove.vue';
-export { default as WalletSearch } from './icons/WalletSearch.vue';
-export { default as Wallet } from './icons/Wallet.vue';
-export { default as LampCharge } from './icons/LampCharge.vue';
-export { default as LampOn } from './icons/LampOn.vue';
-export { default as LampSlash } from './icons/LampSlash.vue';
-export { default as Notification1 } from './icons/Notification1.vue';
-export { default as NotificationBing } from './icons/NotificationBing.vue';
-export { default as NotificationCircle } from './icons/NotificationCircle.vue';
-export { default as NotificationFavorite } from './icons/NotificationFavorite.vue';
-export { default as NotificationStatus } from './icons/NotificationStatus.vue';
-export { default as Notification } from './icons/Notification.vue';
-export { default as Code1 } from './icons/Code1.vue';
-export { default as CodeCircle } from './icons/CodeCircle.vue';
-export { default as Code } from './icons/Code.vue';
-export { default as CommandSquare } from './icons/CommandSquare.vue';
-export { default as Command } from './icons/Command.vue';
-export { default as Data2 } from './icons/Data2.vue';
-export { default as Data } from './icons/Data.vue';
-export { default as DocumentCode2 } from './icons/DocumentCode2.vue';
-export { default as DocumentCode } from './icons/DocumentCode.vue';
-export { default as HashtagDown } from './icons/HashtagDown.vue';
-export { default as HashtagUp } from './icons/HashtagUp.vue';
-export { default as Hashtag } from './icons/Hashtag.vue';
-export { default as Hierarchy2 } from './icons/Hierarchy2.vue';
-export { default as Hierarchy3 } from './icons/Hierarchy3.vue';
-export { default as HierarchySquare2 } from './icons/HierarchySquare2.vue';
-export { default as HierarchySquare3 } from './icons/HierarchySquare3.vue';
-export { default as HierarchySquare } from './icons/HierarchySquare.vue';
-export { default as Hierarchy } from './icons/Hierarchy.vue';
-export { default as MessageProgramming } from './icons/MessageProgramming.vue';
-export { default as MobileProgramming } from './icons/MobileProgramming.vue';
-export { default as ProgrammingArrow } from './icons/ProgrammingArrow.vue';
-export { default as ProgrammingArrows } from './icons/ProgrammingArrows.vue';
-export { default as Scroll } from './icons/Scroll.vue';
-export { default as SidebarBottom } from './icons/SidebarBottom.vue';
-export { default as SidebarLeft } from './icons/SidebarLeft.vue';
-export { default as SidebarRight } from './icons/SidebarRight.vue';
-export { default as SidebarTop } from './icons/SidebarTop.vue';
-export { default as Award } from './icons/Award.vue';
-export { default as Book1 } from './icons/Book1.vue';
-export { default as Book } from './icons/Book.vue';
-export { default as Bookmark2 } from './icons/Bookmark2.vue';
-export { default as Briefcase } from './icons/Briefcase.vue';
-export { default as Bookmark } from './icons/Bookmark.vue';
-export { default as BrifecaseCross } from './icons/BrifecaseCross.vue';
-export { default as BrifecaseTick } from './icons/BrifecaseTick.vue';
-export { default as BrifecaseTimer } from './icons/BrifecaseTimer.vue';
-export { default as Calculator } from './icons/Calculator.vue';
-export { default as Clipboard } from './icons/Clipboard.vue';
-export { default as Gift } from './icons/Gift.vue';
-export { default as Notepad2 } from './icons/Notepad2.vue';
-export { default as Notepad } from './icons/Notepad.vue';
-export { default as Teacher } from './icons/Teacher.vue';
-export { default as SearchFavorite1 } from './icons/SearchFavorite1.vue';
-export { default as SearchNormal1 } from './icons/SearchNormal1.vue';
-export { default as SearchNormal } from './icons/SearchNormal.vue';
-export { default as SearchFavorite } from './icons/SearchFavorite.vue';
-export { default as SearchStatus1 } from './icons/SearchStatus1.vue';
-export { default as SearchStatus } from './icons/SearchStatus.vue';
-export { default as SearchZoomIn1 } from './icons/SearchZoomIn1.vue';
-export { default as SearchZoomIn } from './icons/SearchZoomIn.vue';
-export { default as SearchZoomOut1 } from './icons/SearchZoomOut1.vue';
-export { default as SearchZoomOut } from './icons/SearchZoomOut.vue';
-export { default as Alarm } from './icons/Alarm.vue';
-export { default as Brodcast } from './icons/Brodcast.vue';
-export { default as Check } from './icons/Check.vue';
-export { default as EyeSlash } from './icons/EyeSlash.vue';
-export { default as Eye } from './icons/Eye.vue';
-export { default as FingerCricle } from './icons/FingerCricle.vue';
-export { default as FingerScan } from './icons/FingerScan.vue';
-export { default as KeySquare } from './icons/KeySquare.vue';
-export { default as Lock1 } from './icons/Lock1.vue';
-export { default as Key } from './icons/Key.vue';
-export { default as LockCircle } from './icons/LockCircle.vue';
-export { default as LockSlash } from './icons/LockSlash.vue';
-export { default as Lock } from './icons/Lock.vue';
-export { default as PasswordCheck } from './icons/PasswordCheck.vue';
-export { default as ScanBarcode } from './icons/ScanBarcode.vue';
-export { default as Scanner } from './icons/Scanner.vue';
-export { default as Scan } from './icons/Scan.vue';
-export { default as Scanning } from './icons/Scanning.vue';
-export { default as SecuritySafe } from './icons/SecuritySafe.vue';
-export { default as SecurityUser } from './icons/SecurityUser.vue';
-export { default as Security } from './icons/Security.vue';
-export { default as ShieldCross } from './icons/ShieldCross.vue';
-export { default as ShieldSearch } from './icons/ShieldSearch.vue';
-export { default as ShieldSecurity } from './icons/ShieldSecurity.vue';
-export { default as ShieldSlash } from './icons/ShieldSlash.vue';
-export { default as ShieldTick } from './icons/ShieldTick.vue';
-export { default as Shield } from './icons/Shield.vue';
-export { default as Unlock } from './icons/Unlock.vue';
-export { default as Candle2 } from './icons/Candle2.vue';
-export { default as Candle } from './icons/Candle.vue';
-export { default as Category2 } from './icons/Category2.vue';
-export { default as Category } from './icons/Category.vue';
-export { default as Menu } from './icons/Menu.vue';
-export { default as More2 } from './icons/More2.vue';
-export { default as More } from './icons/More.vue';
-export { default as Setting2 } from './icons/Setting2.vue';
-export { default as Setting3 } from './icons/Setting3.vue';
-export { default as Setting4 } from './icons/Setting4.vue';
-export { default as Setting5 } from './icons/Setting5.vue';
-export { default as Setting } from './icons/Setting.vue';
-export { default as Settings } from './icons/Settings.vue';
-export { default as ToggleOffCircle } from './icons/ToggleOffCircle.vue';
-export { default as ToggleOff } from './icons/ToggleOff.vue';
-export { default as ToggleOnCircle } from './icons/ToggleOnCircle.vue';
-export { default as ToggleOn } from './icons/ToggleOn.vue';
-export { default as Bag2 } from './icons/Bag2.vue';
-export { default as BagCross1 } from './icons/BagCross1.vue';
-export { default as BagCross } from './icons/BagCross.vue';
-export { default as BagHappy } from './icons/BagHappy.vue';
-export { default as BagTick2 } from './icons/BagTick2.vue';
-export { default as BagTick } from './icons/BagTick.vue';
-export { default as BagTimer } from './icons/BagTimer.vue';
-export { default as Bag } from './icons/Bag.vue';
-export { default as Barcode } from './icons/Barcode.vue';
-export { default as ShopAdd } from './icons/ShopAdd.vue';
-export { default as ShopRemove } from './icons/ShopRemove.vue';
-export { default as Shop } from './icons/Shop.vue';
-export { default as ShoppingBag } from './icons/ShoppingBag.vue';
-export { default as ShoppingCart } from './icons/ShoppingCart.vue';
-export { default as I24Support } from './icons/I24Support.vue';
-export { default as Dislike } from './icons/Dislike.vue';
-export { default as HeartAdd } from './icons/HeartAdd.vue';
-export { default as HeartCircle } from './icons/HeartCircle.vue';
-export { default as HeartEdit } from './icons/HeartEdit.vue';
-export { default as HeartRemove } from './icons/HeartRemove.vue';
-export { default as HeartSearch } from './icons/HeartSearch.vue';
-export { default as HeartSlash } from './icons/HeartSlash.vue';
-export { default as HeartTick } from './icons/HeartTick.vue';
-export { default as Heart } from './icons/Heart.vue';
-export { default as Like1 } from './icons/Like1.vue';
-export { default as LikeDislike } from './icons/LikeDislike.vue';
-export { default as LikeShapes } from './icons/LikeShapes.vue';
-export { default as LikeTag } from './icons/LikeTag.vue';
-export { default as Like } from './icons/Like.vue';
-export { default as Lovely } from './icons/Lovely.vue';
-export { default as MagicStar } from './icons/MagicStar.vue';
-export { default as MedalStar } from './icons/MedalStar.vue';
-export { default as Medal } from './icons/Medal.vue';
-export { default as MessageQuestion } from './icons/MessageQuestion.vue';
-export { default as Ranking } from './icons/Ranking.vue';
-export { default as Smileys } from './icons/Smileys.vue';
-export { default as Star1 } from './icons/Star1.vue';
-export { default as StarSlash } from './icons/StarSlash.vue';
-export { default as Star } from './icons/Star.vue';
-export { default as Unlimited } from './icons/Unlimited.vue';
-export { default as Calendar1 } from './icons/Calendar1.vue';
-export { default as Calendar2 } from './icons/Calendar2.vue';
-export { default as CalendarAdd } from './icons/CalendarAdd.vue';
-export { default as CalendarCircle } from './icons/CalendarCircle.vue';
-export { default as CalendarEdit } from './icons/CalendarEdit.vue';
-export { default as CalendarRemove } from './icons/CalendarRemove.vue';
-export { default as CalendarSearch } from './icons/CalendarSearch.vue';
-export { default as CalendarTick } from './icons/CalendarTick.vue';
-export { default as Calendar } from './icons/Calendar.vue';
-export { default as Clock } from './icons/Clock.vue';
-export { default as SecurityTime } from './icons/SecurityTime.vue';
-export { default as Timer1 } from './icons/Timer1.vue';
-export { default as TimerPause } from './icons/TimerPause.vue';
-export { default as TimerStart } from './icons/TimerStart.vue';
-export { default as Timer } from './icons/Timer.vue';
-export { default as AttachCircle } from './icons/AttachCircle.vue';
-export { default as AttachSquare } from './icons/AttachSquare.vue';
-export { default as EraserSquare } from './icons/EraserSquare.vue';
-export { default as Firstline } from './icons/Firstline.vue';
-export { default as LanguageCircle } from './icons/LanguageCircle.vue';
-export { default as LanguageSquare } from './icons/LanguageSquare.vue';
-export { default as LayoutMaximize } from './icons/LayoutMaximize.vue';
-export { default as Link1 } from './icons/Link1.vue';
-export { default as Link2 } from './icons/Link2.vue';
-export { default as Link21 } from './icons/Link21.vue';
-export { default as LinkCircle } from './icons/LinkCircle.vue';
-export { default as LinkSquare } from './icons/LinkSquare.vue';
-export { default as Link } from './icons/Link.vue';
-export { default as Paperclip2 } from './icons/Paperclip2.vue';
-export { default as Paperclip } from './icons/Paperclip.vue';
-export { default as Pharagraphspacing } from './icons/Pharagraphspacing.vue';
-export { default as QuoteDownCircle } from './icons/QuoteDownCircle.vue';
-export { default as QuoteDownSquare } from './icons/QuoteDownSquare.vue';
-export { default as QuoteDown } from './icons/QuoteDown.vue';
-export { default as QuoteUpCircle } from './icons/QuoteUpCircle.vue';
-export { default as QuoteUpSquare } from './icons/QuoteUpSquare.vue';
-export { default as QuoteUp } from './icons/QuoteUp.vue';
-export { default as Smallcaps } from './icons/Smallcaps.vue';
-export { default as TextBlock } from './icons/TextBlock.vue';
-export { default as TextBold } from './icons/TextBold.vue';
-export { default as TextItalic } from './icons/TextItalic.vue';
-export { default as TextUnderline } from './icons/TextUnderline.vue';
-export { default as Text } from './icons/Text.vue';
-export { default as TextalignCenter } from './icons/TextalignCenter.vue';
-export { default as TextalignJustifycenter } from './icons/TextalignJustifycenter.vue';
-export { default as TextalignJustifyleft } from './icons/TextalignJustifyleft.vue';
-export { default as TextalignJustifyright } from './icons/TextalignJustifyright.vue';
-export { default as TextalignLeft } from './icons/TextalignLeft.vue';
-export { default as TextalignRight } from './icons/TextalignRight.vue';
-export { default as Translate } from './icons/Translate.vue';
-export { default as People } from './icons/People.vue';
-export { default as Profile2User } from './icons/Profile2User.vue';
-export { default as ProfileAdd } from './icons/ProfileAdd.vue';
-export { default as ProfileCircle } from './icons/ProfileCircle.vue';
-export { default as ProfileDelete } from './icons/ProfileDelete.vue';
-export { default as ProfileRemove } from './icons/ProfileRemove.vue';
-export { default as ProfileTick } from './icons/ProfileTick.vue';
-export { default as Profile } from './icons/Profile.vue';
-export { default as TagUser } from './icons/TagUser.vue';
-export { default as UserAdd } from './icons/UserAdd.vue';
-export { default as UserCirlceAdd } from './icons/UserCirlceAdd.vue';
-export { default as UserEdit } from './icons/UserEdit.vue';
-export { default as UserMinus } from './icons/UserMinus.vue';
-export { default as UserOctagon } from './icons/UserOctagon.vue';
-export { default as UserRemove } from './icons/UserRemove.vue';
-export { default as UserSearch } from './icons/UserSearch.vue';
-export { default as UserSquare } from './icons/UserSquare.vue';
-export { default as UserTag } from './icons/UserTag.vue';
-export { default as UserTick } from './icons/UserTick.vue';
-export { default as User } from './icons/User.vue';
-export { default as AudioSquare } from './icons/AudioSquare.vue';
-export { default as Backward10Seconds } from './icons/Backward10Seconds.vue';
-export { default as Backward15Seconds } from './icons/Backward15Seconds.vue';
-export { default as Backward5Seconds } from './icons/Backward5Seconds.vue';
-export { default as Backward } from './icons/Backward.vue';
-export { default as CameraSlash } from './icons/CameraSlash.vue';
-export { default as Camera } from './icons/Camera.vue';
-export { default as Cut } from './icons/Cut.vue';
-export { default as Forward10Seconds } from './icons/Forward10Seconds.vue';
-export { default as Forward15Seconds } from './icons/Forward15Seconds.vue';
-export { default as Forward5Seconds } from './icons/Forward5Seconds.vue';
-export { default as Forward } from './icons/Forward.vue';
-export { default as GalleryAdd } from './icons/GalleryAdd.vue';
-export { default as GalleryEdit } from './icons/GalleryEdit.vue';
-export { default as GalleryExport } from './icons/GalleryExport.vue';
-export { default as GalleryFavorite } from './icons/GalleryFavorite.vue';
-export { default as GalleryImport } from './icons/GalleryImport.vue';
-export { default as GalleryRemove } from './icons/GalleryRemove.vue';
-export { default as GallerySlash } from './icons/GallerySlash.vue';
-export { default as GalleryTick } from './icons/GalleryTick.vue';
-export { default as Gallery } from './icons/Gallery.vue';
-export { default as Image } from './icons/Image.vue';
-export { default as MaximizeCircle } from './icons/MaximizeCircle.vue';
-export { default as Microphone2 } from './icons/Microphone2.vue';
-export { default as MicrophoneSlash1 } from './icons/MicrophoneSlash1.vue';
-export { default as MicrophoneSlash } from './icons/MicrophoneSlash.vue';
-export { default as Microphone } from './icons/Microphone.vue';
-export { default as MiniMusicSqaure } from './icons/MiniMusicSqaure.vue';
-export { default as MusicCircle } from './icons/MusicCircle.vue';
-export { default as MusicDashboard } from './icons/MusicDashboard.vue';
-export { default as MusicFilter } from './icons/MusicFilter.vue';
-export { default as MusicLibrary2 } from './icons/MusicLibrary2.vue';
-export { default as MusicPlaylist } from './icons/MusicPlaylist.vue';
-export { default as MusicSquareAdd } from './icons/MusicSquareAdd.vue';
-export { default as MusicSquareRemove } from './icons/MusicSquareRemove.vue';
-export { default as MusicSquareSearch } from './icons/MusicSquareSearch.vue';
-export { default as MusicSquare } from './icons/MusicSquare.vue';
-export { default as Music } from './icons/Music.vue';
-export { default as Musicnote } from './icons/Musicnote.vue';
-export { default as Next } from './icons/Next.vue';
-export { default as NoteSquare } from './icons/NoteSquare.vue';
-export { default as PauseCircle } from './icons/PauseCircle.vue';
-export { default as Pause } from './icons/Pause.vue';
-export { default as PlayAdd } from './icons/PlayAdd.vue';
-export { default as PlayCircle } from './icons/PlayCircle.vue';
-export { default as PlayCricle } from './icons/PlayCricle.vue';
-export { default as PlayRemove } from './icons/PlayRemove.vue';
-export { default as Play } from './icons/Play.vue';
-export { default as Previous } from './icons/Previous.vue';
-export { default as Radio } from './icons/Radio.vue';
-export { default as RecordCircle } from './icons/RecordCircle.vue';
-export { default as Record } from './icons/Record.vue';
-export { default as RepeateMusic } from './icons/RepeateMusic.vue';
-export { default as RepeateOne } from './icons/RepeateOne.vue';
-export { default as Screenmirroring } from './icons/Screenmirroring.vue';
-export { default as Shuffle } from './icons/Shuffle.vue';
-export { default as StopCircle } from './icons/StopCircle.vue';
-export { default as Stop } from './icons/Stop.vue';
-export { default as Subtitle } from './icons/Subtitle.vue';
-export { default as VideoAdd } from './icons/VideoAdd.vue';
-export { default as VideoCircle } from './icons/VideoCircle.vue';
-export { default as VideoHorizontal } from './icons/VideoHorizontal.vue';
-export { default as VideoOctagon } from './icons/VideoOctagon.vue';
-export { default as VideoPlay } from './icons/VideoPlay.vue';
-export { default as VideoRemove } from './icons/VideoRemove.vue';
-export { default as VideoSlash } from './icons/VideoSlash.vue';
-export { default as VideoSquare } from './icons/VideoSquare.vue';
-export { default as VideoTick } from './icons/VideoTick.vue';
-export { default as VideoTime } from './icons/VideoTime.vue';
-export { default as VideoVertical } from './icons/VideoVertical.vue';
-export { default as Video } from './icons/Video.vue';
-export { default as VoiceCricle } from './icons/VoiceCricle.vue';
-export { default as VoiceSquare } from './icons/VoiceSquare.vue';
-export { default as VolumeCross } from './icons/VolumeCross.vue';
-export { default as VolumeHigh } from './icons/VolumeHigh.vue';
-export { default as VolumeLow1 } from './icons/VolumeLow1.vue';
-export { default as VolumeLow } from './icons/VolumeLow.vue';
-export { default as VolumeMute } from './icons/VolumeMute.vue';
-export { default as VolumeSlash } from './icons/VolumeSlash.vue';
-export { default as VolumeUp } from './icons/VolumeUp.vue';
-export { default as Volume } from './icons/Volume.vue';
-export { default as CloudCross } from './icons/CloudCross.vue';
-export { default as CloudDrizzle } from './icons/CloudDrizzle.vue';
-export { default as CloudFog } from './icons/CloudFog.vue';
-export { default as CloudLightning } from './icons/CloudLightning.vue';
-export { default as CloudMinus } from './icons/CloudMinus.vue';
-export { default as CloudNotif } from './icons/CloudNotif.vue';
-export { default as CloudPlus } from './icons/CloudPlus.vue';
-export { default as CloudSnow } from './icons/CloudSnow.vue';
-export { default as CloudSunny } from './icons/CloudSunny.vue';
-export { default as Cloud } from './icons/Cloud.vue';
-export { default as Drop } from './icons/Drop.vue';
-export { default as Flashy } from './icons/Flashy.vue';
-export { default as Moon } from './icons/Moon.vue';
-export { default as Sun1 } from './icons/Sun1.vue';
-export { default as SunFog } from './icons/SunFog.vue';
-export { default as Sun } from './icons/Sun.vue';
-export { default as Wind2 } from './icons/Wind2.vue';
-export { default as Wind } from './icons/Wind.vue';
+import { defineAsyncComponent } from "vue";
+export const vsxIcon = defineAsyncComponent(() => import("./vsx-icon.vue"));
+export const ArchiveAdd = defineAsyncComponent(
+  () => import("./icons/ArchiveAdd.vue")
+);
+export const ArchiveMinus = defineAsyncComponent(
+  () => import("./icons/ArchiveMinus.vue")
+);
+export const ArchiveTick = defineAsyncComponent(
+  () => import("./icons/ArchiveTick.vue")
+);
+export const Archive = defineAsyncComponent(
+  () => import("./icons/Archive.vue")
+);
+export const ArchiveSlash = defineAsyncComponent(
+  () => import("./icons/ArchiveSlash.vue")
+);
+export const BookSquare = defineAsyncComponent(
+  () => import("./icons/BookSquare.vue")
+);
+export const BookSaved = defineAsyncComponent(
+  () => import("./icons/BookSaved.vue")
+);
+export const ReceiptSquare = defineAsyncComponent(
+  () => import("./icons/ReceiptSquare.vue")
+);
+export const Save2 = defineAsyncComponent(() => import("./icons/Save2.vue"));
+export const SaveAdd = defineAsyncComponent(
+  () => import("./icons/SaveAdd.vue")
+);
+export const ArrangeHorizontalSquare = defineAsyncComponent(
+  () => import("./icons/ArrangeHorizontalSquare.vue")
+);
+export const SaveMinus = defineAsyncComponent(
+  () => import("./icons/SaveMinus.vue")
+);
+export const ArrangeHorizontal = defineAsyncComponent(
+  () => import("./icons/ArrangeHorizontal.vue")
+);
+export const ArrangeVerticalCircle = defineAsyncComponent(
+  () => import("./icons/ArrangeVerticalCircle.vue")
+);
+export const ArrangeHorizontalCircle = defineAsyncComponent(
+  () => import("./icons/ArrangeHorizontalCircle.vue")
+);
+export const SaveRemove = defineAsyncComponent(
+  () => import("./icons/SaveRemove.vue")
+);
+export const ArrangeVerticalSquare = defineAsyncComponent(
+  () => import("./icons/ArrangeVerticalSquare.vue")
+);
+export const ArrangeVertical = defineAsyncComponent(
+  () => import("./icons/ArrangeVertical.vue")
+);
+export const ArrowCircleDown2 = defineAsyncComponent(
+  () => import("./icons/ArrowCircleDown2.vue")
+);
+export const ArrowCircleDown = defineAsyncComponent(
+  () => import("./icons/ArrowCircleDown.vue")
+);
+export const ArrowCircleLeft2 = defineAsyncComponent(
+  () => import("./icons/ArrowCircleLeft2.vue")
+);
+export const ArrowCircleLeft = defineAsyncComponent(
+  () => import("./icons/ArrowCircleLeft.vue")
+);
+export const ArrowCircleRight2 = defineAsyncComponent(
+  () => import("./icons/ArrowCircleRight2.vue")
+);
+export const ArrowCircleRight = defineAsyncComponent(
+  () => import("./icons/ArrowCircleRight.vue")
+);
+export const ArrowCircleUp2 = defineAsyncComponent(
+  () => import("./icons/ArrowCircleUp2.vue")
+);
+export const ArrowCircleUp = defineAsyncComponent(
+  () => import("./icons/ArrowCircleUp.vue")
+);
+export const ArrowDown2 = defineAsyncComponent(
+  () => import("./icons/ArrowDown2.vue")
+);
+export const ArrowDown3 = defineAsyncComponent(
+  () => import("./icons/ArrowDown3.vue")
+);
+export const ArrowDown = defineAsyncComponent(
+  () => import("./icons/ArrowDown.vue")
+);
+export const ArrowForwardSquare = defineAsyncComponent(
+  () => import("./icons/ArrowForwardSquare.vue")
+);
+export const ArrowForward = defineAsyncComponent(
+  () => import("./icons/ArrowForward.vue")
+);
+export const ArrowLeft2 = defineAsyncComponent(
+  () => import("./icons/ArrowLeft2.vue")
+);
+export const ArrowLeft3 = defineAsyncComponent(
+  () => import("./icons/ArrowLeft3.vue")
+);
+export const ArrowLeft = defineAsyncComponent(
+  () => import("./icons/ArrowLeft.vue")
+);
+export const ArrowRight2 = defineAsyncComponent(
+  () => import("./icons/ArrowRight2.vue")
+);
+export const ArrowRight3 = defineAsyncComponent(
+  () => import("./icons/ArrowRight3.vue")
+);
+export const ArrowRight = defineAsyncComponent(
+  () => import("./icons/ArrowRight.vue")
+);
+export const ArrowRotateLeft = defineAsyncComponent(
+  () => import("./icons/ArrowRotateLeft.vue")
+);
+export const ArrowRotateRight = defineAsyncComponent(
+  () => import("./icons/ArrowRotateRight.vue")
+);
+export const ArrowSquareDown = defineAsyncComponent(
+  () => import("./icons/ArrowSquareDown.vue")
+);
+export const ArrowSquareLeft = defineAsyncComponent(
+  () => import("./icons/ArrowSquareLeft.vue")
+);
+export const ArrowSquareRight = defineAsyncComponent(
+  () => import("./icons/ArrowSquareRight.vue")
+);
+export const ArrowSquareUp = defineAsyncComponent(
+  () => import("./icons/ArrowSquareUp.vue")
+);
+export const ArrowSwapHorizontal = defineAsyncComponent(
+  () => import("./icons/ArrowSwapHorizontal.vue")
+);
+export const ArrowSwapVertical = defineAsyncComponent(
+  () => import("./icons/ArrowSwapVertical.vue")
+);
+export const ArrowUp2 = defineAsyncComponent(
+  () => import("./icons/ArrowUp2.vue")
+);
+export const ArrowUp3 = defineAsyncComponent(
+  () => import("./icons/ArrowUp3.vue")
+);
+export const ArrowUp = defineAsyncComponent(
+  () => import("./icons/ArrowUp.vue")
+);
+export const BackSquare = defineAsyncComponent(
+  () => import("./icons/BackSquare.vue")
+);
+export const Back = defineAsyncComponent(() => import("./icons/Back.vue"));
+export const Convert = defineAsyncComponent(
+  () => import("./icons/Convert.vue")
+);
+export const ExportCircle = defineAsyncComponent(
+  () => import("./icons/ExportCircle.vue")
+);
+export const ExportCurve = defineAsyncComponent(
+  () => import("./icons/ExportCurve.vue")
+);
+export const ExportSquare = defineAsyncComponent(
+  () => import("./icons/ExportSquare.vue")
+);
+export const Export = defineAsyncComponent(() => import("./icons/Export.vue"));
+export const ImportCircle = defineAsyncComponent(
+  () => import("./icons/ImportCircle.vue")
+);
+export const ImportCurve = defineAsyncComponent(
+  () => import("./icons/ImportCurve.vue")
+);
+export const ImportSquare = defineAsyncComponent(
+  () => import("./icons/ImportSquare.vue")
+);
+export const Import = defineAsyncComponent(() => import("./icons/Import.vue"));
+export const LoginCurve = defineAsyncComponent(
+  () => import("./icons/LoginCurve.vue")
+);
+export const Login = defineAsyncComponent(() => import("./icons/Login.vue"));
+export const LogoutCurve = defineAsyncComponent(
+  () => import("./icons/LogoutCurve.vue")
+);
+export const Logout = defineAsyncComponent(() => import("./icons/Logout.vue"));
+export const ReceiveSquare2 = defineAsyncComponent(
+  () => import("./icons/ReceiveSquare2.vue")
+);
+export const ReceiveSquare = defineAsyncComponent(
+  () => import("./icons/ReceiveSquare.vue")
+);
+export const Receive = defineAsyncComponent(
+  () => import("./icons/Receive.vue")
+);
+export const Refresh2 = defineAsyncComponent(
+  () => import("./icons/Refresh2.vue")
+);
+export const RefreshCircle = defineAsyncComponent(
+  () => import("./icons/RefreshCircle.vue")
+);
+export const RefreshLeftSquare = defineAsyncComponent(
+  () => import("./icons/RefreshLeftSquare.vue")
+);
+export const RefreshRightSquare = defineAsyncComponent(
+  () => import("./icons/RefreshRightSquare.vue")
+);
+export const RefreshSquare = defineAsyncComponent(
+  () => import("./icons/RefreshSquare.vue")
+);
+export const Refresh = defineAsyncComponent(
+  () => import("./icons/Refresh.vue")
+);
+export const RepeatCircle = defineAsyncComponent(
+  () => import("./icons/RepeatCircle.vue")
+);
+export const Repeat = defineAsyncComponent(() => import("./icons/Repeat.vue"));
+export const TransmitSqaure2 = defineAsyncComponent(
+  () => import("./icons/TransmitSqaure2.vue")
+);
+export const TransmitSquare = defineAsyncComponent(
+  () => import("./icons/TransmitSquare.vue")
+);
+export const Transmit = defineAsyncComponent(
+  () => import("./icons/Transmit.vue")
+);
+export const Aquarius = defineAsyncComponent(
+  () => import("./icons/Aquarius.vue")
+);
+export const Gemini2 = defineAsyncComponent(
+  () => import("./icons/Gemini2.vue")
+);
+export const Man = defineAsyncComponent(() => import("./icons/Man.vue"));
+export const Sagittarius = defineAsyncComponent(
+  () => import("./icons/Sagittarius.vue")
+);
+export const Woman = defineAsyncComponent(() => import("./icons/Woman.vue"));
+export const Bank = defineAsyncComponent(() => import("./icons/Bank.vue"));
+export const Gemini = defineAsyncComponent(() => import("./icons/Gemini.vue"));
+export const Building3 = defineAsyncComponent(
+  () => import("./icons/Building3.vue")
+);
+export const Building4 = defineAsyncComponent(
+  () => import("./icons/Building4.vue")
+);
+export const Building = defineAsyncComponent(
+  () => import("./icons/Building.vue")
+);
+export const Buildings2 = defineAsyncComponent(
+  () => import("./icons/Buildings2.vue")
+);
+export const Buildings = defineAsyncComponent(
+  () => import("./icons/Buildings.vue")
+);
+export const Buliding = defineAsyncComponent(
+  () => import("./icons/Buliding.vue")
+);
+export const Courthouse = defineAsyncComponent(
+  () => import("./icons/Courthouse.vue")
+);
+export const House2 = defineAsyncComponent(() => import("./icons/House2.vue"));
+export const Hospital = defineAsyncComponent(
+  () => import("./icons/Hospital.vue")
+);
+export const House = defineAsyncComponent(() => import("./icons/House.vue"));
+export const Activity = defineAsyncComponent(
+  () => import("./icons/Activity.vue")
+);
+export const Chart1 = defineAsyncComponent(() => import("./icons/Chart1.vue"));
+export const Chart2 = defineAsyncComponent(() => import("./icons/Chart2.vue"));
+export const Chart21 = defineAsyncComponent(
+  () => import("./icons/Chart21.vue")
+);
+export const ChartFail = defineAsyncComponent(
+  () => import("./icons/ChartFail.vue")
+);
+export const ChartSuccess = defineAsyncComponent(
+  () => import("./icons/ChartSuccess.vue")
+);
+export const Chart = defineAsyncComponent(() => import("./icons/Chart.vue"));
+export const Diagram = defineAsyncComponent(
+  () => import("./icons/Diagram.vue")
+);
+export const FavoriteChart = defineAsyncComponent(
+  () => import("./icons/FavoriteChart.vue")
+);
+export const Graph = defineAsyncComponent(() => import("./icons/Graph.vue"));
+export const HashtagSquare = defineAsyncComponent(
+  () => import("./icons/HashtagSquare.vue")
+);
+export const Health = defineAsyncComponent(() => import("./icons/Health.vue"));
+export const HomeHashtag = defineAsyncComponent(
+  () => import("./icons/HomeHashtag.vue")
+);
+export const HomeTrendDown = defineAsyncComponent(
+  () => import("./icons/HomeTrendDown.vue")
+);
+export const HomeTrendUp = defineAsyncComponent(
+  () => import("./icons/HomeTrendUp.vue")
+);
+export const Personalcard = defineAsyncComponent(
+  () => import("./icons/Personalcard.vue")
+);
+export const PresentionChart = defineAsyncComponent(
+  () => import("./icons/PresentionChart.vue")
+);
+export const StatusUp = defineAsyncComponent(
+  () => import("./icons/StatusUp.vue")
+);
+export const TrendDown = defineAsyncComponent(
+  () => import("./icons/TrendDown.vue")
+);
+export const TrendUp = defineAsyncComponent(
+  () => import("./icons/TrendUp.vue")
+);
+export const CallAdd = defineAsyncComponent(
+  () => import("./icons/CallAdd.vue")
+);
+export const CallCalling = defineAsyncComponent(
+  () => import("./icons/CallCalling.vue")
+);
+export const CallIncoming = defineAsyncComponent(
+  () => import("./icons/CallIncoming.vue")
+);
+export const CallMinus = defineAsyncComponent(
+  () => import("./icons/CallMinus.vue")
+);
+export const CallOutgoing = defineAsyncComponent(
+  () => import("./icons/CallOutgoing.vue")
+);
+export const CallReceived = defineAsyncComponent(
+  () => import("./icons/CallReceived.vue")
+);
+export const CallRemove = defineAsyncComponent(
+  () => import("./icons/CallRemove.vue")
+);
+export const CallSlash = defineAsyncComponent(
+  () => import("./icons/CallSlash.vue")
+);
+export const Call = defineAsyncComponent(() => import("./icons/Call.vue"));
+export const AirplaneSquare = defineAsyncComponent(
+  () => import("./icons/AirplaneSquare.vue")
+);
+export const Airplane = defineAsyncComponent(
+  () => import("./icons/Airplane.vue")
+);
+export const Bus = defineAsyncComponent(() => import("./icons/Bus.vue"));
+export const Car = defineAsyncComponent(() => import("./icons/Car.vue"));
+export const Driving = defineAsyncComponent(
+  () => import("./icons/Driving.vue")
+);
+export const GasStation = defineAsyncComponent(
+  () => import("./icons/GasStation.vue")
+);
+export const Ship = defineAsyncComponent(() => import("./icons/Ship.vue"));
+export const SmartCar = defineAsyncComponent(
+  () => import("./icons/SmartCar.vue")
+);
+export const Airdrop = defineAsyncComponent(
+  () => import("./icons/Airdrop.vue")
+);
+export const Airpod = defineAsyncComponent(() => import("./icons/Airpod.vue"));
+export const Airpods = defineAsyncComponent(
+  () => import("./icons/Airpods.vue")
+);
+export const Bluetooth2 = defineAsyncComponent(
+  () => import("./icons/Bluetooth2.vue")
+);
+export const BluetoothCircle = defineAsyncComponent(
+  () => import("./icons/BluetoothCircle.vue")
+);
+export const BluetoothRectangle = defineAsyncComponent(
+  () => import("./icons/BluetoothRectangle.vue")
+);
+export const Bluetooth = defineAsyncComponent(
+  () => import("./icons/Bluetooth.vue")
+);
+export const CloudAdd = defineAsyncComponent(
+  () => import("./icons/CloudAdd.vue")
+);
+export const CloudChange = defineAsyncComponent(
+  () => import("./icons/CloudChange.vue")
+);
+export const CloudConnection = defineAsyncComponent(
+  () => import("./icons/CloudConnection.vue")
+);
+export const CloudRemove = defineAsyncComponent(
+  () => import("./icons/CloudRemove.vue")
+);
+export const CpuCharge = defineAsyncComponent(
+  () => import("./icons/CpuCharge.vue")
+);
+export const CpuSetting = defineAsyncComponent(
+  () => import("./icons/CpuSetting.vue")
+);
+export const Cpu = defineAsyncComponent(() => import("./icons/Cpu.vue"));
+export const Devices = defineAsyncComponent(
+  () => import("./icons/Devices.vue")
+);
+export const Driver2 = defineAsyncComponent(
+  () => import("./icons/Driver2.vue")
+);
+export const DriverRefresh = defineAsyncComponent(
+  () => import("./icons/DriverRefresh.vue")
+);
+export const Driver = defineAsyncComponent(() => import("./icons/Driver.vue"));
+export const Electricity = defineAsyncComponent(
+  () => import("./icons/Electricity.vue")
+);
+export const ExternalDrive = defineAsyncComponent(
+  () => import("./icons/ExternalDrive.vue")
+);
+export const FolderConnection = defineAsyncComponent(
+  () => import("./icons/FolderConnection.vue")
+);
+export const Game = defineAsyncComponent(() => import("./icons/Game.vue"));
+export const Gameboy = defineAsyncComponent(
+  () => import("./icons/Gameboy.vue")
+);
+export const Headphone = defineAsyncComponent(
+  () => import("./icons/Headphone.vue")
+);
+export const Headphones = defineAsyncComponent(
+  () => import("./icons/Headphones.vue")
+);
+export const KeyboardOpen = defineAsyncComponent(
+  () => import("./icons/KeyboardOpen.vue")
+);
+export const Keyboard = defineAsyncComponent(
+  () => import("./icons/Keyboard.vue")
+);
+export const Microscope = defineAsyncComponent(
+  () => import("./icons/Microscope.vue")
+);
+export const MirroringScreen = defineAsyncComponent(
+  () => import("./icons/MirroringScreen.vue")
+);
+export const Mobile = defineAsyncComponent(() => import("./icons/Mobile.vue"));
+export const MonitorMobbile = defineAsyncComponent(
+  () => import("./icons/MonitorMobbile.vue")
+);
+export const MonitorRecorder = defineAsyncComponent(
+  () => import("./icons/MonitorRecorder.vue")
+);
+export const Monitor = defineAsyncComponent(
+  () => import("./icons/Monitor.vue")
+);
+export const Mouse = defineAsyncComponent(() => import("./icons/Mouse.vue"));
+export const MusicPlay = defineAsyncComponent(
+  () => import("./icons/MusicPlay.vue")
+);
+export const PrinterSlash = defineAsyncComponent(
+  () => import("./icons/PrinterSlash.vue")
+);
+export const Printer = defineAsyncComponent(
+  () => import("./icons/Printer.vue")
+);
+export const Ram2 = defineAsyncComponent(() => import("./icons/Ram2.vue"));
+export const Ram = defineAsyncComponent(() => import("./icons/Ram.vue"));
+export const Simcard1 = defineAsyncComponent(
+  () => import("./icons/Simcard1.vue")
+);
+export const Simcard2 = defineAsyncComponent(
+  () => import("./icons/Simcard2.vue")
+);
+export const Simcard = defineAsyncComponent(
+  () => import("./icons/Simcard.vue")
+);
+export const Speaker = defineAsyncComponent(
+  () => import("./icons/Speaker.vue")
+);
+export const TableLamp = defineAsyncComponent(
+  () => import("./icons/TableLamp.vue")
+);
+export const WatchStatus = defineAsyncComponent(
+  () => import("./icons/WatchStatus.vue")
+);
+export const Watch = defineAsyncComponent(() => import("./icons/Watch.vue"));
+export const WeightMeter = defineAsyncComponent(
+  () => import("./icons/WeightMeter.vue")
+);
+export const WristClock = defineAsyncComponent(
+  () => import("./icons/WristClock.vue")
+);
+export const ArchiveBook = defineAsyncComponent(
+  () => import("./icons/ArchiveBook.vue")
+);
+export const Bill = defineAsyncComponent(() => import("./icons/Bill.vue"));
+export const ClipboardClose = defineAsyncComponent(
+  () => import("./icons/ClipboardClose.vue")
+);
+export const ClipboardExport = defineAsyncComponent(
+  () => import("./icons/ClipboardExport.vue")
+);
+export const ClipboardImport = defineAsyncComponent(
+  () => import("./icons/ClipboardImport.vue")
+);
+export const ClipboardText = defineAsyncComponent(
+  () => import("./icons/ClipboardText.vue")
+);
+export const ClipboardTick = defineAsyncComponent(
+  () => import("./icons/ClipboardTick.vue")
+);
+export const Copyright = defineAsyncComponent(
+  () => import("./icons/Copyright.vue")
+);
+export const CreativeCommons = defineAsyncComponent(
+  () => import("./icons/CreativeCommons.vue")
+);
+export const DocumentCloud = defineAsyncComponent(
+  () => import("./icons/DocumentCloud.vue")
+);
+export const DocumentCopy = defineAsyncComponent(
+  () => import("./icons/DocumentCopy.vue")
+);
+export const DocumentDownload = defineAsyncComponent(
+  () => import("./icons/DocumentDownload.vue")
+);
+export const DocumentFavorite = defineAsyncComponent(
+  () => import("./icons/DocumentFavorite.vue")
+);
+export const DocumentFilter = defineAsyncComponent(
+  () => import("./icons/DocumentFilter.vue")
+);
+export const DocumentForward = defineAsyncComponent(
+  () => import("./icons/DocumentForward.vue")
+);
+export const DocumentLike = defineAsyncComponent(
+  () => import("./icons/DocumentLike.vue")
+);
+export const DocumentPrevious = defineAsyncComponent(
+  () => import("./icons/DocumentPrevious.vue")
+);
+export const DocumentSketch = defineAsyncComponent(
+  () => import("./icons/DocumentSketch.vue")
+);
+export const DocumentText1 = defineAsyncComponent(
+  () => import("./icons/DocumentText1.vue")
+);
+export const DocumentText = defineAsyncComponent(
+  () => import("./icons/DocumentText.vue")
+);
+export const DocumentUpload = defineAsyncComponent(
+  () => import("./icons/DocumentUpload.vue")
+);
+export const Document = defineAsyncComponent(
+  () => import("./icons/Document.vue")
+);
+export const Edit2 = defineAsyncComponent(() => import("./icons/Edit2.vue"));
+export const Edit = defineAsyncComponent(() => import("./icons/Edit.vue"));
+export const MenuBoard = defineAsyncComponent(
+  () => import("./icons/MenuBoard.vue")
+);
+export const Note1 = defineAsyncComponent(() => import("./icons/Note1.vue"));
+export const NoteAdd = defineAsyncComponent(
+  () => import("./icons/NoteAdd.vue")
+);
+export const NoteFavorite = defineAsyncComponent(
+  () => import("./icons/NoteFavorite.vue")
+);
+export const NoteRemove = defineAsyncComponent(
+  () => import("./icons/NoteRemove.vue")
+);
+export const NoteText = defineAsyncComponent(
+  () => import("./icons/NoteText.vue")
+);
+export const Note = defineAsyncComponent(() => import("./icons/Note.vue"));
+export const Stickynote = defineAsyncComponent(
+  () => import("./icons/Stickynote.vue")
+);
+export const TaskSquare = defineAsyncComponent(
+  () => import("./icons/TaskSquare.vue")
+);
+export const Task = defineAsyncComponent(() => import("./icons/Task.vue"));
+export const Aave = defineAsyncComponent(() => import("./icons/Aave.vue"));
+export const Android = defineAsyncComponent(
+  () => import("./icons/Android.vue")
+);
+export const Ankr = defineAsyncComponent(() => import("./icons/Ankr.vue"));
+export const Apple = defineAsyncComponent(() => import("./icons/Apple.vue"));
+export const Augur = defineAsyncComponent(() => import("./icons/Augur.vue"));
+export const Autonio = defineAsyncComponent(
+  () => import("./icons/Autonio.vue")
+);
+export const Avalanche = defineAsyncComponent(
+  () => import("./icons/Avalanche.vue")
+);
+export const Be = defineAsyncComponent(() => import("./icons/Be.vue"));
+export const BinanceCoin = defineAsyncComponent(
+  () => import("./icons/BinanceCoin.vue")
+);
+export const BinanceUsd = defineAsyncComponent(
+  () => import("./icons/BinanceUsd.vue")
+);
+export const Bitcoin = defineAsyncComponent(
+  () => import("./icons/Bitcoin.vue")
+);
+export const Blogger = defineAsyncComponent(
+  () => import("./icons/Blogger.vue")
+);
+export const Bootstrap = defineAsyncComponent(
+  () => import("./icons/Bootstrap.vue")
+);
+export const Cardano = defineAsyncComponent(
+  () => import("./icons/Cardano.vue")
+);
+export const Celo = defineAsyncComponent(() => import("./icons/Celo.vue"));
+export const Celsius = defineAsyncComponent(
+  () => import("./icons/Celsius.vue")
+);
+export const Chainlink = defineAsyncComponent(
+  () => import("./icons/Chainlink.vue")
+);
+export const Civic = defineAsyncComponent(() => import("./icons/Civic.vue"));
+export const Dai = defineAsyncComponent(() => import("./icons/Dai.vue"));
+export const Dash = defineAsyncComponent(() => import("./icons/Dash.vue"));
+export const Decred = defineAsyncComponent(() => import("./icons/Decred.vue"));
+export const Dent = defineAsyncComponent(() => import("./icons/Dent.vue"));
+export const Dribbble = defineAsyncComponent(
+  () => import("./icons/Dribbble.vue")
+);
+export const Dropbox = defineAsyncComponent(
+  () => import("./icons/Dropbox.vue")
+);
+export const Educare = defineAsyncComponent(
+  () => import("./icons/Educare.vue")
+);
+export const Emercoin = defineAsyncComponent(
+  () => import("./icons/Emercoin.vue")
+);
+export const EnjinCoin = defineAsyncComponent(
+  () => import("./icons/EnjinCoin.vue")
+);
+export const Eos = defineAsyncComponent(() => import("./icons/Eos.vue"));
+export const EthereumClassic = defineAsyncComponent(
+  () => import("./icons/EthereumClassic.vue")
+);
+export const Ethereum = defineAsyncComponent(
+  () => import("./icons/Ethereum.vue")
+);
+export const Facebook = defineAsyncComponent(
+  () => import("./icons/Facebook.vue")
+);
+export const Figma1 = defineAsyncComponent(() => import("./icons/Figma1.vue"));
+export const Figma = defineAsyncComponent(() => import("./icons/Figma.vue"));
+export const Framer = defineAsyncComponent(() => import("./icons/Framer.vue"));
+export const FtxToken = defineAsyncComponent(
+  () => import("./icons/FtxToken.vue")
+);
+export const GoogleDrive = defineAsyncComponent(
+  () => import("./icons/GoogleDrive.vue")
+);
+export const GooglePlay = defineAsyncComponent(
+  () => import("./icons/GooglePlay.vue")
+);
+export const Google = defineAsyncComponent(() => import("./icons/Google.vue"));
+export const Harmony = defineAsyncComponent(
+  () => import("./icons/Harmony.vue")
+);
+export const HederaHashgraph = defineAsyncComponent(
+  () => import("./icons/HederaHashgraph.vue")
+);
+export const Hex = defineAsyncComponent(() => import("./icons/Hex.vue"));
+export const Html3 = defineAsyncComponent(() => import("./icons/Html3.vue"));
+export const Html5 = defineAsyncComponent(() => import("./icons/Html5.vue"));
+export const HuobiToken = defineAsyncComponent(
+  () => import("./icons/HuobiToken.vue")
+);
+export const Icon = defineAsyncComponent(() => import("./icons/Icon.vue"));
+export const Illustrator = defineAsyncComponent(
+  () => import("./icons/Illustrator.vue")
+);
+export const Iost = defineAsyncComponent(() => import("./icons/Iost.vue"));
+export const JavaScript = defineAsyncComponent(
+  () => import("./icons/JavaScript.vue")
+);
+export const Js = defineAsyncComponent(() => import("./icons/Js.vue"));
+export const KyberNetwork = defineAsyncComponent(
+  () => import("./icons/KyberNetwork.vue")
+);
+export const Litecoin = defineAsyncComponent(
+  () => import("./icons/Litecoin.vue")
+);
+export const Maker = defineAsyncComponent(() => import("./icons/Maker.vue"));
+export const Messenger = defineAsyncComponent(
+  () => import("./icons/Messenger.vue")
+);
+export const Monero = defineAsyncComponent(() => import("./icons/Monero.vue"));
+export const Nebulas = defineAsyncComponent(
+  () => import("./icons/Nebulas.vue")
+);
+export const Nem = defineAsyncComponent(() => import("./icons/Nem.vue"));
+export const Nexo = defineAsyncComponent(() => import("./icons/Nexo.vue"));
+export const OceanProtocol = defineAsyncComponent(
+  () => import("./icons/OceanProtocol.vue")
+);
+export const Okb = defineAsyncComponent(() => import("./icons/Okb.vue"));
+export const Okru = defineAsyncComponent(() => import("./icons/Okru.vue"));
+export const Ontology = defineAsyncComponent(
+  () => import("./icons/Ontology.vue")
+);
+export const Paypal = defineAsyncComponent(() => import("./icons/Paypal.vue"));
+export const Photoshop = defineAsyncComponent(
+  () => import("./icons/Photoshop.vue")
+);
+export const Polkadot = defineAsyncComponent(
+  () => import("./icons/Polkadot.vue")
+);
+export const Polygon = defineAsyncComponent(
+  () => import("./icons/Polygon.vue")
+);
+export const Polyswarm = defineAsyncComponent(
+  () => import("./icons/Polyswarm.vue")
+);
+export const Python = defineAsyncComponent(() => import("./icons/Python.vue"));
+export const Quant = defineAsyncComponent(() => import("./icons/Quant.vue"));
+export const Shutterstock = defineAsyncComponent(
+  () => import("./icons/Shutterstock.vue")
+);
+export const Siacoin = defineAsyncComponent(
+  () => import("./icons/Siacoin.vue")
+);
+export const Slack = defineAsyncComponent(() => import("./icons/Slack.vue"));
+export const Snapchat = defineAsyncComponent(
+  () => import("./icons/Snapchat.vue")
+);
+export const Solana = defineAsyncComponent(() => import("./icons/Solana.vue"));
+export const Spotify = defineAsyncComponent(
+  () => import("./icons/Spotify.vue")
+);
+export const Stacks = defineAsyncComponent(() => import("./icons/Stacks.vue"));
+export const Stellar = defineAsyncComponent(
+  () => import("./icons/Stellar.vue")
+);
+export const Tenx = defineAsyncComponent(() => import("./icons/Tenx.vue"));
+export const Tether = defineAsyncComponent(() => import("./icons/Tether.vue"));
+export const TheGraph = defineAsyncComponent(
+  () => import("./icons/TheGraph.vue")
+);
+export const Theta = defineAsyncComponent(() => import("./icons/Theta.vue"));
+export const Thorchain = defineAsyncComponent(
+  () => import("./icons/Thorchain.vue")
+);
+export const Trello = defineAsyncComponent(() => import("./icons/Trello.vue"));
+export const TriangleLogo = defineAsyncComponent(
+  () => import("./icons/TriangleLogo.vue")
+);
+export const Trontron = defineAsyncComponent(
+  () => import("./icons/Trontron.vue")
+);
+export const Twitch = defineAsyncComponent(() => import("./icons/Twitch.vue"));
+export const Ui8 = defineAsyncComponent(() => import("./icons/Ui8.vue"));
+export const UsdCoin = defineAsyncComponent(
+  () => import("./icons/UsdCoin.vue")
+);
+export const Velas = defineAsyncComponent(() => import("./icons/Velas.vue"));
+export const Vibe = defineAsyncComponent(() => import("./icons/Vibe.vue"));
+export const Wanchain1 = defineAsyncComponent(
+  () => import("./icons/Wanchain1.vue")
+);
+export const Wanchain = defineAsyncComponent(
+  () => import("./icons/Wanchain.vue")
+);
+export const Whatsapp = defineAsyncComponent(
+  () => import("./icons/Whatsapp.vue")
+);
+export const Windows = defineAsyncComponent(
+  () => import("./icons/Windows.vue")
+);
+export const Wing = defineAsyncComponent(() => import("./icons/Wing.vue"));
+export const Xd = defineAsyncComponent(() => import("./icons/Xd.vue"));
+export const Xiaomi = defineAsyncComponent(() => import("./icons/Xiaomi.vue"));
+export const Xrp = defineAsyncComponent(() => import("./icons/Xrp.vue"));
+export const Youtube = defineAsyncComponent(
+  () => import("./icons/Youtube.vue")
+);
+export const Zel = defineAsyncComponent(() => import("./icons/Zel.vue"));
+export const Zoom = defineAsyncComponent(() => import("./icons/Zoom.vue"));
+export const BitcoinCard = defineAsyncComponent(
+  () => import("./icons/BitcoinCard.vue")
+);
+export const BitcoinConvert = defineAsyncComponent(
+  () => import("./icons/BitcoinConvert.vue")
+);
+export const BitcoinRefresh = defineAsyncComponent(
+  () => import("./icons/BitcoinRefresh.vue")
+);
+export const BuyCrypto = defineAsyncComponent(
+  () => import("./icons/BuyCrypto.vue")
+);
+export const CardCoin = defineAsyncComponent(
+  () => import("./icons/CardCoin.vue")
+);
+export const Trade = defineAsyncComponent(() => import("./icons/Trade.vue"));
+export const I3DCubeScan = defineAsyncComponent(
+  () => import("./icons/I3DCubeScan.vue")
+);
+export const I3DRotate = defineAsyncComponent(
+  () => import("./icons/I3DRotate.vue")
+);
+export const I3DSquare = defineAsyncComponent(
+  () => import("./icons/I3DSquare.vue")
+);
+export const Box1 = defineAsyncComponent(() => import("./icons/Box1.vue"));
+export const BoxAdd = defineAsyncComponent(() => import("./icons/BoxAdd.vue"));
+export const BoxRemove = defineAsyncComponent(
+  () => import("./icons/BoxRemove.vue")
+);
+export const BoxSearch = defineAsyncComponent(
+  () => import("./icons/BoxSearch.vue")
+);
+export const BoxTick = defineAsyncComponent(
+  () => import("./icons/BoxTick.vue")
+);
+export const BoxTime = defineAsyncComponent(
+  () => import("./icons/BoxTime.vue")
+);
+export const Box = defineAsyncComponent(() => import("./icons/Box.vue"));
+export const Convert3DCube = defineAsyncComponent(
+  () => import("./icons/Convert3DCube.vue")
+);
+export const TruckFast = defineAsyncComponent(
+  () => import("./icons/TruckFast.vue")
+);
+export const TruckRemove = defineAsyncComponent(
+  () => import("./icons/TruckRemove.vue")
+);
+export const TruckTick = defineAsyncComponent(
+  () => import("./icons/TruckTick.vue")
+);
+export const TruckTime = defineAsyncComponent(
+  () => import("./icons/TruckTime.vue")
+);
+export const Truck = defineAsyncComponent(() => import("./icons/Truck.vue"));
+export const Additem = defineAsyncComponent(
+  () => import("./icons/Additem.vue")
+);
+export const BackwardItem = defineAsyncComponent(
+  () => import("./icons/BackwardItem.vue")
+);
+export const Bezier = defineAsyncComponent(() => import("./icons/Bezier.vue"));
+export const Blend2 = defineAsyncComponent(() => import("./icons/Blend2.vue"));
+export const Blend = defineAsyncComponent(() => import("./icons/Blend.vue"));
+export const Blur = defineAsyncComponent(() => import("./icons/Blur.vue"));
+export const Brush2 = defineAsyncComponent(() => import("./icons/Brush2.vue"));
+export const Brush3 = defineAsyncComponent(() => import("./icons/Brush3.vue"));
+export const BrushBig = defineAsyncComponent(
+  () => import("./icons/BrushBig.vue")
+);
+export const BrushSquare = defineAsyncComponent(
+  () => import("./icons/BrushSquare.vue")
+);
+export const BucketCircle = defineAsyncComponent(
+  () => import("./icons/BucketCircle.vue")
+);
+export const Brush = defineAsyncComponent(() => import("./icons/Brush.vue"));
+export const BucketSquare = defineAsyncComponent(
+  () => import("./icons/BucketSquare.vue")
+);
+export const Bucket = defineAsyncComponent(() => import("./icons/Bucket.vue"));
+export const ChemicalGlass = defineAsyncComponent(
+  () => import("./icons/ChemicalGlass.vue")
+);
+export const ColorSwatch = defineAsyncComponent(
+  () => import("./icons/ColorSwatch.vue")
+);
+export const Colorfilter = defineAsyncComponent(
+  () => import("./icons/Colorfilter.vue")
+);
+export const ColorsSquare = defineAsyncComponent(
+  () => import("./icons/ColorsSquare.vue")
+);
+export const Component = defineAsyncComponent(
+  () => import("./icons/Component.vue")
+);
+export const CopySuccess = defineAsyncComponent(
+  () => import("./icons/CopySuccess.vue")
+);
+export const Copy = defineAsyncComponent(() => import("./icons/Copy.vue"));
+export const Designtools = defineAsyncComponent(
+  () => import("./icons/Designtools.vue")
+);
+export const Eraser = defineAsyncComponent(() => import("./icons/Eraser.vue"));
+export const ForwardItem = defineAsyncComponent(
+  () => import("./icons/ForwardItem.vue")
+);
+export const Layer = defineAsyncComponent(() => import("./icons/Layer.vue"));
+export const Lifebuoy = defineAsyncComponent(
+  () => import("./icons/Lifebuoy.vue")
+);
+export const Magicpen = defineAsyncComponent(
+  () => import("./icons/Magicpen.vue")
+);
+export const MainComponent = defineAsyncComponent(
+  () => import("./icons/MainComponent.vue")
+);
+export const MaskLeft = defineAsyncComponent(
+  () => import("./icons/MaskLeft.vue")
+);
+export const MaskRight = defineAsyncComponent(
+  () => import("./icons/MaskRight.vue")
+);
+export const Mask = defineAsyncComponent(() => import("./icons/Mask.vue"));
+export const OmegaCircle = defineAsyncComponent(
+  () => import("./icons/OmegaCircle.vue")
+);
+export const OmegaSquare = defineAsyncComponent(
+  () => import("./icons/OmegaSquare.vue")
+);
+export const Paintbucket = defineAsyncComponent(
+  () => import("./icons/Paintbucket.vue")
+);
+export const PathTool2 = defineAsyncComponent(
+  () => import("./icons/PathTool2.vue")
+);
+export const PathToolSquare = defineAsyncComponent(
+  () => import("./icons/PathToolSquare.vue")
+);
+export const PathTool = defineAsyncComponent(
+  () => import("./icons/PathTool.vue")
+);
+export const PenAdd = defineAsyncComponent(() => import("./icons/PenAdd.vue"));
+export const PenClose = defineAsyncComponent(
+  () => import("./icons/PenClose.vue")
+);
+export const PenRemove = defineAsyncComponent(
+  () => import("./icons/PenRemove.vue")
+);
+export const PenTool2 = defineAsyncComponent(
+  () => import("./icons/PenTool2.vue")
+);
+export const PenTool = defineAsyncComponent(
+  () => import("./icons/PenTool.vue")
+);
+export const RecoveryConvert = defineAsyncComponent(
+  () => import("./icons/RecoveryConvert.vue")
+);
+export const RulerPen = defineAsyncComponent(
+  () => import("./icons/RulerPen.vue")
+);
+export const Ruler = defineAsyncComponent(() => import("./icons/Ruler.vue"));
+export const Scissor = defineAsyncComponent(
+  () => import("./icons/Scissor.vue")
+);
+export const Shapes1 = defineAsyncComponent(
+  () => import("./icons/Shapes1.vue")
+);
+export const Shapes = defineAsyncComponent(() => import("./icons/Shapes.vue"));
+export const Size = defineAsyncComponent(() => import("./icons/Size.vue"));
+export const DeviceMessage = defineAsyncComponent(
+  () => import("./icons/DeviceMessage.vue")
+);
+export const DirectInbox = defineAsyncComponent(
+  () => import("./icons/DirectInbox.vue")
+);
+export const DirectNormal = defineAsyncComponent(
+  () => import("./icons/DirectNormal.vue")
+);
+export const DirectNotification = defineAsyncComponent(
+  () => import("./icons/DirectNotification.vue")
+);
+export const DirectSend = defineAsyncComponent(
+  () => import("./icons/DirectSend.vue")
+);
+export const Direct = defineAsyncComponent(() => import("./icons/Direct.vue"));
+export const DirectboxDefault = defineAsyncComponent(
+  () => import("./icons/DirectboxDefault.vue")
+);
+export const DirectboxNotif = defineAsyncComponent(
+  () => import("./icons/DirectboxNotif.vue")
+);
+export const DirectboxReceive = defineAsyncComponent(
+  () => import("./icons/DirectboxReceive.vue")
+);
+export const DirectboxSend = defineAsyncComponent(
+  () => import("./icons/DirectboxSend.vue")
+);
+export const Message2 = defineAsyncComponent(
+  () => import("./icons/Message2.vue")
+);
+export const MessageAdd1 = defineAsyncComponent(
+  () => import("./icons/MessageAdd1.vue")
+);
+export const MessageAdd = defineAsyncComponent(
+  () => import("./icons/MessageAdd.vue")
+);
+export const MessageCircle = defineAsyncComponent(
+  () => import("./icons/MessageCircle.vue")
+);
+export const MessageEdit = defineAsyncComponent(
+  () => import("./icons/MessageEdit.vue")
+);
+export const MessageFavorite = defineAsyncComponent(
+  () => import("./icons/MessageFavorite.vue")
+);
+export const MessageMinus = defineAsyncComponent(
+  () => import("./icons/MessageMinus.vue")
+);
+export const MessageNotif = defineAsyncComponent(
+  () => import("./icons/MessageNotif.vue")
+);
+export const MessageRemove = defineAsyncComponent(
+  () => import("./icons/MessageRemove.vue")
+);
+export const MessageSearch = defineAsyncComponent(
+  () => import("./icons/MessageSearch.vue")
+);
+export const MessageSquare = defineAsyncComponent(
+  () => import("./icons/MessageSquare.vue")
+);
+export const MessageText1 = defineAsyncComponent(
+  () => import("./icons/MessageText1.vue")
+);
+export const MessageText = defineAsyncComponent(
+  () => import("./icons/MessageText.vue")
+);
+export const MessageTick = defineAsyncComponent(
+  () => import("./icons/MessageTick.vue")
+);
+export const MessageTime = defineAsyncComponent(
+  () => import("./icons/MessageTime.vue")
+);
+export const Message = defineAsyncComponent(
+  () => import("./icons/Message.vue")
+);
+export const Messages1 = defineAsyncComponent(
+  () => import("./icons/Messages1.vue")
+);
+export const Messages2 = defineAsyncComponent(
+  () => import("./icons/Messages2.vue")
+);
+export const Messages3 = defineAsyncComponent(
+  () => import("./icons/Messages3.vue")
+);
+export const Messages = defineAsyncComponent(
+  () => import("./icons/Messages.vue")
+);
+export const SmsEdit = defineAsyncComponent(
+  () => import("./icons/SmsEdit.vue")
+);
+export const SmsNotification = defineAsyncComponent(
+  () => import("./icons/SmsNotification.vue")
+);
+export const SmsSearch = defineAsyncComponent(
+  () => import("./icons/SmsSearch.vue")
+);
+export const SmsStar = defineAsyncComponent(
+  () => import("./icons/SmsStar.vue")
+);
+export const SmsTracking = defineAsyncComponent(
+  () => import("./icons/SmsTracking.vue")
+);
+export const Sms = defineAsyncComponent(() => import("./icons/Sms.vue"));
+export const I3Dcube = defineAsyncComponent(
+  () => import("./icons/I3Dcube.vue")
+);
+export const AddCircle = defineAsyncComponent(
+  () => import("./icons/AddCircle.vue")
+);
+export const AddSquare = defineAsyncComponent(
+  () => import("./icons/AddSquare.vue")
+);
+export const Add = defineAsyncComponent(() => import("./icons/Add.vue"));
+export const ArchiveBox = defineAsyncComponent(
+  () => import("./icons/ArchiveBox.vue")
+);
+export const Autobrightness = defineAsyncComponent(
+  () => import("./icons/Autobrightness.vue")
+);
+export const BatteryCharging = defineAsyncComponent(
+  () => import("./icons/BatteryCharging.vue")
+);
+export const BatteryDisable = defineAsyncComponent(
+  () => import("./icons/BatteryDisable.vue")
+);
+export const BatteryEmpty1 = defineAsyncComponent(
+  () => import("./icons/BatteryEmpty1.vue")
+);
+export const BatteryEmpty = defineAsyncComponent(
+  () => import("./icons/BatteryEmpty.vue")
+);
+export const BatteryFull = defineAsyncComponent(
+  () => import("./icons/BatteryFull.vue")
+);
+export const Box2 = defineAsyncComponent(() => import("./icons/Box2.vue"));
+export const Broom = defineAsyncComponent(() => import("./icons/Broom.vue"));
+export const Bubble = defineAsyncComponent(() => import("./icons/Bubble.vue"));
+export const Cake = defineAsyncComponent(() => import("./icons/Cake.vue"));
+export const Cd = defineAsyncComponent(() => import("./icons/Cd.vue"));
+export const ChartCircle = defineAsyncComponent(
+  () => import("./icons/ChartCircle.vue")
+);
+export const Chrome = defineAsyncComponent(() => import("./icons/Chrome.vue"));
+export const CloseCircle = defineAsyncComponent(
+  () => import("./icons/CloseCircle.vue")
+);
+export const CloseSquare = defineAsyncComponent(
+  () => import("./icons/CloseSquare.vue")
+);
+export const Coffee = defineAsyncComponent(() => import("./icons/Coffee.vue"));
+export const Computing = defineAsyncComponent(
+  () => import("./icons/Computing.vue")
+);
+export const Crown1 = defineAsyncComponent(() => import("./icons/Crown1.vue"));
+export const Crown = defineAsyncComponent(() => import("./icons/Crown.vue"));
+export const Cup = defineAsyncComponent(() => import("./icons/Cup.vue"));
+export const Danger = defineAsyncComponent(() => import("./icons/Danger.vue"));
+export const Diamonds = defineAsyncComponent(
+  () => import("./icons/Diamonds.vue")
+);
+export const Discover = defineAsyncComponent(
+  () => import("./icons/Discover.vue")
+);
+export const EmojiHappy = defineAsyncComponent(
+  () => import("./icons/EmojiHappy.vue")
+);
+export const EmojiNormal = defineAsyncComponent(
+  () => import("./icons/EmojiNormal.vue")
+);
+export const EmojiSad = defineAsyncComponent(
+  () => import("./icons/EmojiSad.vue")
+);
+export const FilterAdd = defineAsyncComponent(
+  () => import("./icons/FilterAdd.vue")
+);
+export const FilterEdit = defineAsyncComponent(
+  () => import("./icons/FilterEdit.vue")
+);
+export const FilterRemove = defineAsyncComponent(
+  () => import("./icons/FilterRemove.vue")
+);
+export const FilterSearch = defineAsyncComponent(
+  () => import("./icons/FilterSearch.vue")
+);
+export const FilterSquare = defineAsyncComponent(
+  () => import("./icons/FilterSquare.vue")
+);
+export const FilterTick = defineAsyncComponent(
+  () => import("./icons/FilterTick.vue")
+);
+export const Filter = defineAsyncComponent(() => import("./icons/Filter.vue"));
+export const Flag2 = defineAsyncComponent(() => import("./icons/Flag2.vue"));
+export const Flag = defineAsyncComponent(() => import("./icons/Flag.vue"));
+export const FlashCircle = defineAsyncComponent(
+  () => import("./icons/FlashCircle.vue")
+);
+export const FlashSlash = defineAsyncComponent(
+  () => import("./icons/FlashSlash.vue")
+);
+export const Flash = defineAsyncComponent(() => import("./icons/Flash.vue"));
+export const Forbidden2 = defineAsyncComponent(
+  () => import("./icons/Forbidden2.vue")
+);
+export const Forbidden = defineAsyncComponent(
+  () => import("./icons/Forbidden.vue")
+);
+export const Ghost = defineAsyncComponent(() => import("./icons/Ghost.vue"));
+export const Glass = defineAsyncComponent(() => import("./icons/Glass.vue"));
+export const Grammerly = defineAsyncComponent(
+  () => import("./icons/Grammerly.vue")
+);
+export const HambergerMenu = defineAsyncComponent(
+  () => import("./icons/HambergerMenu.vue")
+);
+export const Happyemoji = defineAsyncComponent(
+  () => import("./icons/Happyemoji.vue")
+);
+export const Home2 = defineAsyncComponent(() => import("./icons/Home2.vue"));
+export const Home3 = defineAsyncComponent(() => import("./icons/Home3.vue"));
+export const HomeWifi = defineAsyncComponent(
+  () => import("./icons/HomeWifi.vue")
+);
+export const Home = defineAsyncComponent(() => import("./icons/Home.vue"));
+export const Information = defineAsyncComponent(
+  () => import("./icons/Information.vue")
+);
+export const InfoCircle = defineAsyncComponent(
+  () => import("./icons/InfoCircle.vue")
+);
+export const Instagram = defineAsyncComponent(
+  () => import("./icons/Instagram.vue")
+);
+export const Judge = defineAsyncComponent(() => import("./icons/Judge.vue"));
+export const Lamp = defineAsyncComponent(() => import("./icons/Lamp.vue"));
+export const Level = defineAsyncComponent(() => import("./icons/Level.vue"));
+export const Milk = defineAsyncComponent(() => import("./icons/Milk.vue"));
+export const MinusCirlce = defineAsyncComponent(
+  () => import("./icons/MinusCirlce.vue")
+);
+export const MinusSquare = defineAsyncComponent(
+  () => import("./icons/MinusSquare.vue")
+);
+export const Minus = defineAsyncComponent(() => import("./icons/Minus.vue"));
+export const Mirror = defineAsyncComponent(() => import("./icons/Mirror.vue"));
+export const MoreCircle = defineAsyncComponent(
+  () => import("./icons/MoreCircle.vue")
+);
+export const MoreSquare = defineAsyncComponent(
+  () => import("./icons/MoreSquare.vue")
+);
+export const MouseCircle = defineAsyncComponent(
+  () => import("./icons/MouseCircle.vue")
+);
+export const MouseSquare = defineAsyncComponent(
+  () => import("./icons/MouseSquare.vue")
+);
+export const Pet = defineAsyncComponent(() => import("./icons/Pet.vue"));
+export const Pointer = defineAsyncComponent(
+  () => import("./icons/Pointer.vue")
+);
+export const Rank = defineAsyncComponent(() => import("./icons/Rank.vue"));
+export const Reserve = defineAsyncComponent(
+  () => import("./icons/Reserve.vue")
+);
+export const SafeHome = defineAsyncComponent(
+  () => import("./icons/SafeHome.vue")
+);
+export const Send2 = defineAsyncComponent(() => import("./icons/Send2.vue"));
+export const Send = defineAsyncComponent(() => import("./icons/Send.vue"));
+export const Share = defineAsyncComponent(() => import("./icons/Share.vue"));
+export const Signpost = defineAsyncComponent(
+  () => import("./icons/Signpost.vue")
+);
+export const Slash = defineAsyncComponent(() => import("./icons/Slash.vue"));
+export const Slider = defineAsyncComponent(() => import("./icons/Slider.vue"));
+export const SmartHome = defineAsyncComponent(
+  () => import("./icons/SmartHome.vue")
+);
+export const Sort = defineAsyncComponent(() => import("./icons/Sort.vue"));
+export const Sound = defineAsyncComponent(() => import("./icons/Sound.vue"));
+export const Speedometer = defineAsyncComponent(
+  () => import("./icons/Speedometer.vue")
+);
+export const Status = defineAsyncComponent(() => import("./icons/Status.vue"));
+export const Sticker = defineAsyncComponent(
+  () => import("./icons/Sticker.vue")
+);
+export const Story = defineAsyncComponent(() => import("./icons/Story.vue"));
+export const TagCross = defineAsyncComponent(
+  () => import("./icons/TagCross.vue")
+);
+export const TagRight = defineAsyncComponent(
+  () => import("./icons/TagRight.vue")
+);
+export const TickCircle = defineAsyncComponent(
+  () => import("./icons/TickCircle.vue")
+);
+export const TickSquare = defineAsyncComponent(
+  () => import("./icons/TickSquare.vue")
+);
+export const Trash = defineAsyncComponent(() => import("./icons/Trash.vue"));
+export const Tree = defineAsyncComponent(() => import("./icons/Tree.vue"));
+export const Triangle = defineAsyncComponent(
+  () => import("./icons/Triangle.vue")
+);
+export const TrushSquare = defineAsyncComponent(
+  () => import("./icons/TrushSquare.vue")
+);
+export const Verify = defineAsyncComponent(() => import("./icons/Verify.vue"));
+export const Warning2 = defineAsyncComponent(
+  () => import("./icons/Warning2.vue")
+);
+export const Weight = defineAsyncComponent(() => import("./icons/Weight.vue"));
+export const WifiSquare = defineAsyncComponent(
+  () => import("./icons/WifiSquare.vue")
+);
+export const Wifi = defineAsyncComponent(() => import("./icons/Wifi.vue"));
+export const Folder2 = defineAsyncComponent(
+  () => import("./icons/Folder2.vue")
+);
+export const FolderAdd = defineAsyncComponent(
+  () => import("./icons/FolderAdd.vue")
+);
+export const FolderCloud = defineAsyncComponent(
+  () => import("./icons/FolderCloud.vue")
+);
+export const FolderCross = defineAsyncComponent(
+  () => import("./icons/FolderCross.vue")
+);
+export const FolderFavorite = defineAsyncComponent(
+  () => import("./icons/FolderFavorite.vue")
+);
+export const FolderMinus = defineAsyncComponent(
+  () => import("./icons/FolderMinus.vue")
+);
+export const FolderOpen = defineAsyncComponent(
+  () => import("./icons/FolderOpen.vue")
+);
+export const Folder = defineAsyncComponent(() => import("./icons/Folder.vue"));
+export const I3Square = defineAsyncComponent(
+  () => import("./icons/I3Square.vue")
+);
+export const AlignBottom = defineAsyncComponent(
+  () => import("./icons/AlignBottom.vue")
+);
+export const AlignHorizontally = defineAsyncComponent(
+  () => import("./icons/AlignHorizontally.vue")
+);
+export const AlignLeft = defineAsyncComponent(
+  () => import("./icons/AlignLeft.vue")
+);
+export const AlignRight = defineAsyncComponent(
+  () => import("./icons/AlignRight.vue")
+);
+export const AlignTop = defineAsyncComponent(
+  () => import("./icons/AlignTop.vue")
+);
+export const AlignVertically = defineAsyncComponent(
+  () => import("./icons/AlignVertically.vue")
+);
+export const Convertshape2 = defineAsyncComponent(
+  () => import("./icons/Convertshape2.vue")
+);
+export const Convertshape = defineAsyncComponent(
+  () => import("./icons/Convertshape.vue")
+);
+export const Crop = defineAsyncComponent(() => import("./icons/Crop.vue"));
+export const Element2 = defineAsyncComponent(
+  () => import("./icons/Element2.vue")
+);
+export const Element3 = defineAsyncComponent(
+  () => import("./icons/Element3.vue")
+);
+export const Element4 = defineAsyncComponent(
+  () => import("./icons/Element4.vue")
+);
+export const ElementEqual = defineAsyncComponent(
+  () => import("./icons/ElementEqual.vue")
+);
+export const ElementPlus = defineAsyncComponent(
+  () => import("./icons/ElementPlus.vue")
+);
+export const Element = defineAsyncComponent(
+  () => import("./icons/Element.vue")
+);
+export const Fatrows = defineAsyncComponent(
+  () => import("./icons/Fatrows.vue")
+);
+export const FormatCircle = defineAsyncComponent(
+  () => import("./icons/FormatCircle.vue")
+);
+export const FormatSquare = defineAsyncComponent(
+  () => import("./icons/FormatSquare.vue")
+);
+export const Grid1 = defineAsyncComponent(() => import("./icons/Grid1.vue"));
+export const Grid2 = defineAsyncComponent(() => import("./icons/Grid2.vue"));
+export const Grid3 = defineAsyncComponent(() => import("./icons/Grid3.vue"));
+export const Grid4 = defineAsyncComponent(() => import("./icons/Grid4.vue"));
+export const Grid5 = defineAsyncComponent(() => import("./icons/Grid5.vue"));
+export const Grid6 = defineAsyncComponent(() => import("./icons/Grid6.vue"));
+export const Grid7 = defineAsyncComponent(() => import("./icons/Grid7.vue"));
+export const Grid8 = defineAsyncComponent(() => import("./icons/Grid8.vue"));
+export const Grid9 = defineAsyncComponent(() => import("./icons/Grid9.vue"));
+export const GridEdit = defineAsyncComponent(
+  () => import("./icons/GridEdit.vue")
+);
+export const GridEraser = defineAsyncComponent(
+  () => import("./icons/GridEraser.vue")
+);
+export const GridLock = defineAsyncComponent(
+  () => import("./icons/GridLock.vue")
+);
+export const Kanban = defineAsyncComponent(() => import("./icons/Kanban.vue"));
+export const Maximize1 = defineAsyncComponent(
+  () => import("./icons/Maximize1.vue")
+);
+export const Maximize2 = defineAsyncComponent(
+  () => import("./icons/Maximize2.vue")
+);
+export const Maximize3 = defineAsyncComponent(
+  () => import("./icons/Maximize3.vue")
+);
+export const Maximize4 = defineAsyncComponent(
+  () => import("./icons/Maximize4.vue")
+);
+export const Maximize = defineAsyncComponent(
+  () => import("./icons/Maximize.vue")
+);
+export const RotateLeft = defineAsyncComponent(
+  () => import("./icons/RotateLeft.vue")
+);
+export const RotateRight = defineAsyncComponent(
+  () => import("./icons/RotateRight.vue")
+);
+export const RowHorizontal = defineAsyncComponent(
+  () => import("./icons/RowHorizontal.vue")
+);
+export const RowVertical = defineAsyncComponent(
+  () => import("./icons/RowVertical.vue")
+);
+export const SliderHorizontal1 = defineAsyncComponent(
+  () => import("./icons/SliderHorizontal1.vue")
+);
+export const SliderHorizontal = defineAsyncComponent(
+  () => import("./icons/SliderHorizontal.vue")
+);
+export const SliderVertical1 = defineAsyncComponent(
+  () => import("./icons/SliderVertical1.vue")
+);
+export const SliderVertical = defineAsyncComponent(
+  () => import("./icons/SliderVertical.vue")
+);
+export const ArrowSquare = defineAsyncComponent(
+  () => import("./icons/ArrowSquare.vue")
+);
+export const Arrow = defineAsyncComponent(() => import("./icons/Arrow.vue"));
+export const DirectDown = defineAsyncComponent(
+  () => import("./icons/DirectDown.vue")
+);
+export const DirectLeft = defineAsyncComponent(
+  () => import("./icons/DirectLeft.vue")
+);
+export const DirectRight = defineAsyncComponent(
+  () => import("./icons/DirectRight.vue")
+);
+export const DirectUp = defineAsyncComponent(
+  () => import("./icons/DirectUp.vue")
+);
+export const GlobalEdit = defineAsyncComponent(
+  () => import("./icons/GlobalEdit.vue")
+);
+export const GlobalRefresh = defineAsyncComponent(
+  () => import("./icons/GlobalRefresh.vue")
+);
+export const GlobalSearch = defineAsyncComponent(
+  () => import("./icons/GlobalSearch.vue")
+);
+export const Global = defineAsyncComponent(() => import("./icons/Global.vue"));
+export const GpsSlash = defineAsyncComponent(
+  () => import("./icons/GpsSlash.vue")
+);
+export const Gps = defineAsyncComponent(() => import("./icons/Gps.vue"));
+export const LocationAdd = defineAsyncComponent(
+  () => import("./icons/LocationAdd.vue")
+);
+export const LocationCross = defineAsyncComponent(
+  () => import("./icons/LocationCross.vue")
+);
+export const LocationDiscover = defineAsyncComponent(
+  () => import("./icons/LocationDiscover.vue")
+);
+export const LocationMinus = defineAsyncComponent(
+  () => import("./icons/LocationMinus.vue")
+);
+export const LocationSlash = defineAsyncComponent(
+  () => import("./icons/LocationSlash.vue")
+);
+export const LocationTick = defineAsyncComponent(
+  () => import("./icons/LocationTick.vue")
+);
+export const Location = defineAsyncComponent(
+  () => import("./icons/Location.vue")
+);
+export const Map1 = defineAsyncComponent(() => import("./icons/Map1.vue"));
+export const Map = defineAsyncComponent(() => import("./icons/Map.vue"));
+export const PictureFrame = defineAsyncComponent(
+  () => import("./icons/PictureFrame.vue")
+);
+export const Radar2 = defineAsyncComponent(() => import("./icons/Radar2.vue"));
+export const Radar = defineAsyncComponent(() => import("./icons/Radar.vue"));
+export const RouteSquare = defineAsyncComponent(
+  () => import("./icons/RouteSquare.vue")
+);
+export const Routing2 = defineAsyncComponent(
+  () => import("./icons/Routing2.vue")
+);
+export const Routing = defineAsyncComponent(
+  () => import("./icons/Routing.vue")
+);
+export const CardAdd = defineAsyncComponent(
+  () => import("./icons/CardAdd.vue")
+);
+export const CardEdit = defineAsyncComponent(
+  () => import("./icons/CardEdit.vue")
+);
+export const CardPos = defineAsyncComponent(
+  () => import("./icons/CardPos.vue")
+);
+export const CardReceive = defineAsyncComponent(
+  () => import("./icons/CardReceive.vue")
+);
+export const CardRemove1 = defineAsyncComponent(
+  () => import("./icons/CardRemove1.vue")
+);
+export const CardRemove = defineAsyncComponent(
+  () => import("./icons/CardRemove.vue")
+);
+export const CardSend = defineAsyncComponent(
+  () => import("./icons/CardSend.vue")
+);
+export const CardSlash = defineAsyncComponent(
+  () => import("./icons/CardSlash.vue")
+);
+export const CardTick1 = defineAsyncComponent(
+  () => import("./icons/CardTick1.vue")
+);
+export const CardTick = defineAsyncComponent(
+  () => import("./icons/CardTick.vue")
+);
+export const Card = defineAsyncComponent(() => import("./icons/Card.vue"));
+export const Cards = defineAsyncComponent(() => import("./icons/Cards.vue"));
+export const ChartSquare = defineAsyncComponent(
+  () => import("./icons/ChartSquare.vue")
+);
+export const Coin1 = defineAsyncComponent(() => import("./icons/Coin1.vue"));
+export const Coin = defineAsyncComponent(() => import("./icons/Coin.vue"));
+export const ConvertCard = defineAsyncComponent(
+  () => import("./icons/ConvertCard.vue")
+);
+export const DiscountCircle = defineAsyncComponent(
+  () => import("./icons/DiscountCircle.vue")
+);
+export const DiscountShape = defineAsyncComponent(
+  () => import("./icons/DiscountShape.vue")
+);
+export const DollarCircle = defineAsyncComponent(
+  () => import("./icons/DollarCircle.vue")
+);
+export const DollarSquare = defineAsyncComponent(
+  () => import("./icons/DollarSquare.vue")
+);
+export const EmptyWalletAdd = defineAsyncComponent(
+  () => import("./icons/EmptyWalletAdd.vue")
+);
+export const EmptyWalletChange = defineAsyncComponent(
+  () => import("./icons/EmptyWalletChange.vue")
+);
+export const EmptyWalletRemove = defineAsyncComponent(
+  () => import("./icons/EmptyWalletRemove.vue")
+);
+export const EmptyWalletTick = defineAsyncComponent(
+  () => import("./icons/EmptyWalletTick.vue")
+);
+export const EmptyWalletTime = defineAsyncComponent(
+  () => import("./icons/EmptyWalletTime.vue")
+);
+export const EmptyWallet = defineAsyncComponent(
+  () => import("./icons/EmptyWallet.vue")
+);
+export const Math = defineAsyncComponent(() => import("./icons/Math.vue"));
+export const Money2 = defineAsyncComponent(() => import("./icons/Money2.vue"));
+export const Money3 = defineAsyncComponent(() => import("./icons/Money3.vue"));
+export const Money4 = defineAsyncComponent(() => import("./icons/Money4.vue"));
+export const MoneyAdd = defineAsyncComponent(
+  () => import("./icons/MoneyAdd.vue")
+);
+export const MoneyArchive = defineAsyncComponent(
+  () => import("./icons/MoneyArchive.vue")
+);
+export const MoneyChange = defineAsyncComponent(
+  () => import("./icons/MoneyChange.vue")
+);
+export const MoneyForbidden = defineAsyncComponent(
+  () => import("./icons/MoneyForbidden.vue")
+);
+export const MoneyRecive = defineAsyncComponent(
+  () => import("./icons/MoneyRecive.vue")
+);
+export const MoneyRemove = defineAsyncComponent(
+  () => import("./icons/MoneyRemove.vue")
+);
+export const MoneySend = defineAsyncComponent(
+  () => import("./icons/MoneySend.vue")
+);
+export const MoneyTick = defineAsyncComponent(
+  () => import("./icons/MoneyTick.vue")
+);
+export const MoneyTime = defineAsyncComponent(
+  () => import("./icons/MoneyTime.vue")
+);
+export const Money = defineAsyncComponent(() => import("./icons/Money.vue"));
+export const Moneys = defineAsyncComponent(() => import("./icons/Moneys.vue"));
+export const PercentageCircle = defineAsyncComponent(
+  () => import("./icons/PercentageCircle.vue")
+);
+export const PercentageSquare = defineAsyncComponent(
+  () => import("./icons/PercentageSquare.vue")
+);
+export const Receipt1 = defineAsyncComponent(
+  () => import("./icons/Receipt1.vue")
+);
+export const Receipt21 = defineAsyncComponent(
+  () => import("./icons/Receipt21.vue")
+);
+export const Receipt2 = defineAsyncComponent(
+  () => import("./icons/Receipt2.vue")
+);
+export const ReceiptAdd = defineAsyncComponent(
+  () => import("./icons/ReceiptAdd.vue")
+);
+export const ReceiptDiscount = defineAsyncComponent(
+  () => import("./icons/ReceiptDiscount.vue")
+);
+export const ReceiptDisscount = defineAsyncComponent(
+  () => import("./icons/ReceiptDisscount.vue")
+);
+export const ReceiptEdit = defineAsyncComponent(
+  () => import("./icons/ReceiptEdit.vue")
+);
+export const ReceiptItem = defineAsyncComponent(
+  () => import("./icons/ReceiptItem.vue")
+);
+export const ReceiptMinus = defineAsyncComponent(
+  () => import("./icons/ReceiptMinus.vue")
+);
+export const ReceiptSearch = defineAsyncComponent(
+  () => import("./icons/ReceiptSearch.vue")
+);
+export const ReceiptText = defineAsyncComponent(
+  () => import("./icons/ReceiptText.vue")
+);
+export const Receipt = defineAsyncComponent(
+  () => import("./icons/Receipt.vue")
+);
+export const SecurityCard = defineAsyncComponent(
+  () => import("./icons/SecurityCard.vue")
+);
+export const Strongbox2 = defineAsyncComponent(
+  () => import("./icons/Strongbox2.vue")
+);
+export const Strongbox = defineAsyncComponent(
+  () => import("./icons/Strongbox.vue")
+);
+export const TableDocument = defineAsyncComponent(
+  () => import("./icons/TableDocument.vue")
+);
+export const Tag2 = defineAsyncComponent(() => import("./icons/Tag2.vue"));
+export const Tag = defineAsyncComponent(() => import("./icons/Tag.vue"));
+export const Ticket2 = defineAsyncComponent(
+  () => import("./icons/Ticket2.vue")
+);
+export const TicketDiscount = defineAsyncComponent(
+  () => import("./icons/TicketDiscount.vue")
+);
+export const TicketExpired = defineAsyncComponent(
+  () => import("./icons/TicketExpired.vue")
+);
+export const TicketStar = defineAsyncComponent(
+  () => import("./icons/TicketStar.vue")
+);
+export const Ticket = defineAsyncComponent(() => import("./icons/Ticket.vue"));
+export const TransactionMinus = defineAsyncComponent(
+  () => import("./icons/TransactionMinus.vue")
+);
+export const Wallet1 = defineAsyncComponent(
+  () => import("./icons/Wallet1.vue")
+);
+export const Wallet2 = defineAsyncComponent(
+  () => import("./icons/Wallet2.vue")
+);
+export const Wallet3 = defineAsyncComponent(
+  () => import("./icons/Wallet3.vue")
+);
+export const WalletAdd1 = defineAsyncComponent(
+  () => import("./icons/WalletAdd1.vue")
+);
+export const WalletAdd = defineAsyncComponent(
+  () => import("./icons/WalletAdd.vue")
+);
+export const WalletCheck = defineAsyncComponent(
+  () => import("./icons/WalletCheck.vue")
+);
+export const WalletMinus = defineAsyncComponent(
+  () => import("./icons/WalletMinus.vue")
+);
+export const WalletMoney = defineAsyncComponent(
+  () => import("./icons/WalletMoney.vue")
+);
+export const WalletRemove = defineAsyncComponent(
+  () => import("./icons/WalletRemove.vue")
+);
+export const WalletSearch = defineAsyncComponent(
+  () => import("./icons/WalletSearch.vue")
+);
+export const Wallet = defineAsyncComponent(() => import("./icons/Wallet.vue"));
+export const LampCharge = defineAsyncComponent(
+  () => import("./icons/LampCharge.vue")
+);
+export const LampOn = defineAsyncComponent(() => import("./icons/LampOn.vue"));
+export const LampSlash = defineAsyncComponent(
+  () => import("./icons/LampSlash.vue")
+);
+export const Notification1 = defineAsyncComponent(
+  () => import("./icons/Notification1.vue")
+);
+export const NotificationBing = defineAsyncComponent(
+  () => import("./icons/NotificationBing.vue")
+);
+export const NotificationCircle = defineAsyncComponent(
+  () => import("./icons/NotificationCircle.vue")
+);
+export const NotificationFavorite = defineAsyncComponent(
+  () => import("./icons/NotificationFavorite.vue")
+);
+export const NotificationStatus = defineAsyncComponent(
+  () => import("./icons/NotificationStatus.vue")
+);
+export const Notification = defineAsyncComponent(
+  () => import("./icons/Notification.vue")
+);
+export const Code1 = defineAsyncComponent(() => import("./icons/Code1.vue"));
+export const CodeCircle = defineAsyncComponent(
+  () => import("./icons/CodeCircle.vue")
+);
+export const Code = defineAsyncComponent(() => import("./icons/Code.vue"));
+export const CommandSquare = defineAsyncComponent(
+  () => import("./icons/CommandSquare.vue")
+);
+export const Command = defineAsyncComponent(
+  () => import("./icons/Command.vue")
+);
+export const Data2 = defineAsyncComponent(() => import("./icons/Data2.vue"));
+export const Data = defineAsyncComponent(() => import("./icons/Data.vue"));
+export const DocumentCode2 = defineAsyncComponent(
+  () => import("./icons/DocumentCode2.vue")
+);
+export const DocumentCode = defineAsyncComponent(
+  () => import("./icons/DocumentCode.vue")
+);
+export const HashtagDown = defineAsyncComponent(
+  () => import("./icons/HashtagDown.vue")
+);
+export const HashtagUp = defineAsyncComponent(
+  () => import("./icons/HashtagUp.vue")
+);
+export const Hashtag = defineAsyncComponent(
+  () => import("./icons/Hashtag.vue")
+);
+export const Hierarchy2 = defineAsyncComponent(
+  () => import("./icons/Hierarchy2.vue")
+);
+export const Hierarchy3 = defineAsyncComponent(
+  () => import("./icons/Hierarchy3.vue")
+);
+export const HierarchySquare2 = defineAsyncComponent(
+  () => import("./icons/HierarchySquare2.vue")
+);
+export const HierarchySquare3 = defineAsyncComponent(
+  () => import("./icons/HierarchySquare3.vue")
+);
+export const HierarchySquare = defineAsyncComponent(
+  () => import("./icons/HierarchySquare.vue")
+);
+export const Hierarchy = defineAsyncComponent(
+  () => import("./icons/Hierarchy.vue")
+);
+export const MessageProgramming = defineAsyncComponent(
+  () => import("./icons/MessageProgramming.vue")
+);
+export const MobileProgramming = defineAsyncComponent(
+  () => import("./icons/MobileProgramming.vue")
+);
+export const ProgrammingArrow = defineAsyncComponent(
+  () => import("./icons/ProgrammingArrow.vue")
+);
+export const ProgrammingArrows = defineAsyncComponent(
+  () => import("./icons/ProgrammingArrows.vue")
+);
+export const Scroll = defineAsyncComponent(() => import("./icons/Scroll.vue"));
+export const SidebarBottom = defineAsyncComponent(
+  () => import("./icons/SidebarBottom.vue")
+);
+export const SidebarLeft = defineAsyncComponent(
+  () => import("./icons/SidebarLeft.vue")
+);
+export const SidebarRight = defineAsyncComponent(
+  () => import("./icons/SidebarRight.vue")
+);
+export const SidebarTop = defineAsyncComponent(
+  () => import("./icons/SidebarTop.vue")
+);
+export const Award = defineAsyncComponent(() => import("./icons/Award.vue"));
+export const Book1 = defineAsyncComponent(() => import("./icons/Book1.vue"));
+export const Book = defineAsyncComponent(() => import("./icons/Book.vue"));
+export const Bookmark2 = defineAsyncComponent(
+  () => import("./icons/Bookmark2.vue")
+);
+export const Briefcase = defineAsyncComponent(
+  () => import("./icons/Briefcase.vue")
+);
+export const Bookmark = defineAsyncComponent(
+  () => import("./icons/Bookmark.vue")
+);
+export const BrifecaseCross = defineAsyncComponent(
+  () => import("./icons/BrifecaseCross.vue")
+);
+export const BrifecaseTick = defineAsyncComponent(
+  () => import("./icons/BrifecaseTick.vue")
+);
+export const BrifecaseTimer = defineAsyncComponent(
+  () => import("./icons/BrifecaseTimer.vue")
+);
+export const Calculator = defineAsyncComponent(
+  () => import("./icons/Calculator.vue")
+);
+export const Clipboard = defineAsyncComponent(
+  () => import("./icons/Clipboard.vue")
+);
+export const Gift = defineAsyncComponent(() => import("./icons/Gift.vue"));
+export const Notepad2 = defineAsyncComponent(
+  () => import("./icons/Notepad2.vue")
+);
+export const Notepad = defineAsyncComponent(
+  () => import("./icons/Notepad.vue")
+);
+export const Teacher = defineAsyncComponent(
+  () => import("./icons/Teacher.vue")
+);
+export const SearchFavorite1 = defineAsyncComponent(
+  () => import("./icons/SearchFavorite1.vue")
+);
+export const SearchNormal1 = defineAsyncComponent(
+  () => import("./icons/SearchNormal1.vue")
+);
+export const SearchNormal = defineAsyncComponent(
+  () => import("./icons/SearchNormal.vue")
+);
+export const SearchFavorite = defineAsyncComponent(
+  () => import("./icons/SearchFavorite.vue")
+);
+export const SearchStatus1 = defineAsyncComponent(
+  () => import("./icons/SearchStatus1.vue")
+);
+export const SearchStatus = defineAsyncComponent(
+  () => import("./icons/SearchStatus.vue")
+);
+export const SearchZoomIn1 = defineAsyncComponent(
+  () => import("./icons/SearchZoomIn1.vue")
+);
+export const SearchZoomIn = defineAsyncComponent(
+  () => import("./icons/SearchZoomIn.vue")
+);
+export const SearchZoomOut1 = defineAsyncComponent(
+  () => import("./icons/SearchZoomOut1.vue")
+);
+export const SearchZoomOut = defineAsyncComponent(
+  () => import("./icons/SearchZoomOut.vue")
+);
+export const Alarm = defineAsyncComponent(() => import("./icons/Alarm.vue"));
+export const Brodcast = defineAsyncComponent(
+  () => import("./icons/Brodcast.vue")
+);
+export const Check = defineAsyncComponent(() => import("./icons/Check.vue"));
+export const EyeSlash = defineAsyncComponent(
+  () => import("./icons/EyeSlash.vue")
+);
+export const Eye = defineAsyncComponent(() => import("./icons/Eye.vue"));
+export const FingerCricle = defineAsyncComponent(
+  () => import("./icons/FingerCricle.vue")
+);
+export const FingerScan = defineAsyncComponent(
+  () => import("./icons/FingerScan.vue")
+);
+export const KeySquare = defineAsyncComponent(
+  () => import("./icons/KeySquare.vue")
+);
+export const Lock1 = defineAsyncComponent(() => import("./icons/Lock1.vue"));
+export const Key = defineAsyncComponent(() => import("./icons/Key.vue"));
+export const LockCircle = defineAsyncComponent(
+  () => import("./icons/LockCircle.vue")
+);
+export const LockSlash = defineAsyncComponent(
+  () => import("./icons/LockSlash.vue")
+);
+export const Lock = defineAsyncComponent(() => import("./icons/Lock.vue"));
+export const PasswordCheck = defineAsyncComponent(
+  () => import("./icons/PasswordCheck.vue")
+);
+export const ScanBarcode = defineAsyncComponent(
+  () => import("./icons/ScanBarcode.vue")
+);
+export const Scanner = defineAsyncComponent(
+  () => import("./icons/Scanner.vue")
+);
+export const Scan = defineAsyncComponent(() => import("./icons/Scan.vue"));
+export const Scanning = defineAsyncComponent(
+  () => import("./icons/Scanning.vue")
+);
+export const SecuritySafe = defineAsyncComponent(
+  () => import("./icons/SecuritySafe.vue")
+);
+export const SecurityUser = defineAsyncComponent(
+  () => import("./icons/SecurityUser.vue")
+);
+export const Security = defineAsyncComponent(
+  () => import("./icons/Security.vue")
+);
+export const ShieldCross = defineAsyncComponent(
+  () => import("./icons/ShieldCross.vue")
+);
+export const ShieldSearch = defineAsyncComponent(
+  () => import("./icons/ShieldSearch.vue")
+);
+export const ShieldSecurity = defineAsyncComponent(
+  () => import("./icons/ShieldSecurity.vue")
+);
+export const ShieldSlash = defineAsyncComponent(
+  () => import("./icons/ShieldSlash.vue")
+);
+export const ShieldTick = defineAsyncComponent(
+  () => import("./icons/ShieldTick.vue")
+);
+export const Shield = defineAsyncComponent(() => import("./icons/Shield.vue"));
+export const Unlock = defineAsyncComponent(() => import("./icons/Unlock.vue"));
+export const Candle2 = defineAsyncComponent(
+  () => import("./icons/Candle2.vue")
+);
+export const Candle = defineAsyncComponent(() => import("./icons/Candle.vue"));
+export const Category2 = defineAsyncComponent(
+  () => import("./icons/Category2.vue")
+);
+export const Category = defineAsyncComponent(
+  () => import("./icons/Category.vue")
+);
+export const Menu = defineAsyncComponent(() => import("./icons/Menu.vue"));
+export const More2 = defineAsyncComponent(() => import("./icons/More2.vue"));
+export const More = defineAsyncComponent(() => import("./icons/More.vue"));
+export const Setting2 = defineAsyncComponent(
+  () => import("./icons/Setting2.vue")
+);
+export const Setting3 = defineAsyncComponent(
+  () => import("./icons/Setting3.vue")
+);
+export const Setting4 = defineAsyncComponent(
+  () => import("./icons/Setting4.vue")
+);
+export const Setting5 = defineAsyncComponent(
+  () => import("./icons/Setting5.vue")
+);
+export const Setting = defineAsyncComponent(
+  () => import("./icons/Setting.vue")
+);
+export const Settings = defineAsyncComponent(
+  () => import("./icons/Settings.vue")
+);
+export const ToggleOffCircle = defineAsyncComponent(
+  () => import("./icons/ToggleOffCircle.vue")
+);
+export const ToggleOff = defineAsyncComponent(
+  () => import("./icons/ToggleOff.vue")
+);
+export const ToggleOnCircle = defineAsyncComponent(
+  () => import("./icons/ToggleOnCircle.vue")
+);
+export const ToggleOn = defineAsyncComponent(
+  () => import("./icons/ToggleOn.vue")
+);
+export const Bag2 = defineAsyncComponent(() => import("./icons/Bag2.vue"));
+export const BagCross1 = defineAsyncComponent(
+  () => import("./icons/BagCross1.vue")
+);
+export const BagCross = defineAsyncComponent(
+  () => import("./icons/BagCross.vue")
+);
+export const BagHappy = defineAsyncComponent(
+  () => import("./icons/BagHappy.vue")
+);
+export const BagTick2 = defineAsyncComponent(
+  () => import("./icons/BagTick2.vue")
+);
+export const BagTick = defineAsyncComponent(
+  () => import("./icons/BagTick.vue")
+);
+export const BagTimer = defineAsyncComponent(
+  () => import("./icons/BagTimer.vue")
+);
+export const Bag = defineAsyncComponent(() => import("./icons/Bag.vue"));
+export const Barcode = defineAsyncComponent(
+  () => import("./icons/Barcode.vue")
+);
+export const ShopAdd = defineAsyncComponent(
+  () => import("./icons/ShopAdd.vue")
+);
+export const ShopRemove = defineAsyncComponent(
+  () => import("./icons/ShopRemove.vue")
+);
+export const Shop = defineAsyncComponent(() => import("./icons/Shop.vue"));
+export const ShoppingBag = defineAsyncComponent(
+  () => import("./icons/ShoppingBag.vue")
+);
+export const ShoppingCart = defineAsyncComponent(
+  () => import("./icons/ShoppingCart.vue")
+);
+export const I24Support = defineAsyncComponent(
+  () => import("./icons/I24Support.vue")
+);
+export const Dislike = defineAsyncComponent(
+  () => import("./icons/Dislike.vue")
+);
+export const HeartAdd = defineAsyncComponent(
+  () => import("./icons/HeartAdd.vue")
+);
+export const HeartCircle = defineAsyncComponent(
+  () => import("./icons/HeartCircle.vue")
+);
+export const HeartEdit = defineAsyncComponent(
+  () => import("./icons/HeartEdit.vue")
+);
+export const HeartRemove = defineAsyncComponent(
+  () => import("./icons/HeartRemove.vue")
+);
+export const HeartSearch = defineAsyncComponent(
+  () => import("./icons/HeartSearch.vue")
+);
+export const HeartSlash = defineAsyncComponent(
+  () => import("./icons/HeartSlash.vue")
+);
+export const HeartTick = defineAsyncComponent(
+  () => import("./icons/HeartTick.vue")
+);
+export const Heart = defineAsyncComponent(() => import("./icons/Heart.vue"));
+export const Like1 = defineAsyncComponent(() => import("./icons/Like1.vue"));
+export const LikeDislike = defineAsyncComponent(
+  () => import("./icons/LikeDislike.vue")
+);
+export const LikeShapes = defineAsyncComponent(
+  () => import("./icons/LikeShapes.vue")
+);
+export const LikeTag = defineAsyncComponent(
+  () => import("./icons/LikeTag.vue")
+);
+export const Like = defineAsyncComponent(() => import("./icons/Like.vue"));
+export const Lovely = defineAsyncComponent(() => import("./icons/Lovely.vue"));
+export const MagicStar = defineAsyncComponent(
+  () => import("./icons/MagicStar.vue")
+);
+export const MedalStar = defineAsyncComponent(
+  () => import("./icons/MedalStar.vue")
+);
+export const Medal = defineAsyncComponent(() => import("./icons/Medal.vue"));
+export const MessageQuestion = defineAsyncComponent(
+  () => import("./icons/MessageQuestion.vue")
+);
+export const Ranking = defineAsyncComponent(
+  () => import("./icons/Ranking.vue")
+);
+export const Smileys = defineAsyncComponent(
+  () => import("./icons/Smileys.vue")
+);
+export const Star1 = defineAsyncComponent(() => import("./icons/Star1.vue"));
+export const StarSlash = defineAsyncComponent(
+  () => import("./icons/StarSlash.vue")
+);
+export const Star = defineAsyncComponent(() => import("./icons/Star.vue"));
+export const Unlimited = defineAsyncComponent(
+  () => import("./icons/Unlimited.vue")
+);
+export const Calendar1 = defineAsyncComponent(
+  () => import("./icons/Calendar1.vue")
+);
+export const Calendar2 = defineAsyncComponent(
+  () => import("./icons/Calendar2.vue")
+);
+export const CalendarAdd = defineAsyncComponent(
+  () => import("./icons/CalendarAdd.vue")
+);
+export const CalendarCircle = defineAsyncComponent(
+  () => import("./icons/CalendarCircle.vue")
+);
+export const CalendarEdit = defineAsyncComponent(
+  () => import("./icons/CalendarEdit.vue")
+);
+export const CalendarRemove = defineAsyncComponent(
+  () => import("./icons/CalendarRemove.vue")
+);
+export const CalendarSearch = defineAsyncComponent(
+  () => import("./icons/CalendarSearch.vue")
+);
+export const CalendarTick = defineAsyncComponent(
+  () => import("./icons/CalendarTick.vue")
+);
+export const Calendar = defineAsyncComponent(
+  () => import("./icons/Calendar.vue")
+);
+export const Clock = defineAsyncComponent(() => import("./icons/Clock.vue"));
+export const SecurityTime = defineAsyncComponent(
+  () => import("./icons/SecurityTime.vue")
+);
+export const Timer1 = defineAsyncComponent(() => import("./icons/Timer1.vue"));
+export const TimerPause = defineAsyncComponent(
+  () => import("./icons/TimerPause.vue")
+);
+export const TimerStart = defineAsyncComponent(
+  () => import("./icons/TimerStart.vue")
+);
+export const Timer = defineAsyncComponent(() => import("./icons/Timer.vue"));
+export const AttachCircle = defineAsyncComponent(
+  () => import("./icons/AttachCircle.vue")
+);
+export const AttachSquare = defineAsyncComponent(
+  () => import("./icons/AttachSquare.vue")
+);
+export const EraserSquare = defineAsyncComponent(
+  () => import("./icons/EraserSquare.vue")
+);
+export const Firstline = defineAsyncComponent(
+  () => import("./icons/Firstline.vue")
+);
+export const LanguageCircle = defineAsyncComponent(
+  () => import("./icons/LanguageCircle.vue")
+);
+export const LanguageSquare = defineAsyncComponent(
+  () => import("./icons/LanguageSquare.vue")
+);
+export const LayoutMaximize = defineAsyncComponent(
+  () => import("./icons/LayoutMaximize.vue")
+);
+export const Link1 = defineAsyncComponent(() => import("./icons/Link1.vue"));
+export const Link2 = defineAsyncComponent(() => import("./icons/Link2.vue"));
+export const Link21 = defineAsyncComponent(() => import("./icons/Link21.vue"));
+export const LinkCircle = defineAsyncComponent(
+  () => import("./icons/LinkCircle.vue")
+);
+export const LinkSquare = defineAsyncComponent(
+  () => import("./icons/LinkSquare.vue")
+);
+export const Link = defineAsyncComponent(() => import("./icons/Link.vue"));
+export const Paperclip2 = defineAsyncComponent(
+  () => import("./icons/Paperclip2.vue")
+);
+export const Paperclip = defineAsyncComponent(
+  () => import("./icons/Paperclip.vue")
+);
+export const Pharagraphspacing = defineAsyncComponent(
+  () => import("./icons/Pharagraphspacing.vue")
+);
+export const QuoteDownCircle = defineAsyncComponent(
+  () => import("./icons/QuoteDownCircle.vue")
+);
+export const QuoteDownSquare = defineAsyncComponent(
+  () => import("./icons/QuoteDownSquare.vue")
+);
+export const QuoteDown = defineAsyncComponent(
+  () => import("./icons/QuoteDown.vue")
+);
+export const QuoteUpCircle = defineAsyncComponent(
+  () => import("./icons/QuoteUpCircle.vue")
+);
+export const QuoteUpSquare = defineAsyncComponent(
+  () => import("./icons/QuoteUpSquare.vue")
+);
+export const QuoteUp = defineAsyncComponent(
+  () => import("./icons/QuoteUp.vue")
+);
+export const Smallcaps = defineAsyncComponent(
+  () => import("./icons/Smallcaps.vue")
+);
+export const TextBlock = defineAsyncComponent(
+  () => import("./icons/TextBlock.vue")
+);
+export const TextBold = defineAsyncComponent(
+  () => import("./icons/TextBold.vue")
+);
+export const TextItalic = defineAsyncComponent(
+  () => import("./icons/TextItalic.vue")
+);
+export const TextUnderline = defineAsyncComponent(
+  () => import("./icons/TextUnderline.vue")
+);
+export const Text = defineAsyncComponent(() => import("./icons/Text.vue"));
+export const TextalignCenter = defineAsyncComponent(
+  () => import("./icons/TextalignCenter.vue")
+);
+export const TextalignJustifycenter = defineAsyncComponent(
+  () => import("./icons/TextalignJustifycenter.vue")
+);
+export const TextalignJustifyleft = defineAsyncComponent(
+  () => import("./icons/TextalignJustifyleft.vue")
+);
+export const TextalignJustifyright = defineAsyncComponent(
+  () => import("./icons/TextalignJustifyright.vue")
+);
+export const TextalignLeft = defineAsyncComponent(
+  () => import("./icons/TextalignLeft.vue")
+);
+export const TextalignRight = defineAsyncComponent(
+  () => import("./icons/TextalignRight.vue")
+);
+export const Translate = defineAsyncComponent(
+  () => import("./icons/Translate.vue")
+);
+export const People = defineAsyncComponent(() => import("./icons/People.vue"));
+export const Profile2User = defineAsyncComponent(
+  () => import("./icons/Profile2User.vue")
+);
+export const ProfileAdd = defineAsyncComponent(
+  () => import("./icons/ProfileAdd.vue")
+);
+export const ProfileCircle = defineAsyncComponent(
+  () => import("./icons/ProfileCircle.vue")
+);
+export const ProfileDelete = defineAsyncComponent(
+  () => import("./icons/ProfileDelete.vue")
+);
+export const ProfileRemove = defineAsyncComponent(
+  () => import("./icons/ProfileRemove.vue")
+);
+export const ProfileTick = defineAsyncComponent(
+  () => import("./icons/ProfileTick.vue")
+);
+export const Profile = defineAsyncComponent(
+  () => import("./icons/Profile.vue")
+);
+export const TagUser = defineAsyncComponent(
+  () => import("./icons/TagUser.vue")
+);
+export const UserAdd = defineAsyncComponent(
+  () => import("./icons/UserAdd.vue")
+);
+export const UserCirlceAdd = defineAsyncComponent(
+  () => import("./icons/UserCirlceAdd.vue")
+);
+export const UserEdit = defineAsyncComponent(
+  () => import("./icons/UserEdit.vue")
+);
+export const UserMinus = defineAsyncComponent(
+  () => import("./icons/UserMinus.vue")
+);
+export const UserOctagon = defineAsyncComponent(
+  () => import("./icons/UserOctagon.vue")
+);
+export const UserRemove = defineAsyncComponent(
+  () => import("./icons/UserRemove.vue")
+);
+export const UserSearch = defineAsyncComponent(
+  () => import("./icons/UserSearch.vue")
+);
+export const UserSquare = defineAsyncComponent(
+  () => import("./icons/UserSquare.vue")
+);
+export const UserTag = defineAsyncComponent(
+  () => import("./icons/UserTag.vue")
+);
+export const UserTick = defineAsyncComponent(
+  () => import("./icons/UserTick.vue")
+);
+export const User = defineAsyncComponent(() => import("./icons/User.vue"));
+export const AudioSquare = defineAsyncComponent(
+  () => import("./icons/AudioSquare.vue")
+);
+export const Backward10Seconds = defineAsyncComponent(
+  () => import("./icons/Backward10Seconds.vue")
+);
+export const Backward15Seconds = defineAsyncComponent(
+  () => import("./icons/Backward15Seconds.vue")
+);
+export const Backward5Seconds = defineAsyncComponent(
+  () => import("./icons/Backward5Seconds.vue")
+);
+export const Backward = defineAsyncComponent(
+  () => import("./icons/Backward.vue")
+);
+export const CameraSlash = defineAsyncComponent(
+  () => import("./icons/CameraSlash.vue")
+);
+export const Camera = defineAsyncComponent(() => import("./icons/Camera.vue"));
+export const Cut = defineAsyncComponent(() => import("./icons/Cut.vue"));
+export const Forward10Seconds = defineAsyncComponent(
+  () => import("./icons/Forward10Seconds.vue")
+);
+export const Forward15Seconds = defineAsyncComponent(
+  () => import("./icons/Forward15Seconds.vue")
+);
+export const Forward5Seconds = defineAsyncComponent(
+  () => import("./icons/Forward5Seconds.vue")
+);
+export const Forward = defineAsyncComponent(
+  () => import("./icons/Forward.vue")
+);
+export const GalleryAdd = defineAsyncComponent(
+  () => import("./icons/GalleryAdd.vue")
+);
+export const GalleryEdit = defineAsyncComponent(
+  () => import("./icons/GalleryEdit.vue")
+);
+export const GalleryExport = defineAsyncComponent(
+  () => import("./icons/GalleryExport.vue")
+);
+export const GalleryFavorite = defineAsyncComponent(
+  () => import("./icons/GalleryFavorite.vue")
+);
+export const GalleryImport = defineAsyncComponent(
+  () => import("./icons/GalleryImport.vue")
+);
+export const GalleryRemove = defineAsyncComponent(
+  () => import("./icons/GalleryRemove.vue")
+);
+export const GallerySlash = defineAsyncComponent(
+  () => import("./icons/GallerySlash.vue")
+);
+export const GalleryTick = defineAsyncComponent(
+  () => import("./icons/GalleryTick.vue")
+);
+export const Gallery = defineAsyncComponent(
+  () => import("./icons/Gallery.vue")
+);
+export const Image = defineAsyncComponent(() => import("./icons/Image.vue"));
+export const MaximizeCircle = defineAsyncComponent(
+  () => import("./icons/MaximizeCircle.vue")
+);
+export const Microphone2 = defineAsyncComponent(
+  () => import("./icons/Microphone2.vue")
+);
+export const MicrophoneSlash1 = defineAsyncComponent(
+  () => import("./icons/MicrophoneSlash1.vue")
+);
+export const MicrophoneSlash = defineAsyncComponent(
+  () => import("./icons/MicrophoneSlash.vue")
+);
+export const Microphone = defineAsyncComponent(
+  () => import("./icons/Microphone.vue")
+);
+export const MiniMusicSqaure = defineAsyncComponent(
+  () => import("./icons/MiniMusicSqaure.vue")
+);
+export const MusicCircle = defineAsyncComponent(
+  () => import("./icons/MusicCircle.vue")
+);
+export const MusicDashboard = defineAsyncComponent(
+  () => import("./icons/MusicDashboard.vue")
+);
+export const MusicFilter = defineAsyncComponent(
+  () => import("./icons/MusicFilter.vue")
+);
+export const MusicLibrary2 = defineAsyncComponent(
+  () => import("./icons/MusicLibrary2.vue")
+);
+export const MusicPlaylist = defineAsyncComponent(
+  () => import("./icons/MusicPlaylist.vue")
+);
+export const MusicSquareAdd = defineAsyncComponent(
+  () => import("./icons/MusicSquareAdd.vue")
+);
+export const MusicSquareRemove = defineAsyncComponent(
+  () => import("./icons/MusicSquareRemove.vue")
+);
+export const MusicSquareSearch = defineAsyncComponent(
+  () => import("./icons/MusicSquareSearch.vue")
+);
+export const MusicSquare = defineAsyncComponent(
+  () => import("./icons/MusicSquare.vue")
+);
+export const Music = defineAsyncComponent(() => import("./icons/Music.vue"));
+export const Musicnote = defineAsyncComponent(
+  () => import("./icons/Musicnote.vue")
+);
+export const Next = defineAsyncComponent(() => import("./icons/Next.vue"));
+export const NoteSquare = defineAsyncComponent(
+  () => import("./icons/NoteSquare.vue")
+);
+export const PauseCircle = defineAsyncComponent(
+  () => import("./icons/PauseCircle.vue")
+);
+export const Pause = defineAsyncComponent(() => import("./icons/Pause.vue"));
+export const PlayAdd = defineAsyncComponent(
+  () => import("./icons/PlayAdd.vue")
+);
+export const PlayCircle = defineAsyncComponent(
+  () => import("./icons/PlayCircle.vue")
+);
+export const PlayCricle = defineAsyncComponent(
+  () => import("./icons/PlayCricle.vue")
+);
+export const PlayRemove = defineAsyncComponent(
+  () => import("./icons/PlayRemove.vue")
+);
+export const Play = defineAsyncComponent(() => import("./icons/Play.vue"));
+export const Previous = defineAsyncComponent(
+  () => import("./icons/Previous.vue")
+);
+export const Radio = defineAsyncComponent(() => import("./icons/Radio.vue"));
+export const RecordCircle = defineAsyncComponent(
+  () => import("./icons/RecordCircle.vue")
+);
+export const Record = defineAsyncComponent(() => import("./icons/Record.vue"));
+export const RepeateMusic = defineAsyncComponent(
+  () => import("./icons/RepeateMusic.vue")
+);
+export const RepeateOne = defineAsyncComponent(
+  () => import("./icons/RepeateOne.vue")
+);
+export const Screenmirroring = defineAsyncComponent(
+  () => import("./icons/Screenmirroring.vue")
+);
+export const Shuffle = defineAsyncComponent(
+  () => import("./icons/Shuffle.vue")
+);
+export const StopCircle = defineAsyncComponent(
+  () => import("./icons/StopCircle.vue")
+);
+export const Stop = defineAsyncComponent(() => import("./icons/Stop.vue"));
+export const Subtitle = defineAsyncComponent(
+  () => import("./icons/Subtitle.vue")
+);
+export const VideoAdd = defineAsyncComponent(
+  () => import("./icons/VideoAdd.vue")
+);
+export const VideoCircle = defineAsyncComponent(
+  () => import("./icons/VideoCircle.vue")
+);
+export const VideoHorizontal = defineAsyncComponent(
+  () => import("./icons/VideoHorizontal.vue")
+);
+export const VideoOctagon = defineAsyncComponent(
+  () => import("./icons/VideoOctagon.vue")
+);
+export const VideoPlay = defineAsyncComponent(
+  () => import("./icons/VideoPlay.vue")
+);
+export const VideoRemove = defineAsyncComponent(
+  () => import("./icons/VideoRemove.vue")
+);
+export const VideoSlash = defineAsyncComponent(
+  () => import("./icons/VideoSlash.vue")
+);
+export const VideoSquare = defineAsyncComponent(
+  () => import("./icons/VideoSquare.vue")
+);
+export const VideoTick = defineAsyncComponent(
+  () => import("./icons/VideoTick.vue")
+);
+export const VideoTime = defineAsyncComponent(
+  () => import("./icons/VideoTime.vue")
+);
+export const VideoVertical = defineAsyncComponent(
+  () => import("./icons/VideoVertical.vue")
+);
+export const Video = defineAsyncComponent(() => import("./icons/Video.vue"));
+export const VoiceCricle = defineAsyncComponent(
+  () => import("./icons/VoiceCricle.vue")
+);
+export const VoiceSquare = defineAsyncComponent(
+  () => import("./icons/VoiceSquare.vue")
+);
+export const VolumeCross = defineAsyncComponent(
+  () => import("./icons/VolumeCross.vue")
+);
+export const VolumeHigh = defineAsyncComponent(
+  () => import("./icons/VolumeHigh.vue")
+);
+export const VolumeLow1 = defineAsyncComponent(
+  () => import("./icons/VolumeLow1.vue")
+);
+export const VolumeLow = defineAsyncComponent(
+  () => import("./icons/VolumeLow.vue")
+);
+export const VolumeMute = defineAsyncComponent(
+  () => import("./icons/VolumeMute.vue")
+);
+export const VolumeSlash = defineAsyncComponent(
+  () => import("./icons/VolumeSlash.vue")
+);
+export const VolumeUp = defineAsyncComponent(
+  () => import("./icons/VolumeUp.vue")
+);
+export const Volume = defineAsyncComponent(() => import("./icons/Volume.vue"));
+export const CloudCross = defineAsyncComponent(
+  () => import("./icons/CloudCross.vue")
+);
+export const CloudDrizzle = defineAsyncComponent(
+  () => import("./icons/CloudDrizzle.vue")
+);
+export const CloudFog = defineAsyncComponent(
+  () => import("./icons/CloudFog.vue")
+);
+export const CloudLightning = defineAsyncComponent(
+  () => import("./icons/CloudLightning.vue")
+);
+export const CloudMinus = defineAsyncComponent(
+  () => import("./icons/CloudMinus.vue")
+);
+export const CloudNotif = defineAsyncComponent(
+  () => import("./icons/CloudNotif.vue")
+);
+export const CloudPlus = defineAsyncComponent(
+  () => import("./icons/CloudPlus.vue")
+);
+export const CloudSnow = defineAsyncComponent(
+  () => import("./icons/CloudSnow.vue")
+);
+export const CloudSunny = defineAsyncComponent(
+  () => import("./icons/CloudSunny.vue")
+);
+export const Cloud = defineAsyncComponent(() => import("./icons/Cloud.vue"));
+export const Drop = defineAsyncComponent(() => import("./icons/Drop.vue"));
+export const Flashy = defineAsyncComponent(() => import("./icons/Flashy.vue"));
+export const Moon = defineAsyncComponent(() => import("./icons/Moon.vue"));
+export const Sun1 = defineAsyncComponent(() => import("./icons/Sun1.vue"));
+export const SunFog = defineAsyncComponent(() => import("./icons/SunFog.vue"));
+export const Sun = defineAsyncComponent(() => import("./icons/Sun.vue"));
+export const Wind2 = defineAsyncComponent(() => import("./icons/Wind2.vue"));
+export const Wind = defineAsyncComponent(() => import("./icons/Wind.vue"));
