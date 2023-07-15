@@ -1,12 +1,11 @@
 <template>
   <div>
-    <vsxIcon iconName="Aave" />
-    <Aave />
+    <Wallet />
   </div>
 </template>
 
 <script setup lang="ts">
-import { vsxIcon } from "./components";
+import { Wallet, Aave } from "./components";
 </script>
 
 <style lang="scss" scoped></style>
