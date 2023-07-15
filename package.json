@@ -4,7 +4,7 @@
   "author": "Emad Moghimi <emmoghimi@gmail.com>",
   "license": "MIT",
   "private": false,
-  "version": "0.0.29",
+  "version": "0.0.30",
   "type": "module",
   "files": [
     "dist"
