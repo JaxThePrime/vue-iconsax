@@ -1,14 +1,13 @@
 <template>
   <component
-    :is="Object(icons)[props.iconName]"
+    :is="icon"
     :color="color"
     :size="size"
     :type="type"
   />
 </template>
 <script lang="ts" setup>
-import { computed } from "vue";
-import * as icons from "./icons";
+import { computed, defineAsyncComponent } from "vue";
 const props = defineProps({
   type: {
     type: String,
@@ -26,5 +25,9 @@ const props = defineProps({
     type: String,
     required: true,
   },
+});
+
+const icon = computed(() => {
+  return defineAsyncComponent(() => import(`./icons/${props.iconName}.vue`));
 });
 </script>
