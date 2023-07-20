@@ -1,13 +1,9 @@
 <template>
-  <component
-    :is="icon"
-    :color="color"
-    :size="size"
-    :type="type"
-  />
+  <component :is="icon" :color="color" :size="size" :type="type" />
 </template>
 <script lang="ts" setup>
 import { computed, defineAsyncComponent } from "vue";
+
 const props = defineProps({
   type: {
     type: String,
