@@ -1,3 +1,4 @@
+import VsxIcon from "./components/VsxIcon.vue";
 import ArchiveAdd from "./components/icons/ArchiveAdd.vue";
 import ArchiveMinus from "./components/icons/ArchiveMinus.vue";
 import ArchiveTick from "./components/icons/ArchiveTick.vue";
@@ -993,6 +994,7 @@ import Wind2 from "./components/icons/Wind2.vue";
 import Wind from "./components/icons/Wind.vue";
 
 export {
+  VsxIcon,
   ArchiveAdd,
   ArchiveMinus,
   ArchiveTick,
