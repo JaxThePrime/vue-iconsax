@@ -39,10 +39,10 @@ Global registration:
 
 ```jsx
 // main.js
-import { vsxIcon, Wallet }  from 'vue-iconsax'
+import { VsxIcon, Wallet }  from 'vue-iconsax'
 const app = createApp(App)
 // Dynamic usage of icons - Use PascalCase for iconName prop
-app.component('vsxIcon', vsxIcon)
+app.component('vsxIcon', VsxIcon)
 // Static usage of icons
 app.component('Wallet', Wallet)
 app.mount('#app')
@@ -76,10 +76,10 @@ Local registration:
 </template>
 
 <script>
-import { vsxIcon, Wallet } from "vue-iconsax";
+import { VsxIcon, Wallet } from "vue-iconsax";
 export default {
   components: {
-    vsxIcon,
+    VsxIcon,
     Wallet
   },
   props:['iconName']
