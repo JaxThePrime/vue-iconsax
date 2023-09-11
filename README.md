@@ -42,7 +42,7 @@ Global registration:
 import { VsxIcon, Wallet }  from 'vue-iconsax'
 const app = createApp(App)
 // Dynamic usage of icons - Use PascalCase for iconName prop
-app.component('VsxIcon', VsxIcon)
+app.component('vsxIcon', VsxIcon)
 // Static usage of icons
 app.component('Wallet', Wallet)
 app.mount('#app')
@@ -51,7 +51,7 @@ app.mount('#app')
 // App.vue
 <template>
   // Dynamic imports - Use PascalCase for iconName prop
-  <Vsx-icon :iconName="iconName" color="blue" size="50" type="linear" />
+  <vsx-icon :iconName="iconName" color="blue" size="50" type="linear" />
 
   // Static imports
   <Wallet color="blue" size="50" type="linear" />
@@ -69,7 +69,7 @@ Local registration:
 ```jsx
 <template>
   // Dynamic imports - Use PascalCase for iconName prop
-  <Vsx-icon :iconName="iconName" color="blue" size="50" type="linear" />
+  <vsx-icon :iconName="iconName" color="blue" size="50" type="linear" />
 
   // Static imports
   <Wallet color="blue" size="50" type="linear" />
@@ -94,7 +94,7 @@ export default {
 | `color`   | `string`                                            | `currentColor` | css color              |
 | `size`    | `number` `string`                                   | 24px           | size="24" or :size="24" |
 | `type` | `Linear` `Outline` `TwoTone` `Bulk` `Broken` `Bold` | `Linear`       | icons styles           |
-| `iconName` | string|              | iconName is only required with Vsx-icon tag (Dynamic icon imports)
+| `iconName` | string|              | iconName is only required with vsx-icon tag (Dynamic icon imports)
 
 ## Contact
 
