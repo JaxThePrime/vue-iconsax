@@ -42,7 +42,7 @@ Global registration:
 import { VsxIcon, Wallet }  from 'vue-iconsax'
 const app = createApp(App)
 // Dynamic usage of icons - Use PascalCase for iconName prop
-app.component('vsxIcon', VsxIcon)
+app.component('VsxIcon', VsxIcon)
 // Static usage of icons
 app.component('Wallet', Wallet)
 app.mount('#app')
@@ -51,7 +51,7 @@ app.mount('#app')
 // App.vue
 <template>
   // Dynamic imports - Use PascalCase for iconName prop
-  <vsx-icon :iconName="iconName" color="blue" size="50" type="linear" />
+  <VsxIcon :iconName="iconName" color="blue" size="50" type="linear" />
 
   // Static imports
   <Wallet color="blue" size="50" type="linear" />
@@ -69,7 +69,7 @@ Local registration:
 ```jsx
 <template>
   // Dynamic imports - Use PascalCase for iconName prop
-  <vsx-icon :iconName="iconName" color="blue" size="50" type="linear" />
+  <VsxIcon :iconName="iconName" color="blue" size="50" type="linear" />
 
   // Static imports
   <Wallet color="blue" size="50" type="linear" />
