@@ -98,8 +98,8 @@ export default {
 
 ## Contact
 
-Emad Moghimi [emmoghimi@gmail.com](emmoghimi@gmail.com)
+Emad Moghimi [jaxtheprime@gmail.com](jaxtheprime@gmail.com)
 
-Project Link: [https://github.com/emmoghimi/vue-iconsax](https://github.com/emmoghimi/vue-iconsax)
+Project Link: [https://github.com/JaxThePrime/vue-iconsax](https://github.com/JaxThePrime/vue-iconsax)
 
 </article >
