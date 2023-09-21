@@ -8,7 +8,7 @@
     A total of 6000 icons in 6 different designs | <strong>Only supported for vue3</strong>
     <br>
     <br>
-    <a href="https://vue-iconsax.netlify.app/"><strong> Browse icons</strong></a>
+    <a href="https://vue-iconsax.onrender.com"><strong> Browse icons</strong></a>
   </p>
 </div>
 
