@@ -71,7 +71,7 @@ Local registration:
 </template>
 
 <script>
-import { VsxIcon, Wallet } from "vue-iconsax";
+import { VsxIcon } from "vue-iconsax";
 export default {
   components: {
     VsxIcon
