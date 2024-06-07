@@ -1,4 +1,5 @@
 {
+  "main": "./dist/index.js",
   "name": "vue-iconsax",
   "description": "Iconsax icon pack for Vue",
   "author": "Emad Moghimi <jaxtheprime@gmail.com>",
