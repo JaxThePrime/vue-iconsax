@@ -10,14 +10,14 @@
     <path
       d="M16.23 13.27v-2.54c0-2.12-.85-2.96-2.96-2.96h-2.54c-2.12 0-2.96.85-2.96 2.96v2.54c0 2.12.85 2.96 2.96 2.96h1.78"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M4 6c-1.25 1.67-2 3.75-2 6 0 5.52 4.48 10 10 10s10-4.48 10-10S17.52 2 12 2c-1.43 0-2.8.3-4.03.85"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -39,14 +39,14 @@
     <path
       d="M11.97 22c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M10.73 16.23h2.54c2.12 0 2.96-.85 2.96-2.96v-2.54c0-2.12-.85-2.96-2.96-2.96h-2.54c-2.12 0-2.96.85-2.96 2.96v2.54c0 2.11.85 2.96 2.96 2.96Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -67,7 +67,7 @@
     <path
       d="M11.969 22c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -75,7 +75,7 @@
       opacity=".4"
       d="M10.73 16.23h2.54c2.12 0 2.96-.85 2.96-2.96v-2.54c0-2.12-.85-2.96-2.96-2.96h-2.54c-2.12 0-2.96.85-2.96 2.96v2.54c0 2.11.85 2.96 2.96 2.96Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -97,6 +97,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

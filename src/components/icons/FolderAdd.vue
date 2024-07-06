@@ -10,7 +10,7 @@
     <path
       d="M12.059 16.5v-5M14.5 14h-5M2 13.02V7c0-4 1-5 5-5h1.5c1.5 0 1.83.44 2.4 1.2l1.5 2c.38.5.6.8 1.6.8h3c4 0 5 1 5 5M22 14.988v2.01c0 4-1 5-5 5H7c-4 0-5-1-5-5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -33,7 +33,7 @@
     <path
       d="M12.06 16.5v-5M14.5 14h-5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -41,7 +41,7 @@
     <path
       d="M22 11v6c0 4-1 5-5 5H7c-4 0-5-1-5-5V7c0-4 1-5 5-5h1.5c1.5 0 1.83.44 2.4 1.2l1.5 2c.38.5.6.8 1.6.8h3c4 0 5 1 5 5Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -65,7 +65,7 @@
     <g
       opacity=".4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -75,7 +75,7 @@
     <path
       d="M22 11v6c0 4-1 5-5 5H7c-4 0-5-1-5-5V7c0-4 1-5 5-5h1.5c1.5 0 1.83.44 2.4 1.2l1.5 2c.38.5.6.8 1.6.8h3c4 0 5 1 5 5Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -96,6 +96,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

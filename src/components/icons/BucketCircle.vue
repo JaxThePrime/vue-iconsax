@@ -10,7 +10,7 @@
     <path
       d="m9.41 15.95-2.39-2.39c-.8-.8-.8-1.6 0-2.39l3.99-3.99 4.39 4.39c.22.22.22.58 0 .8l-3.59 3.59c-.8.79-1.6.79-2.4-.01ZM10.209 6.379l.8.8M6.459 12.328l9.03-.39"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -18,14 +18,14 @@
     <path
       d="M16.47 14.168s-1.1 1.2-1.1 1.93c0 .61.5 1.1 1.1 1.1.61 0 1.1-.5 1.1-1.1.01-.74-1.1-1.93-1.1-1.93Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M4 6c-1.25 1.67-2 3.75-2 6 0 5.52 4.48 10 10 10s10-4.48 10-10S17.52 2 12 2c-1.43 0-2.8.3-4.03.85"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -49,21 +49,21 @@
       stroke-linecap="round"
       stroke-linejoin="round"
       stroke-miterlimit="10"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M9.41 15.95l-2.39-2.39c-.8-.8-.8-1.6 0-2.39l3.99-3.99 4.39 4.39c.22.22.22.58 0 .8l-3.59 3.59c-.8.79-1.6.79-2.4-.01zM10.21 6.38l.8.8M6.46 12.33l9.03-.39"
     ></path>
     <path
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M16.47 14.17s-1.1 1.2-1.1 1.93c0 .61.5 1.1 1.1 1.1.61 0 1.1-.5 1.1-1.1.01-.74-1.1-1.93-1.1-1.93z"
     ></path>
     <path
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
     ></path>
   </svg>
@@ -84,7 +84,7 @@
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'twotone'">
 
-    <g opacity=".4" :stroke="color" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity=".4" :stroke="color" :stroke-width="strokeWidth" stroke-linecap="round" stroke-linejoin="round">
       <path
         d="m9.41 15.95-2.39-2.39c-.8-.8-.8-1.6 0-2.39l3.99-3.99 4.39 4.39c.22.22.22.58 0 .8l-3.59 3.59c-.8.79-1.6.79-2.4-.01ZM10.21 6.379l.801.8M6.46 12.328l9.03-.39"
         stroke-miterlimit="10"
@@ -94,7 +94,7 @@
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -116,6 +116,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

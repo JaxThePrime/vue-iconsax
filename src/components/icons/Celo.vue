@@ -11,13 +11,13 @@
     <path
       d="M15 16a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M5.09 9.2C6.21 8.45 7.55 8 9 8c3.87 0 7 3.13 7 7s-3.13 7-7 7-7-3.13-7-7c0-.71.1-1.39.3-2.03"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -33,13 +33,13 @@
     <path
       d="M15 16a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M9 22A7 7 0 1 0 9 8a7 7 0 0 0 0 14Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -60,13 +60,13 @@
       opacity=".4"
       d="M15 16a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M9 22A7 7 0 1 0 9 8a7 7 0 0 0 0 14Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -87,6 +87,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

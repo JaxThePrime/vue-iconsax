@@ -11,7 +11,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M17.28 10.45L21 6.73l-3.72-3.72M10.01 6.73H21M3 6.73h2.99M6.72 13.55L3 17.27l3.72 3.72M3 17.27h11.09M21 17.27h-2.97"
     ></path>
   </svg>
@@ -33,7 +33,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M17.28 10.45L21 6.73l-3.72-3.72M3 6.73h18M6.72 13.55L3 17.27l3.72 3.72M21 17.27H3"
     ></path>
   </svg>
@@ -59,7 +59,7 @@
         :stroke="color"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-width="1.5"
+        :stroke-width="strokeWidth"
         d="M17.281 10.45l3.72-3.72-3.72-3.72M3 6.73h18"
       ></path>
     </g>
@@ -67,7 +67,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M6.72 13.55L3 17.27l3.72 3.72M21 17.27H3"
     ></path>
   </svg>
@@ -88,6 +88,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

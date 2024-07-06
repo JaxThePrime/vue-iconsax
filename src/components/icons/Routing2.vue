@@ -7,11 +7,11 @@
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'broken'">
 
-    <path d="M5.469 9a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" :stroke="color" stroke-width="1.5"></path>
+    <path d="M5.469 9a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" :stroke="color" :stroke-width="strokeWidth"></path>
     <path
       d="M19.969 22h-3c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2h3c1.1 0 2 .9 2 2v2M12.002 5h2.68c1.85 0 2.71 2.29 1.32 3.51l-7.99 6.99c-1.39 1.21-.53 3.5 1.31 3.5h2.68"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -40,12 +40,12 @@
     <path
       d="M5.47 9a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM16.97 15h3c1.1 0 2 .9 2 2v3c0 1.1-.9 2-2 2h-3c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
     ></path>
     <path
       d="M12 5h2.68c1.85 0 2.71 2.29 1.32 3.51L8.01 15.5C6.62 16.71 7.48 19 9.32 19H12"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -72,7 +72,7 @@
 
     <path
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M5.47 9a3.5 3.5 0 100-7 3.5 3.5 0 000 7zM16.97 15h3c1.1 0 2 .9 2 2v3c0 1.1-.9 2-2 2h-3c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2z"
       opacity=".4"
     ></path>
@@ -80,7 +80,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M12 5h2.68c1.85 0 2.71 2.29 1.32 3.51L8.01 15.5C6.62 16.71 7.48 19 9.32 19H12"
     ></path>
     <path
@@ -108,6 +108,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

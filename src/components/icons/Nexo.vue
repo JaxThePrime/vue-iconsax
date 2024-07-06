@@ -14,7 +14,7 @@
     <path
       d="m12 6 5-3 5 3v12l-5 3-10-6V9l10 6V9l-5-3ZM2 12v6l5 3 4.7-3.13"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -22,7 +22,7 @@
     <path
       d="M12 6 7 3 2 6v2.05"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -38,7 +38,7 @@
     <path
       d="m12 6 5-3 5 3v12l-5 3-10-6V9l10 6V9l-5-3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -46,7 +46,7 @@
     <path
       d="M12 6 7 3 2 6v12l5 3 4.7-3.13"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -68,7 +68,7 @@
     <path
       d="m12 6 5-3 5 3v12l-5 3-10-6V9l10 6V9l-5-3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -77,7 +77,7 @@
       opacity=".4"
       d="M12 6 7 3 2 6v12l5 3 4.7-3.13"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -100,6 +100,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

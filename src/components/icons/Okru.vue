@@ -12,13 +12,13 @@
       d="M12 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
       fill="#fff"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M10 13.5c1.25.63 2.73.63 3.99.01l.01-.01"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -26,7 +26,7 @@
     <path
       d="m10 16.499 2-2.53 2 2.53"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -34,7 +34,7 @@
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -55,13 +55,13 @@
     <path
       d="M12 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M10 13.5c1.3.6 2.7.6 4 0"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -69,7 +69,7 @@
     <path
       d="m10 16.5 2-2.5 2 2.5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -77,7 +77,7 @@
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -98,7 +98,7 @@
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'twotone'">
 
-    <g opacity=".4" :stroke="color" stroke-width="1.5" stroke-miterlimit="10">
+    <g opacity=".4" :stroke="color" :stroke-width="strokeWidth" stroke-miterlimit="10">
       <path d="M12 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
       <path
         d="M10 13.5c1.25.63 2.73.63 3.99.01l.01-.01"
@@ -110,7 +110,7 @@
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
   </svg>
@@ -131,6 +131,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

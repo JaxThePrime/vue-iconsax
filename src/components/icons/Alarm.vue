@@ -10,7 +10,7 @@
     <path
       d="M2 22h20M21 16.03V15A9 9 0 0 0 8 6.94 8.994 8.994 0 0 0 3 15v7h18v-2.03M12 2v1M4 4l1 1M20 4l-1 1"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -34,7 +34,7 @@
     <path
       d="M2 22h20M12 6a9 9 0 0 0-9 9v7h18v-7a9 9 0 0 0-9-9ZM12 2v1M4 4l1 1M20 4l-1 1"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -55,7 +55,7 @@
     <path
       d="M2 22h20M12 6a9 9 0 0 0-9 9v7h18v-7a9 9 0 0 0-9-9Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -63,7 +63,7 @@
       opacity=".4"
       d="M12 2v1M4 4l1 1M20 4l-1 1"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -85,6 +85,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

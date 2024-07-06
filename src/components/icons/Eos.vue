@@ -10,7 +10,7 @@
     <path
       d="m5.48 15.619-.26 1.32c-.12.58.21 1.3.73 1.6l5.32 3.04c.41.23 1.08.23 1.49 0l5.32-3.04c.52-.3.84-1.01.73-1.6l-1.71-8.57c-.04-.21-.18-.51-.32-.67l-3.6-4.32c-.63-.76-1.67-.76-2.3 0l-3.6 4.32c-.13.16-.28.46-.32.67l-.52 2.61"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -18,7 +18,7 @@
     <path
       d="m16.81 8.52-4.34 12.16a.5.5 0 0 1-.94 0L7.18 8.5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -41,7 +41,7 @@
     <path
       d="M10.8 3.4 7.2 7.7c-.1.2-.2.5-.3.7L5.2 17c-.1.6.2 1.3.7 1.6l5.3 3c.4.2 1.1.2 1.5 0l5.3-3c.5-.3.8-1 .7-1.6L17 8.4c0-.2-.2-.5-.3-.7l-3.6-4.3c-.6-.8-1.6-.8-2.3 0Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -49,7 +49,7 @@
     <path
       d="m16.8 8.5-4.3 12.2c-.2.4-.8.4-.9 0L7.2 8.5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -71,7 +71,7 @@
     <path
       d="m10.85 3.379-3.6 4.32c-.13.16-.28.46-.32.67l-1.71 8.57c-.12.58.21 1.3.73 1.6l5.32 3.04c.41.23 1.08.23 1.49 0l5.32-3.04c.52-.3.84-1.01.73-1.6l-1.71-8.57c-.04-.21-.18-.51-.32-.67l-3.6-4.32c-.66-.76-1.7-.76-2.33 0Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -80,7 +80,7 @@
       opacity=".4"
       d="m16.81 8.52-4.34 12.16a.5.5 0 0 1-.94 0L7.18 8.5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -103,6 +103,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

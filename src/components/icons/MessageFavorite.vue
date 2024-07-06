@@ -14,7 +14,7 @@
     <path
       d="M2 8c0-4 2-6 6-6h4M22 8v5c0 4-2 6-6 6h-.5c-.31 0-.61.15-.8.4l-1.5 2c-.66.88-1.74.88-2.4 0l-1.5-2c-.16-.22-.53-.4-.8-.4H8c-4 0-6-1-6-6v-1"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -22,7 +22,7 @@
     <path
       d="M18 7.002c-.5 0-2.27-.8-2.8-2.38-.33-.99.06-2.21 1.14-2.55.56-.17 1.26-.03 1.66.5.38-.55 1.1-.67 1.66-.5 1.08.33 1.47 1.56 1.14 2.55"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -55,7 +55,7 @@
     <path
       d="M22 8v5c0 4-2 6-6 6h-.5c-.31 0-.61.15-.8.4l-1.5 2c-.66.88-1.74.88-2.4 0l-1.5-2c-.16-.22-.53-.4-.8-.4H8c-4 0-6-1-6-6V8c0-4 2-6 6-6h4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -63,7 +63,7 @@
     <path
       d="M15.2 4.62c-.33-.99.06-2.21 1.14-2.55.56-.17 1.26-.03 1.66.5.38-.55 1.1-.67 1.66-.5 1.08.33 1.47 1.56 1.14 2.55C20.29 6.19 18.5 7 18 7s-2.27-.8-2.8-2.38Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -91,7 +91,7 @@
     <path
       d="M22 8v5c0 4-2 6-6 6h-.5c-.31 0-.61.15-.8.4l-1.5 2c-.66.88-1.74.88-2.4 0l-1.5-2c-.16-.22-.53-.4-.8-.4H8c-4 0-6-1-6-6V8c0-4 2-6 6-6h4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -100,7 +100,7 @@
       opacity=".4"
       d="M15.2 4.622c-.33-.99.06-2.21 1.14-2.55.56-.17 1.26-.03 1.66.5.38-.55 1.1-.67 1.66-.5 1.08.33 1.47 1.56 1.14 2.55-.51 1.57-2.3 2.38-2.8 2.38s-2.27-.8-2.8-2.38Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -130,6 +130,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

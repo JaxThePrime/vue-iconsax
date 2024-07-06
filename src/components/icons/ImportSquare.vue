@@ -11,7 +11,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M22 2l-8.2 8.2M13 6.17V11h4.83M2 12.98V15c0 5 2 7 7 7h6c5 0 7-2 7-7v-2M11 2H9C4 2 2 4 2 9"
     ></path>
   </svg>
@@ -33,14 +33,14 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M22 2l-8.2 8.2M13 6.17V11h4.83"
     ></path>
     <path
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M11 2H9C4 2 2 4 2 9v6c0 5 2 7 7 7h6c5 0 7-2 7-7v-2"
     ></path>
   </svg>
@@ -66,7 +66,7 @@
         :stroke="color"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-width="1.5"
+        :stroke-width="strokeWidth"
         d="M22 2l-8.2 8.2M13 6.17V11h4.83"
       ></path>
     </g>
@@ -74,7 +74,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M11 2H9C4 2 2 4 2 9v6c0 5 2 7 7 7h6c5 0 7-2 7-7v-2"
     ></path>
   </svg>
@@ -95,6 +95,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

@@ -12,7 +12,7 @@
     <path
       d="M2.5 7V5l2-3h17v12l-5 5h-5l-2 3h-3v-3h-4v-7.39"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -20,7 +20,7 @@
     <path
       d="M11 7H9v6h2V7ZM16 7h-2v6h2V7Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -48,7 +48,7 @@
       clipRule="evenodd"
       d="M4.5 2h17v12l-5 5h-5l-2 3h-3v-3h-4V5l2-3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -56,7 +56,7 @@
     <path
       d="M11 7H9v6h2V7ZM16 7h-2v6h2V7Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -79,7 +79,7 @@
       clipRule="evenodd"
       d="M4.5 2h17v12l-5 5h-5l-2 3h-3v-3h-4V5l2-3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -88,7 +88,7 @@
       opacity=".4"
       d="M11 7H9v6h2V7ZM16 7h-2v6h2V7Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -111,6 +111,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

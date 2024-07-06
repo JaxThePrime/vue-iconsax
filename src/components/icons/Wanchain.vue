@@ -14,7 +14,7 @@
     <path
       d="m16.77 4.32-.63-1.07a.504.504 0 0 0-.43-.25H8.87c-.39 0-.63.42-.43.75L11.5 9H5.27c-.17 0-.32.08-.42.22l-3.67 5.5a.5.5 0 0 0 0 .55l3.37 5.06a.5.5 0 0 0 .85-.03l2.46-4.22c.19-.32.64-.33.85-.03l3.14 4.71c.09.14.25.22.42.22h6.46c.17 0 .32-.08.42-.22l3.68-5.52c.11-.16.11-.36.02-.53l-3.58-6.14-2.5-4.25ZM8.5 15l3.25-5.57 2.81 4.82c.19.33-.05.75-.43.75H8.5Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
     ></path>
@@ -36,7 +36,7 @@
     <path
       d="M16.5 8.9 12 6.2 7.5 8.9M7.5 9v6.1l4.5-2.7 4.5 2.7V9M14.2 16.2 12 17.7l-2.2-1.5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -44,7 +44,7 @@
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -74,7 +74,7 @@
     <g
       opacity=".4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -85,7 +85,7 @@
       opacity=".4"
       d="M14.25 16.2 12 17.7l-2.25-1.5"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -93,7 +93,7 @@
     <path
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -116,6 +116,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

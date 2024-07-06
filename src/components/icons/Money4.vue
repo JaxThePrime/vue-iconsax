@@ -10,7 +10,7 @@
     <path
       d="M2 8.5c0-3.5 2-5 5-5h10c3 0 5 1.5 5 5v7c0 3.5-2 5-5 5H7c-3 0-5-1.5-5-5v-2.97"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -18,7 +18,7 @@
     <path
       d="M15 12c0-1.66-1.34-3-3-3s-3 1.34-3 3 1.34 3 3 3M8.5 6H7a2.5 2.5 0 0 0-2.5 2.5V10M15.5 6H17a2.5 2.5 0 0 1 2.5 2.5V10M8.5 18H7a2.5 2.5 0 0 1-2.5-2.5V14M15.5 18H17a2.5 2.5 0 0 0 2.5-2.5V14"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -41,7 +41,7 @@
     <path
       d="M17 20.5H7c-3 0-5-1.5-5-5v-7c0-3.5 2-5 5-5h10c3 0 5 1.5 5 5v7c0 3.5-2 5-5 5Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -49,7 +49,7 @@
     <path
       d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM8.5 6H7a2.5 2.5 0 0 0-2.5 2.5V10M15.5 6H17a2.5 2.5 0 0 1 2.5 2.5V10M8.5 18H7a2.5 2.5 0 0 1-2.5-2.5V14M15.5 18H17a2.5 2.5 0 0 0 2.5-2.5V14"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -71,7 +71,7 @@
     <path
       d="M17 20.5H7c-3 0-5-1.5-5-5v-7c0-3.5 2-5 5-5h10c3 0 5 1.5 5 5v7c0 3.5-2 5-5 5Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -79,7 +79,7 @@
     <path
       d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -88,7 +88,7 @@
       opacity=".4"
       d="M8.5 6H7a2.5 2.5 0 0 0-2.5 2.5V10M15.5 6H17a2.5 2.5 0 0 1 2.5 2.5V10M8.5 18H7a2.5 2.5 0 0 1-2.5-2.5V14M15.5 18H17a2.5 2.5 0 0 0 2.5-2.5V14"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -111,6 +111,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

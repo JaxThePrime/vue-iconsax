@@ -11,14 +11,14 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M6.12 4l8.19 8.2.01-4.55M17.88 20l-8.19-8.2-.01 4.55"
     ></path>
     <path
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M20 6c1.25 1.67 2 3.75 2 6 0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2c1.43 0 2.8.3 4.03.85"
     ></path>
   </svg>
@@ -40,14 +40,14 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M12.005 21.984c5.511 0 9.98-4.468 9.98-9.979 0-5.511-4.468-9.98-9.98-9.98-5.511 0-9.98 4.469-9.98 9.98s4.469 9.98 9.98 9.98z"
     ></path>
     <path
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M6.137 4.022l8.163 8.183.02-4.54M17.863 19.978L9.7 11.805l-.02 4.531"
     ></path>
   </svg>
@@ -68,14 +68,14 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M12.005 21.984c5.511 0 9.979-4.468 9.979-9.979 0-5.511-4.468-9.98-9.98-9.98-5.51 0-9.979 4.469-9.979 9.98s4.468 9.98 9.98 9.98z"
     ></path>
     <path
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M6.137 4.021l8.163 8.183.02-4.54M17.863 19.979L9.7 11.806l-.02 4.53"
       opacity=".4"
     ></path>
@@ -97,6 +97,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

@@ -18,7 +18,7 @@
     <path
       d="M5 11.7v4.27c0 .65.31 1.25.84 1.63l5 3.57c.7.5 1.63.5 2.32 0l5-3.57c.53-.38.84-.98.84-1.63V7.16c0-.72-.38-1.38-1.01-1.74l-5-2.86c-.61-.35-1.37-.35-1.98 0l-5 2.86C5.39 5.78 5 6.44 5 7.16"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -26,7 +26,7 @@
     <path
       d="m12 3-2 9 1.85 9.23"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -34,7 +34,7 @@
     <path
       d="M18.16 16.912 10 12.002l8.54-4.74"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -66,7 +66,7 @@
     <path
       d="M11 2.6 6 5.4c-.6.4-1 1-1 1.7V16c0 .6.3 1.3.8 1.6l5 3.6c.7.5 1.6.5 2.3 0l5-3.6c.5-.4.8-1 .8-1.6V7.2c0-.7-.4-1.4-1-1.7l-5-2.9c-.5-.4-1.3-.4-1.9 0Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -74,7 +74,7 @@
     <path
       d="m12 3-2 9 1.8 9.2"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -82,7 +82,7 @@
     <path
       d="M18.2 16.9 10 12l8.5-4.7"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -108,7 +108,7 @@
     <path
       d="m11.01 2.571-5 2.86C5.39 5.791 5 6.451 5 7.171v8.81c0 .65.31 1.25.84 1.63l5 3.57c.7.5 1.63.5 2.32 0l5-3.57c.53-.38.84-.98.84-1.63v-8.81c0-.72-.38-1.38-1.01-1.74l-5-2.86c-.61-.35-1.37-.35-1.98 0Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -116,7 +116,7 @@
     <g
       opacity=".4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -142,6 +142,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

@@ -1,5 +1,5 @@
 <template>
-  <VsxIcon :iconName="icon" />
+  <VsxIcon :iconName="icon" strokeWidth="4"/>
   <button @click="icon === 'Wallet' ? (icon = 'Calendar') : (icon = 'Wallet')">
     Change
   </button>

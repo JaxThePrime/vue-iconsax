@@ -14,7 +14,7 @@
     <path
       d="M11.51 2.268c.3-.17.67-.17.97 0l8 4.44c.32.18.51.51.51.87v8.82a1 1 0 0 1-.51.87l-8 4.44c-.3.17-.67.17-.97 0l-1.51-.71M9 9.002l-.01 7.93c0 1.52-1.64 2.49-2.97 1.75l-2.51-1.39a.992.992 0 0 1-.51-.87v-8.82c0-.36.2-.7.51-.87l3.7-2.06"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -22,7 +22,7 @@
     <path
       d="M17 10.75C17 9.78 16.22 9 15.25 9H13.5c-.97 0-1.75.78-1.75 1.75s.78 1.75 1.75 1.75h1.75c.97 0 1.75.78 1.75 1.75S16.22 16 15.25 16H13.5c-.97 0-1.75-.78-1.75-1.75"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -45,7 +45,7 @@
     <path
       d="M9 9v7.9c0 1.5-1.6 2.5-3 1.7l-2.5-1.4c-.3-.1-.5-.4-.5-.8V7.6c0-.4.2-.7.5-.9l8-4.4c.3-.2.7-.2 1 0l8 4.4c.3.2.5.5.5.9v8.8c0 .4-.2.7-.5.9l-8 4.4c-.3.2-.7.2-1 0L10 21"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -53,7 +53,7 @@
     <path
       d="M17 10.8c0-1-.8-1.8-1.7-1.8h-1.8c-1 0-1.7.8-1.7 1.7 0 1 .8 1.7 1.7 1.7h1.8c1 0 1.7.8 1.7 1.7 0 1-.8 1.7-1.7 1.7h-1.8c-1 0-1.7-.8-1.7-1.7"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -75,7 +75,7 @@
     <path
       d="m9 9.002-.01 7.93c0 1.52-1.64 2.49-2.97 1.75l-2.51-1.39a.992.992 0 0 1-.51-.87v-8.82c0-.36.2-.7.51-.87l8-4.44c.3-.17.67-.17.97 0l8 4.44c.32.18.51.51.51.87v8.82a1 1 0 0 1-.51.87l-8 4.44c-.3.17-.67.17-.97 0l-1.51-.73"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -84,7 +84,7 @@
       opacity=".4"
       d="M17 10.75C17 9.78 16.22 9 15.25 9H13.5c-.97 0-1.75.78-1.75 1.75s.78 1.75 1.75 1.75h1.75c.97 0 1.75.78 1.75 1.75S16.22 16 15.25 16H13.5c-.97 0-1.75-.78-1.75-1.75"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -107,6 +107,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

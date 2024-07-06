@@ -14,7 +14,7 @@
     <path
       d="M12.64 8.469c.8.21 1.45.86 1.65 1.66.28 1.1-.21 2.12-1.05 2.64v1.98a1.25 1.25 0 0 1-2.5 0v-1.98a2.373 2.373 0 0 1-1.13-2.02"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -22,7 +22,7 @@
     <path
       d="M21.55 9.03C20.28 4.96 16.49 2 12 2 7.89 2 4.36 4.48 2.82 8.02A9.94 9.94 0 0 0 2 12c0 5.52 4.48 10 10 10 4.47 0 8.26-2.94 9.54-6.99"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -45,13 +45,13 @@
     <path
       d="M14.3 10.1c.3 1.1-.2 2.1-1 2.6v2c0 .7-.6 1.2-1.2 1.2-.7 0-1.2-.6-1.2-1.2v-2c-.7-.4-1.1-1.2-1.1-2 0-1.5 1.4-2.7 3-2.3.6.3 1.3.9 1.5 1.7Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M21.6 9c-1.3-4-5.1-7-9.6-7C6.5 2 2 6.5 2 12s4.5 10 10 10c4.5 0 8.3-2.9 9.5-7"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -74,13 +74,13 @@
       opacity=".4"
       d="M14.3 10.129c.28 1.1-.21 2.12-1.05 2.64v1.98a1.25 1.25 0 0 1-2.5 0v-1.98a2.373 2.373 0 0 1-1.13-2.02c0-1.52 1.44-2.7 3.02-2.28.8.21 1.45.86 1.66 1.66Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
     ></path>
     <path
       d="M21.55 9.03C20.28 4.96 16.49 2 12 2 6.48 2 2 6.48 2 12s4.48 10 10 10c4.47 0 8.26-2.94 9.54-6.99"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -103,6 +103,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

@@ -10,7 +10,7 @@
     <path
       d="m6.19 12.48 3.16 7.91c.35.89 1.13 1 1.71.25L20.44 8.7c.3-.38.27-.98-.08-1.32l-3.13-3.13c-.13-.13-.39-.26-.57-.28L3.7 2.23c-.93-.12-1.41.49-1.06 1.36L4.4 8"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -18,7 +18,7 @@
     <path
       d="m10 20.998 1-11-7.99-7.1M17 4l-6 6 9.04-1.81"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -50,7 +50,7 @@
     <path
       d="m2.6 3.6 6.7 16.8c.4.9 1.1 1 1.7.2l9.4-11.9c.3-.4.3-1-.1-1.3l-3.1-3.1c-.1-.2-.4-.3-.5-.3l-13-1.7c-.9-.2-1.4.4-1.1 1.3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -58,7 +58,7 @@
     <path
       d="m10 21 1-11-8-7.1M17 4l-6 6 9-1.8"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -84,7 +84,7 @@
     <path
       d="m2.64 3.588 6.72 16.8c.35.89 1.13 1 1.71.25l9.38-11.94c.3-.38.27-.98-.08-1.32l-3.13-3.13c-.13-.13-.39-.26-.57-.28L3.7 2.228c-.94-.13-1.41.48-1.06 1.36Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -92,7 +92,7 @@
     <g
       opacity=".4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -117,6 +117,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

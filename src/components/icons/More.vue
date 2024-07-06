@@ -10,12 +10,12 @@
     <path
       d="M5 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2ZM19 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
     ></path>
     <path
       d="M10 12c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -37,7 +37,7 @@
     <path
       d="M5 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2ZM19 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2ZM12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
     ></path>
   </svg>
 <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 24 24" fill="none" v-else-if="type === 'outline'">
@@ -52,13 +52,13 @@
     <path
       d="M5 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2ZM19 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
     ></path>
     <path
       opacity=".4"
       d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
     ></path>
   </svg>
 
@@ -78,6 +78,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

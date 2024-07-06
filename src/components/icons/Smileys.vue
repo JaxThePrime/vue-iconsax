@@ -14,14 +14,14 @@
     <path
       d="M2 6.2C2 3.2 3.2 2 6.2 2h3.6c3 0 4.2 1.2 4.2 4.2V10c-2.79.05-3.95 1.21-4 4H6.2C3.2 14 2 12.8 2 9.8"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M6.96 5.87c-.53-.36-1.23-.36-1.76.02M10.96 5.87c-.53-.36-1.23-.36-1.76.02M8.16 11.42H5.84c-.3 0-.54-.24-.54-.54 0-1.49 1.21-2.7 2.7-2.7.64 0 1.23.22 1.69.59"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -29,14 +29,14 @@
     <path
       d="M22 17.8c0 3-1.2 4.2-4.2 4.2h-3.6c-3 0-4.2-1.2-4.2-4.2V14c.05-2.79 1.21-3.95 4-4h3.8c3 0 4.2 1.2 4.2 4.2"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M14.96 13.622c-.53.36-1.23.36-1.76-.02M18.96 13.622c-.53.36-1.23.36-1.76-.02M13.84 16.18h4.32c.3 0 .54.24.54.54 0 1.49-1.21 2.7-2.7 2.7-1.49 0-2.7-1.21-2.7-2.7 0-.3.24-.54.54-.54Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -63,14 +63,14 @@
     <path
       d="M14 6.2V10c-2.79.05-3.95 1.21-4 4H6.2C3.2 14 2 12.8 2 9.8V6.2C2 3.2 3.2 2 6.2 2h3.6c3 0 4.2 1.2 4.2 4.2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M6.96 5.87c-.53-.36-1.23-.36-1.76.02M10.96 5.87c-.53-.36-1.23-.36-1.76.02M8.16 11.42H5.84c-.3 0-.54-.24-.54-.54 0-1.49 1.21-2.7 2.7-2.7.64 0 1.23.22 1.69.59"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -78,14 +78,14 @@
     <path
       d="M22 14.2v3.6c0 3-1.2 4.2-4.2 4.2h-3.6c-3 0-4.2-1.2-4.2-4.2V14c.05-2.79 1.21-3.95 4-4h3.8c3 0 4.2 1.2 4.2 4.2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M14.96 13.62c-.53.36-1.23.36-1.76-.02M18.96 13.62c-.53.36-1.23.36-1.76-.02M13.84 16.18h4.32c.3 0 .54.24.54.54 0 1.49-1.21 2.7-2.7 2.7-1.49 0-2.7-1.21-2.7-2.7 0-.3.24-.54.54-.54Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -112,7 +112,7 @@
       opacity=".4"
       d="M14 6.2V10c-2.79.05-3.95 1.21-4 4H6.2C3.2 14 2 12.8 2 9.8V6.2C2 3.2 3.2 2 6.2 2h3.6c3 0 4.2 1.2 4.2 4.2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -120,7 +120,7 @@
       opacity=".4"
       d="M6.96 5.87c-.53-.36-1.23-.36-1.76.02M10.96 5.87c-.53-.36-1.23-.36-1.76.02M8.16 11.42H5.84c-.3 0-.54-.24-.54-.54 0-1.49 1.21-2.7 2.7-2.7.64 0 1.23.22 1.69.59"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -128,14 +128,14 @@
     <path
       d="M22 14.2v3.6c0 3-1.2 4.2-4.2 4.2h-3.6c-3 0-4.2-1.2-4.2-4.2V14c.05-2.79 1.21-3.95 4-4h3.8c3 0 4.2 1.2 4.2 4.2Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M14.96 13.622c-.53.36-1.23.36-1.76-.02M18.96 13.622c-.53.36-1.23.36-1.76-.02M13.84 16.18h4.32c.3 0 .54.24.54.54 0 1.49-1.21 2.7-2.7 2.7-1.49 0-2.7-1.21-2.7-2.7 0-.3.24-.54.54-.54Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -158,6 +158,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

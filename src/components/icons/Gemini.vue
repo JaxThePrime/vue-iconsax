@@ -14,14 +14,14 @@
     <path
       d="M2 2a19.45 19.45 0 0 0 20 0M2 22.002a19.45 19.45 0 0 1 20 0"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M6.87 7.512c1.13 4.3.62 8.91-1.53 12.89M18.67 20.408a17.683 17.683 0 0 1-.1-16.59l.13-.24"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -43,14 +43,14 @@
     <path
       d="M2 2a19.45 19.45 0 0 0 20 0M2 22a19.45 19.45 0 0 1 20 0"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="m5.3 3.58.13.24a17.627 17.627 0 0 1-.1 16.59M18.67 20.41a17.683 17.683 0 0 1-.1-16.59l.13-.24"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -71,7 +71,7 @@
     <path
       d="M2 2a19.45 19.45 0 0 0 20 0M2 22.002a19.45 19.45 0 0 1 20 0"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -79,7 +79,7 @@
       opacity=".4"
       d="m5.3 3.578.13.24a17.627 17.627 0 0 1-.1 16.59M18.67 20.408a17.683 17.683 0 0 1-.1-16.59l.13-.24"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -101,6 +101,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

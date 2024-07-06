@@ -10,7 +10,7 @@
     <path
       d="M22 10c0-2-1-3-3-3H5c-2 0-3 1-3 3v4c0 2 1 3 3 3h14c2 0 3-1 3-3M18 7v5M6 7v4M10.05 7 10 12M14 7v3"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
     ></path>
   </svg>
@@ -31,7 +31,7 @@
     <path
       :stroke="color"
       stroke-linecap="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M5 17h14c2 0 3-1 3-3v-4c0-2-1-3-3-3H5c-2 0-3 1-3 3v4c0 2 1 3 3 3zM18 7v5M6 7v4M10.05 7L10 12M14 7v3"
     ></path>
   </svg>
@@ -51,14 +51,14 @@
     <path
       d="M5 17h14c2 0 3-1 3-3v-4c0-2-1-3-3-3H5c-2 0-3 1-3 3v4c0 2 1 3 3 3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
     ></path>
     <path
       opacity=".4"
       d="M18 7v5M6 7v4M10.05 7 10 12M14 7v3"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
     ></path>
   </svg>
@@ -79,6 +79,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

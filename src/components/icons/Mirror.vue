@@ -10,7 +10,7 @@
     <path
       d="M12 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8c0-2.71 1.35-5.11 3.41-6.55M16 22h2M6 22h7"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -28,7 +28,7 @@
     <path
       d="M12 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16ZM6 22h12"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -45,7 +45,7 @@
     <path
       d="M12 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -53,7 +53,7 @@
       opacity=".4"
       d="M6 22h12"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -75,6 +75,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

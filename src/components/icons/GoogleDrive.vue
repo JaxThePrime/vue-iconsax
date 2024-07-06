@@ -10,7 +10,7 @@
     <path
       d="M5.47 8.74 1.41 15.7l3.18 5.29h14.82s3.18-5.45 3.18-5.37C22.59 15.7 15.18 3 15.18 3H8.83L7.67 4.99M8.82 3l10.59 18M15.18 3 4.59 21M1.5 15.71H22"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -38,7 +38,7 @@
     <path
       d="M15.2 3H8.8L1.4 15.7 4.6 21h14.8s3.2-5.5 3.2-5.4c0 .1-7.4-12.6-7.4-12.6ZM8.8 3l10.6 18M15.2 3 4.6 21M1.5 15.7H22"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -68,7 +68,7 @@
     <path
       d="M15.18 3H8.83L1.42 15.71 4.6 21h14.82s3.18-5.45 3.18-5.37C22.6 15.71 15.18 3 15.18 3Z"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -76,7 +76,7 @@
     <g
       opacity=".4"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-miterlimit="10"
       stroke-linecap="round"
       stroke-linejoin="round"
@@ -101,6 +101,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })

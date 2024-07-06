@@ -10,28 +10,28 @@
     <path
       d="M21 9c-2.92-.97-5.96-1.46-9-1.46M3 9c1.59-.53 3.21-.91 4.85-1.16"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M8.002 3h1a28.424 28.424 0 0 0 0 18h-1M15 3c.97 2.92 1.46 5.96 1.46 9"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M3 16v-1c2.92.97 5.96 1.46 9 1.46M19.502 14.7c-.37-.11-.79-.18-1.25-.18a3.74 3.74 0 0 0 0 7.48c2.06 0 3.74-1.68 3.74-3.74a3.7 3.7 0 0 0-.63-2.08M20.043 14.801l-1.25-1.43M20.042 14.8l-1.46 1.06"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -53,21 +53,21 @@
     <path
       d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M8 3h1a28.424 28.424 0 0 0 0 18H8M15 3c.97 2.92 1.46 5.96 1.46 9"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
     <path
       d="M3 16v-1c2.92.97 5.96 1.46 9 1.46M3 9a28.424 28.424 0 0 1 18 0M19.5 14.7c-.37-.11-.79-.18-1.25-.18a3.74 3.74 0 0 0 0 7.48c2.06 0 3.74-1.68 3.74-3.74a3.7 3.7 0 0 0-.63-2.08M20.04 14.8l-1.25-1.43M20.04 14.8l-1.46 1.06"
       :stroke="color"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       stroke-linecap="round"
       stroke-linejoin="round"
     ></path>
@@ -101,7 +101,7 @@
       :stroke="color"
       stroke-linecap="round"
       stroke-linejoin="round"
-      stroke-width="1.5"
+      :stroke-width="strokeWidth"
       d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10"
     ></path>
     <g opacity=".4">
@@ -109,14 +109,14 @@
         :stroke="color"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-width="1.5"
+        :stroke-width="strokeWidth"
         d="M8 3h1a28.424 28.424 0 000 18H8M15 3c.97 2.92 1.46 5.96 1.46 9"
       ></path>
       <path
         :stroke="color"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-width="1.5"
+        :stroke-width="strokeWidth"
         d="M3 16v-1c2.92.97 5.96 1.46 9 1.46M3 9a28.424 28.424 0 0118 0"
       ></path>
     </g>
@@ -125,7 +125,7 @@
         :stroke="color"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke-width="1.5"
+        :stroke-width="strokeWidth"
         d="M19.5 14.7c-.37-.11-.79-.18-1.25-.18a3.74 3.74 0 000 7.48c2.06 0 3.74-1.68 3.74-3.74a3.7 3.7 0 00-.63-2.08M20.041 14.8l-1.25-1.43M20.04 14.8l-1.46 1.06"
       ></path>
     </g>
@@ -147,6 +147,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
+        },
+        strokeWidth: {
+          type: String,
+          default: "1.5",
         },
     },
 })
