@@ -79,9 +79,10 @@ export default defineComponent({
         color: {
             type: String,
             default: "currentColor",
-        },color: {
+        },
+        strokeWidth: {
             type: String,
-            default: "currentColor",
+            default: "1.5",
         },
     },
 })
