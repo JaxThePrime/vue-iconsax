@@ -1,9 +1,8 @@
 <template>
-  <VsxIcon :iconName="icon" strokeWidth="4"/>
-  <button @click="icon === 'Wallet' ? (icon = 'Calendar') : (icon = 'Wallet')">
-    Change
-  </button>
-  {{ icon }}
+	<VsxIcon
+		iconName="Refresh2"
+		type="twotone"
+	/>
 </template>
 
 <script lang="ts" setup>

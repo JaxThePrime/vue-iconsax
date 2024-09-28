@@ -17,7 +17,8 @@ the features of this package include the following:
 - 1000 icons in 6 different types
 - Perfectly balance
 - 24px grid-based
-- Lightweight, powerful and easy to use <g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png"><img class="emoji" alt="smile" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" width="20" height="20"></g-emoji>
+- Lightweight, powerful and easy to use
+  <g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png"><img class="emoji" alt="smile" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" width="20" height="20"></g-emoji>
 
 <a href="https://vuejs.org/" rel="nofollow"><img src="https://www.cdnlogo.com/logos/v/92/vue-js.svg" width="70" height="70"></a>
 
@@ -94,6 +95,7 @@ export default {
 
 Emad Moghimi [jaxtheprime@gmail.com](jaxtheprime@gmail.com)
 
-Project Link: [https://github.com/JaxThePrime/vue-iconsax](https://github.com/JaxThePrime/vue-iconsax)
+Project Link:
+[https://github.com/JaxThePrime/vue-iconsax](https://github.com/JaxThePrime/vue-iconsax)
 
 </article >
